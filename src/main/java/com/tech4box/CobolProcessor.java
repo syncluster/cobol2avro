@@ -3,8 +3,8 @@ package com.tech4box;
 import com.tech4box.sink.DataSink;
 import com.tech4box.util.AvroRecordGenerator;
 import com.tech4box.util.AvroUtils;
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.IO.AbstractLineReader;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.IO.AbstractLineReader;
 import org.apache.avro.Schema;
 import org.apache.avro.generic.GenericRecord;
 

@@ -1,11 +1,12 @@
+import com.tech4box.JRecord.IO.CobolIoProvider;
 import com.tech4box.schema.AvroSchemaGenerator;
 import com.tech4box.util.AvroRecordGenerator;
 import com.tech4box.util.AvroUtils;
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.IO.AbstractLineReader;
-import net.sf.JRecord.IO.LineIOProvider;
-import net.sf.JRecord.IO.CobolIoProvider;
-import net.sf.JRecord.def.IO.builders.ICobolIOBuilder;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.IO.AbstractLineReader;
+import com.tech4box.JRecord.IO.LineIOProvider;
+
+
 import org.apache.avro.Schema;
 import org.apache.avro.file.CodecFactory;
 import org.apache.avro.file.DataFileReader;
@@ -61,7 +62,7 @@ public class CobolToAvroConverter {
         new File(outputDir).mkdirs();
 
         System.out.println("Loading copybook...");
-        ICobolIOBuilder ioBuilder = CobolIoProvider.getInstance().newIOBuilder(copybookPath);
+        var ioBuilder = CobolIoProvider.getInstance().newIOBuilder(copybookPath);
         LayoutDetail layout = ioBuilder.getLayout();
 
         Schema avroSchema = AvroSchemaGenerator.fromLayout(layout);
