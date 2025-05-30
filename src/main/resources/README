@@ -1,0 +1,1 @@
+java -jar cobol2avro.jar sample.cpy sample.dat output --split-by=TP --compress=snappy --partition-size=256
