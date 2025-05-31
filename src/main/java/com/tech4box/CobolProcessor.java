@@ -20,40 +20,49 @@ public class CobolProcessor {
                         long partitionSizeKb,
                         DataSink sink) throws IOException {
 
-        Map<String, List<GenericRecord>> recordsMap = new HashMap<>();
+// Buffers for each split key
+        Map<String, List<GenericRecord>> bufferMap = new HashMap<>();
+        Map<String, Long> sizeMap = new HashMap<>();
+        Map<String, Integer> partCounter = new HashMap<>();
 
         var line = reader.read();
+
         while (line != null) {
             String key = (splitBy != null) ? Objects.toString(line.getField(splitBy), "default") : "default";
+
             GenericRecord record = AvroRecordGenerator.fromLine(line, schema, layout);
 
-            recordsMap.computeIfAbsent(key, k -> new ArrayList<>()).add(record);
+// Initialize structures if needed
+            bufferMap.computeIfAbsent(key, k -> new ArrayList<>());
+            sizeMap.putIfAbsent(key, 0L);
+            partCounter.putIfAbsent(key, 1);
+
+// Add record to buffer
+            bufferMap.get(key).add(record);
+            long estimatedSize = AvroUtils.estimateRecordSize(record);
+            sizeMap.put(key, sizeMap.get(key) + estimatedSize);
+
+// Check if buffer exceeds partition size
+            if (partitionSizeKb > 0 && sizeMap.get(key) >= partitionSizeKb * 1024) {
+                int part = partCounter.get(key);
+                sink.send(key, part, bufferMap.get(key), schema);
+
+// Reset buffer and update part counter
+                bufferMap.put(key, new ArrayList<>());
+                sizeMap.put(key, 0L);
+                partCounter.put(key, part + 1);
+            }
+
             line = reader.read();
         }
         reader.close();
 
-        for (var entry : recordsMap.entrySet()) {
-            String splitKey = entry.getKey();
-            List<GenericRecord> records = entry.getValue();
-
-            int part = 1;
-            List<GenericRecord> buffer = new ArrayList<>();
-            long currentSize = 0;
-
-            for (GenericRecord record : records) {
-                buffer.add(record);
-                currentSize += AvroUtils.estimateRecordSize(record);
-
-                if (partitionSizeKb > 0 && currentSize >= partitionSizeKb * 1024) {
-                    sink.send(splitKey, part, buffer, schema);
-                    part++;
-                    buffer = new ArrayList<>();
-                    currentSize = 0;
-                }
-            }
-
-            if (!buffer.isEmpty()) {
-                sink.send(splitKey, part, buffer, schema);
+// Flush remaining buffers
+        for (var entry : bufferMap.entrySet()) {
+            if (!entry.getValue().isEmpty()) {
+                String key = entry.getKey();
+                int part = partCounter.get(key);
+                sink.send(key, part, entry.getValue(), schema);
             }
         }
     }
