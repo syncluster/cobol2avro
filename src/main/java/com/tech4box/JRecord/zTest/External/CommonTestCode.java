@@ -2,7 +2,7 @@ package com.tech4box.JRecord.zTest.External;
 
 import junit.framework.TestCase;
 import com.tech4box.JRecord.External.Def.ExternalField;
-import net.sf.JRecord.Types.Type;
+import com.tech4box.JRecord.Types.Type;
 
 
 public class CommonTestCode {

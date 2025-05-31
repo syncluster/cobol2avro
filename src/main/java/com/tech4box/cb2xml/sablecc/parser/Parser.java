@@ -2,9 +2,9 @@
 
 package com.tech4box.cb2xml.sablecc.parser;
 
-import net.sf.cb2xml.sablecc.lexer.*;
-import net.sf.cb2xml.sablecc.node.*;
-import net.sf.cb2xml.sablecc.analysis.*;
+import com.tech4box.cb2xml.sablecc.lexer.*;
+import com.tech4box.cb2xml.sablecc.node.*;
+import com.tech4box.cb2xml.sablecc.analysis.*;
 import java.util.*;
 
 import java.io.DataInputStream;

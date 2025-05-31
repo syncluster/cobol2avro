@@ -31,11 +31,11 @@ package com.tech4box.JRecord.IO.builders;
 import java.io.IOException;
 import java.io.InputStream;
 
-import net.sf.JRecord.Common.Conversion;
-import net.sf.JRecord.External.ICopybookLoaderStream;
-import net.sf.JRecord.def.IO.builders.ICobolMultiCopybookIOBuilder;
-import net.sf.JRecord.def.IO.builders.IFileIOBuilder;
-import net.sf.JRecord.def.IO.builders.Icb2xmlMultiFileIOBuilder;
+import com.tech4box.JRecord.Common.Conversion;
+import com.tech4box.JRecord.External.ICopybookLoaderStream;
+import com.tech4box.JRecord.def.IO.builders.ICobolMultiCopybookIOBuilder;
+import com.tech4box.JRecord.def.IO.builders.IFileIOBuilder;
+import com.tech4box.JRecord.def.IO.builders.Icb2xmlMultiFileIOBuilder;
 
 public class CblIOBuilderMultiSchema extends CblIOBuilderMultiSchemaBase<CblIOBuilderMultiSchema>
 implements ICobolMultiCopybookIOBuilder, Icb2xmlMultiFileIOBuilder, IFileIOBuilder {

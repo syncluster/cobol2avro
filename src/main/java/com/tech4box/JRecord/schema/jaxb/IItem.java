@@ -31,7 +31,7 @@ package com.tech4box.JRecord.schema.jaxb;
 import java.util.List;
 
 import com.tech4box.JRecord.Common.IFieldDetail;
-import net.sf.JRecord.cgen.def.IArrayAnyDimension;
+import com.tech4box.JRecord.cgen.def.IArrayAnyDimension;
 import com.tech4box.JRecord.schema.IArrayItemCheck;
 
 public interface IItem {

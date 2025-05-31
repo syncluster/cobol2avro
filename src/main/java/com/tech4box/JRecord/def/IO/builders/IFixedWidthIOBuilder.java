@@ -28,7 +28,7 @@
 
 package com.tech4box.JRecord.def.IO.builders;
 
-import net.sf.JRecord.ExternalRecordSelection.ExternalSelection;
+import com.tech4box.JRecord.ExternalRecordSelection.ExternalSelection;
 
 /**
  * This interface lets you define fixed width files by either there Length or position.

@@ -28,7 +28,7 @@ package com.tech4box.JRecord.Types;
 import java.text.NumberFormat;
 import java.util.Locale;
 
-import net.sf.JRecord.Common.Conversion;
+import com.tech4box.JRecord.Common.Conversion;
 
 public class TypeCommaDecimalPoint extends TypeNum {
 
@@ -41,7 +41,7 @@ public class TypeCommaDecimalPoint extends TypeNum {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Types.TypeNum#getNumberFormat()
+	 * @see com.tech4box.JRecord.Types.TypeNum#getNumberFormat()
 	 */
 	@Override
 	protected NumberFormat getNumberFormat() {
@@ -49,7 +49,7 @@ public class TypeCommaDecimalPoint extends TypeNum {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Types.TypeNum#addDecimalPoint(java.lang.String, int)
+	 * @see com.tech4box.JRecord.Types.TypeNum#addDecimalPoint(java.lang.String, int)
 	 */
 	@Override
 	protected String addDecimalPoint(String s, int decimal) {
@@ -76,7 +76,7 @@ public class TypeCommaDecimalPoint extends TypeNum {
 //	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Types.TypeChar#getDecimalChar()
+	 * @see com.tech4box.JRecord.Types.TypeChar#getDecimalChar()
 	 */
 	@Override
 	public char getDecimalChar() {

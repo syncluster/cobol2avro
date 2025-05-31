@@ -5,18 +5,18 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-import net.sf.JRecord.ByteIO.ByteIOProvider;
-import net.sf.JRecord.Details.AbstractLine;
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.Details.RecordDecider;
-import net.sf.JRecord.ExternalRecordSelection.ExternalSelection;
-import net.sf.JRecord.IO.AbstractLineReader;
-import net.sf.JRecord.IO.AbstractLineWriter;
-import net.sf.JRecord.cgen.def.IPojoConverter;
-import net.sf.JRecord.cgen.def.IReader;
-import net.sf.JRecord.cgen.def.IWriter;
-import net.sf.JRecord.def.IO.builders.IIOBuilder;
-import net.sf.JRecord.def.IO.builders.Icb2xmlLoadOptions;
+import com.tech4box.JRecord.ByteIO.ByteIOProvider;
+import com.tech4box.JRecord.Details.AbstractLine;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.Details.RecordDecider;
+import com.tech4box.JRecord.ExternalRecordSelection.ExternalSelection;
+import com.tech4box.JRecord.IO.AbstractLineReader;
+import com.tech4box.JRecord.IO.AbstractLineWriter;
+import com.tech4box.JRecord.cgen.def.IPojoConverter;
+import com.tech4box.JRecord.cgen.def.IReader;
+import com.tech4box.JRecord.cgen.def.IWriter;
+import com.tech4box.JRecord.def.IO.builders.IIOBuilder;
+import com.tech4box.JRecord.def.IO.builders.Icb2xmlLoadOptions;
 
 
 /**

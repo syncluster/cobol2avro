@@ -38,12 +38,12 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-import net.sf.JRecord.Details.AbstractLine;
-import net.sf.JRecord.Details.DefaultLineProvider;
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.Details.LineProvider;
-import net.sf.JRecord.Details.SpecialRecordIds;
-import net.sf.JRecord.External.ExternalRecord;
+import com.tech4box.JRecord.Details.AbstractLine;
+import com.tech4box.JRecord.Details.DefaultLineProvider;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.Details.LineProvider;
+import com.tech4box.JRecord.Details.SpecialRecordIds;
+import com.tech4box.JRecord.External.ExternalRecord;
 
 
 
@@ -307,7 +307,7 @@ public abstract class AbstractLineReader implements IReadLine {
 
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.IO.IReadLine#read()
+		 * @see com.tech4box.JRecord.IO.IReadLine#read()
 		 */
 		@Override
 		public AbstractLine read() throws IOException {

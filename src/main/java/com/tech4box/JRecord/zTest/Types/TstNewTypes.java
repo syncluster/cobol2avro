@@ -29,15 +29,15 @@
 package com.tech4box.JRecord.zTest.Types;
 
 import junit.framework.TestCase;
-import net.sf.JRecord.Common.FieldDetail;
-import net.sf.JRecord.Common.RecordException;
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.Details.Line;
-import net.sf.JRecord.External.ExternalRecord;
-import net.sf.JRecord.External.RecordEditorXmlLoader;
-import net.sf.JRecord.Types.Type;
-import net.sf.JRecord.Types.TypeManager;
-import net.sf.JRecord.Types.TypeNum;
+import com.tech4box.JRecord.Common.FieldDetail;
+import com.tech4box.JRecord.Common.RecordException;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.Details.Line;
+import com.tech4box.JRecord.External.ExternalRecord;
+import com.tech4box.JRecord.External.RecordEditorXmlLoader;
+import com.tech4box.JRecord.Types.Type;
+import com.tech4box.JRecord.Types.TypeManager;
+import com.tech4box.JRecord.Types.TypeNum;
 
 
 public class TstNewTypes extends TestCase {

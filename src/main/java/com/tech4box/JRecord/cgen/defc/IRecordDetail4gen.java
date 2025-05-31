@@ -25,10 +25,10 @@
       
 package com.tech4box.JRecord.cgen.defc;
 
-import net.sf.JRecord.Common.FieldDetail;
-import net.sf.JRecord.Option.IRecordPositionOption;
-import net.sf.JRecord.definitiuons.CsvCharDetails;
-import net.sf.JRecord.detailsSelection.RecordSelection;
+import com.tech4box.JRecord.Common.FieldDetail;
+import com.tech4box.JRecord.Option.IRecordPositionOption;
+import com.tech4box.JRecord.definitiuons.CsvCharDetails;
+import com.tech4box.JRecord.detailsSelection.RecordSelection;
 
 public interface IRecordDetail4gen {
 

@@ -264,7 +264,7 @@ public abstract class FieldSelectX extends FieldSelect {
 		}
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.Details.Selection.RecordSelection#isSelected(net.sf.JRecord.Details.AbstractLine)
+		 * @see com.tech4box.JRecord.Details.Selection.RecordSelection#isSelected(com.tech4box.JRecord.Details.AbstractLine)
 		 */
 		@Override
 		public boolean isSelected(Object value) {
@@ -283,7 +283,7 @@ public abstract class FieldSelectX extends FieldSelect {
 		}
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.Details.Selection.RecordSelection#isSelected(net.sf.JRecord.Details.AbstractLine)
+		 * @see com.tech4box.JRecord.Details.Selection.RecordSelection#isSelected(com.tech4box.JRecord.Details.AbstractLine)
 		 */
 		@Override
 		public boolean isSelected(Object value) {
@@ -302,7 +302,7 @@ public abstract class FieldSelectX extends FieldSelect {
 
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.Details.Selection.RecordSelection#isSelected(net.sf.JRecord.Details.AbstractLine)
+		 * @see com.tech4box.JRecord.Details.Selection.RecordSelection#isSelected(com.tech4box.JRecord.Details.AbstractLine)
 		 */
 		@Override
 		public boolean isSelected(Object value) {
@@ -319,7 +319,7 @@ public abstract class FieldSelectX extends FieldSelect {
 
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.Details.Selection.RecordSelection#isSelected(net.sf.JRecord.Details.AbstractLine)
+		 * @see com.tech4box.JRecord.Details.Selection.RecordSelection#isSelected(com.tech4box.JRecord.Details.AbstractLine)
 		 */
 		@Override
 		public boolean isSelected(Object value) {
@@ -338,7 +338,7 @@ public abstract class FieldSelectX extends FieldSelect {
 		}
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.ExternalRecordSelection.ExternalSelection#getType()
+		 * @see com.tech4box.JRecord.ExternalRecordSelection.ExternalSelection#getType()
 		 */
 		@Override
 		public int getType() {
@@ -346,7 +346,7 @@ public abstract class FieldSelectX extends FieldSelect {
 		}
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.ExternalRecordSelection.ExternalSelection#getElementCount()
+		 * @see com.tech4box.JRecord.ExternalRecordSelection.ExternalSelection#getElementCount()
 		 */
 		@Override
 		public int getElementCount() {
@@ -354,7 +354,7 @@ public abstract class FieldSelectX extends FieldSelect {
 		}
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.detailsSelection.RecordSel#isSelected(net.sf.JRecord.Common.AbstractIndexedLine)
+		 * @see com.tech4box.JRecord.detailsSelection.RecordSel#isSelected(com.tech4box.JRecord.Common.AbstractIndexedLine)
 		 */
 		@Override
 		public boolean isSelected(AbstractIndexedLine line) {
@@ -362,7 +362,7 @@ public abstract class FieldSelectX extends FieldSelect {
 		}
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.detailsSelection.RecordSel#isIncluded(net.sf.JRecord.Common.AbstractIndexedLine)
+		 * @see com.tech4box.JRecord.detailsSelection.RecordSel#isIncluded(com.tech4box.JRecord.Common.AbstractIndexedLine)
 		 */
 		@Override
 		public boolean isIncluded(AbstractIndexedLine line) {
@@ -370,7 +370,7 @@ public abstract class FieldSelectX extends FieldSelect {
 		}
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.detailsSelection.RecordSel#getFirstField()
+		 * @see com.tech4box.JRecord.detailsSelection.RecordSel#getFirstField()
 		 */
 		@Override
 		public FieldSelect getFirstField() {
@@ -378,7 +378,7 @@ public abstract class FieldSelectX extends FieldSelect {
 		}
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.detailsSelection.RecordSel#getAllFields(java.util.List)
+		 * @see com.tech4box.JRecord.detailsSelection.RecordSel#getAllFields(java.util.List)
 		 */
 		@Override
 		public void getAllFields(List<FieldSelect> fields) {
@@ -386,7 +386,7 @@ public abstract class FieldSelectX extends FieldSelect {
 		}
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.detailsSelection.RecordSel#getSize()
+		 * @see com.tech4box.JRecord.detailsSelection.RecordSel#getSize()
 		 */
 		@Override
 		public int getSize() {

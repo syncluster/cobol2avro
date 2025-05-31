@@ -40,10 +40,10 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.math.BigInteger;
 
-import net.sf.JRecord.ByteIO.AbstractByteWriter;
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.Details.Line;
-import net.sf.JRecord.IO.AbstractLineWriter;
+import com.tech4box.JRecord.ByteIO.AbstractByteWriter;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.Details.Line;
+import com.tech4box.JRecord.IO.AbstractLineWriter;
 
 /**
  *

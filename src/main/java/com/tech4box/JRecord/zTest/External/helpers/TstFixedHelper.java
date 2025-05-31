@@ -32,7 +32,7 @@ import junit.framework.TestCase;
 import com.tech4box.JRecord.Common.Constants;
 import com.tech4box.JRecord.External.ExternalRecord;
 import com.tech4box.JRecord.External.Def.ExternalField;
-import net.sf.JRecord.Types.Type;
+import com.tech4box.JRecord.Types.Type;
 
 /**
  * Fairly pointless checking of  Fixed Width Helper methods

@@ -30,8 +30,8 @@ package com.tech4box.JRecord.IO.builders;
 
 import java.io.IOException;
 
-import net.sf.JRecord.External.ExternalRecord;
-import net.sf.JRecord.ExternalRecordSelection.ExternalSelection;
+import com.tech4box.JRecord.External.ExternalRecord;
+import com.tech4box.JRecord.ExternalRecordSelection.ExternalSelection;
 
 public interface ICreateExternal {
 

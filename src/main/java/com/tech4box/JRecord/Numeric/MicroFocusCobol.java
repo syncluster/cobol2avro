@@ -25,8 +25,8 @@
       
 package com.tech4box.JRecord.Numeric;
 
-import net.sf.JRecord.Types.Type;
-import net.sf.cb2xml.def.BasicNumericDefinition;
+import com.tech4box.JRecord.Types.Type;
+import com.tech4box.cb2xml.def.BasicNumericDefinition;
 
 public class MicroFocusCobol extends GenericNumericDefinition {
 

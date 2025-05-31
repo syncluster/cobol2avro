@@ -28,12 +28,12 @@
 
 package com.tech4box.JRecord.zTest.Types;
 
-import net.sf.JRecord.Common.FieldDetail;
-import net.sf.JRecord.Common.RecordException;
-import net.sf.JRecord.Types.Type;
-import net.sf.JRecord.Types.TypeManager;
-import net.sf.JRecord.Types.TypeNum;
-import net.sf.JRecord.Types.TypePackedDecimal;
+import com.tech4box.JRecord.Common.FieldDetail;
+import com.tech4box.JRecord.Common.RecordException;
+import com.tech4box.JRecord.Types.Type;
+import com.tech4box.JRecord.Types.TypeManager;
+import com.tech4box.JRecord.Types.TypeNum;
+import com.tech4box.JRecord.Types.TypePackedDecimal;
 import junit.framework.TestCase;
 
 public class TstComp3 extends TestCase {

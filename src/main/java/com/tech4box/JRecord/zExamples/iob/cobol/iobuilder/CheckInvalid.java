@@ -31,7 +31,7 @@ import java.util.ArrayList;
 
 import com.tech4box.JRecord.JRecordInterface1;
 import com.tech4box.JRecord.Details.AbstractLine;
-import net.sf.JRecord.def.IO.builders.ICobolIOBuilder;
+import com.tech4box.JRecord.def.IO.builders.ICobolIOBuilder;
 
 public class CheckInvalid  {
 

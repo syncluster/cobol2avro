@@ -42,8 +42,8 @@
       
 package com.tech4box.JRecord.Types;
 
-import net.sf.JRecord.Common.Messages;
-import net.sf.JRecord.Common.RecordException;
+import com.tech4box.JRecord.Common.Messages;
+import com.tech4box.JRecord.Common.RecordException;
 
 /**
  * This class stores / retrieves type definitions and format definitions

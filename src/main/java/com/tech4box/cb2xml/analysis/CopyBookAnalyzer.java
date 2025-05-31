@@ -12,59 +12,59 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.StringTokenizer;
 
-import net.sf.cb2xml.def.Cb2xmlConstants;
-import net.sf.cb2xml.def.Cb2xmlConstants.Usage;
-import net.sf.cb2xml.def.NumericDefinition;
-import net.sf.cb2xml.sablecc.analysis.DepthFirstAdapter;
-import net.sf.cb2xml.sablecc.node.ABinaryUsagePhrase;
-import net.sf.cb2xml.sablecc.node.ABlankWhenZeroClause;
-import net.sf.cb2xml.sablecc.node.ABlankWhenZeroClauseClause;
-import net.sf.cb2xml.sablecc.node.AComp1UsagePhrase;
-import net.sf.cb2xml.sablecc.node.AComp2UsagePhrase;
-import net.sf.cb2xml.sablecc.node.AComp3UsagePhrase;
-import net.sf.cb2xml.sablecc.node.AComp4UsagePhrase;
-import net.sf.cb2xml.sablecc.node.AComp5UsagePhrase;
-import net.sf.cb2xml.sablecc.node.AComp6UsagePhrase;
-import net.sf.cb2xml.sablecc.node.ACompUsagePhrase;
-import net.sf.cb2xml.sablecc.node.ADisplay1UsagePhrase;
-import net.sf.cb2xml.sablecc.node.ADisplayUsagePhrase;
-import net.sf.cb2xml.sablecc.node.AFixedOccursFixedOrVariable;
-import net.sf.cb2xml.sablecc.node.AFunctionPointerUsagePhrase;
-import net.sf.cb2xml.sablecc.node.AIndexUsagePhrase;
-import net.sf.cb2xml.sablecc.node.AItem;
-import net.sf.cb2xml.sablecc.node.AJustifiedClause;
-import net.sf.cb2xml.sablecc.node.ALeadingLeadingOrTrailing;
-import net.sf.cb2xml.sablecc.node.ANationalUsagePhrase;
-import net.sf.cb2xml.sablecc.node.AObjectReferencePhrase;
-import net.sf.cb2xml.sablecc.node.AOccursTo;
-import net.sf.cb2xml.sablecc.node.APackedDecimalUsagePhrase;
-import net.sf.cb2xml.sablecc.node.APictureClause;
-import net.sf.cb2xml.sablecc.node.APointerUsagePhrase;
-import net.sf.cb2xml.sablecc.node.AProcedurePointerUsagePhrase;
-import net.sf.cb2xml.sablecc.node.ARecordDescription;
-import net.sf.cb2xml.sablecc.node.ARedefinesClause;
-import net.sf.cb2xml.sablecc.node.ASequenceLiteralSequence;
-import net.sf.cb2xml.sablecc.node.ASignClause;
-import net.sf.cb2xml.sablecc.node.ASingleLiteralSequence;
-import net.sf.cb2xml.sablecc.node.ASynchronizedClauseClause;
-import net.sf.cb2xml.sablecc.node.AThroughSequenceLiteralSequence;
-import net.sf.cb2xml.sablecc.node.AThroughSingleLiteralSequence;
-import net.sf.cb2xml.sablecc.node.ATrailingLeadingOrTrailing;
-import net.sf.cb2xml.sablecc.node.AValueClause;
-import net.sf.cb2xml.sablecc.node.AValueItem;
-import net.sf.cb2xml.sablecc.node.AVariableOccursFixedOrVariable;
-import net.sf.cb2xml.sablecc.node.PDataNameOrFiller;
-import net.sf.cb2xml.sablecc.node.TAlphanumericLiteral;
-import net.sf.cb2xml.sablecc.node.THighValues;
-import net.sf.cb2xml.sablecc.node.TLowValues;
-import net.sf.cb2xml.sablecc.node.TNulls;
-import net.sf.cb2xml.sablecc.node.TNumber88;
-import net.sf.cb2xml.sablecc.node.TNumberNot88;
-import net.sf.cb2xml.sablecc.node.TQuotes;
-import net.sf.cb2xml.sablecc.node.TSpaces;
-import net.sf.cb2xml.sablecc.node.TZeros;
-import net.sf.cb2xml.sablecc.node.Token;
-import net.sf.cb2xml.sablecc.parser.Parser;
+import com.tech4box.cb2xml.def.Cb2xmlConstants;
+import com.tech4box.cb2xml.def.Cb2xmlConstants.Usage;
+import com.tech4box.cb2xml.def.NumericDefinition;
+import com.tech4box.cb2xml.sablecc.analysis.DepthFirstAdapter;
+import com.tech4box.cb2xml.sablecc.node.ABinaryUsagePhrase;
+import com.tech4box.cb2xml.sablecc.node.ABlankWhenZeroClause;
+import com.tech4box.cb2xml.sablecc.node.ABlankWhenZeroClauseClause;
+import com.tech4box.cb2xml.sablecc.node.AComp1UsagePhrase;
+import com.tech4box.cb2xml.sablecc.node.AComp2UsagePhrase;
+import com.tech4box.cb2xml.sablecc.node.AComp3UsagePhrase;
+import com.tech4box.cb2xml.sablecc.node.AComp4UsagePhrase;
+import com.tech4box.cb2xml.sablecc.node.AComp5UsagePhrase;
+import com.tech4box.cb2xml.sablecc.node.AComp6UsagePhrase;
+import com.tech4box.cb2xml.sablecc.node.ACompUsagePhrase;
+import com.tech4box.cb2xml.sablecc.node.ADisplay1UsagePhrase;
+import com.tech4box.cb2xml.sablecc.node.ADisplayUsagePhrase;
+import com.tech4box.cb2xml.sablecc.node.AFixedOccursFixedOrVariable;
+import com.tech4box.cb2xml.sablecc.node.AFunctionPointerUsagePhrase;
+import com.tech4box.cb2xml.sablecc.node.AIndexUsagePhrase;
+import com.tech4box.cb2xml.sablecc.node.AItem;
+import com.tech4box.cb2xml.sablecc.node.AJustifiedClause;
+import com.tech4box.cb2xml.sablecc.node.ALeadingLeadingOrTrailing;
+import com.tech4box.cb2xml.sablecc.node.ANationalUsagePhrase;
+import com.tech4box.cb2xml.sablecc.node.AObjectReferencePhrase;
+import com.tech4box.cb2xml.sablecc.node.AOccursTo;
+import com.tech4box.cb2xml.sablecc.node.APackedDecimalUsagePhrase;
+import com.tech4box.cb2xml.sablecc.node.APictureClause;
+import com.tech4box.cb2xml.sablecc.node.APointerUsagePhrase;
+import com.tech4box.cb2xml.sablecc.node.AProcedurePointerUsagePhrase;
+import com.tech4box.cb2xml.sablecc.node.ARecordDescription;
+import com.tech4box.cb2xml.sablecc.node.ARedefinesClause;
+import com.tech4box.cb2xml.sablecc.node.ASequenceLiteralSequence;
+import com.tech4box.cb2xml.sablecc.node.ASignClause;
+import com.tech4box.cb2xml.sablecc.node.ASingleLiteralSequence;
+import com.tech4box.cb2xml.sablecc.node.ASynchronizedClauseClause;
+import com.tech4box.cb2xml.sablecc.node.AThroughSequenceLiteralSequence;
+import com.tech4box.cb2xml.sablecc.node.AThroughSingleLiteralSequence;
+import com.tech4box.cb2xml.sablecc.node.ATrailingLeadingOrTrailing;
+import com.tech4box.cb2xml.sablecc.node.AValueClause;
+import com.tech4box.cb2xml.sablecc.node.AValueItem;
+import com.tech4box.cb2xml.sablecc.node.AVariableOccursFixedOrVariable;
+import com.tech4box.cb2xml.sablecc.node.PDataNameOrFiller;
+import com.tech4box.cb2xml.sablecc.node.TAlphanumericLiteral;
+import com.tech4box.cb2xml.sablecc.node.THighValues;
+import com.tech4box.cb2xml.sablecc.node.TLowValues;
+import com.tech4box.cb2xml.sablecc.node.TNulls;
+import com.tech4box.cb2xml.sablecc.node.TNumber88;
+import com.tech4box.cb2xml.sablecc.node.TNumberNot88;
+import com.tech4box.cb2xml.sablecc.node.TQuotes;
+import com.tech4box.cb2xml.sablecc.node.TSpaces;
+import com.tech4box.cb2xml.sablecc.node.TZeros;
+import com.tech4box.cb2xml.sablecc.node.Token;
+import com.tech4box.cb2xml.sablecc.parser.Parser;
 
 /**
  * Main logic for translating the parse tree of SableCC into XML.
@@ -503,7 +503,7 @@ public class CopyBookAnalyzer extends DepthFirstAdapter {
 	
 	
 	/* (non-Javadoc)
-	 * @see net.sf.cb2xml.sablecc.analysis.DepthFirstAdapter#inAJustifiedClause(net.sf.cb2xml.sablecc.node.AJustifiedClause)
+	 * @see com.tech4box.cb2xml.sablecc.analysis.DepthFirstAdapter#inAJustifiedClause(com.tech4box.cb2xml.sablecc.node.AJustifiedClause)
 	 */
 	public void inAJustifiedClause(AJustifiedClause node) {
 		curItem.justified = Cb2xmlConstants.Justified.RIGHT;

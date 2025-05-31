@@ -70,7 +70,7 @@ public class FieldDetail implements IFieldDetail {
 //		}
 
 //		/* (non-Javadoc)
-//		 * @see net.sf.JRecord.Common.AbstractRecord#getQuoteUneditted()
+//		 * @see com.tech4box.JRecord.Common.AbstractRecord#getQuoteUneditted()
 //		 */
 //		@Override
 //		public String getQuoteUneditted() {
@@ -94,7 +94,7 @@ public class FieldDetail implements IFieldDetail {
 		}
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.Common.AbstractRecord#calculateActualPosition(net.sf.JRecord.Common.AbstractIndexedLine, int)
+		 * @see com.tech4box.JRecord.Common.AbstractRecord#calculateActualPosition(com.tech4box.JRecord.Common.AbstractIndexedLine, int)
 		 */
 		@Override
 		public int calculateActualPosition(AbstractIndexedLine line, DependingOnDtls dependingOnDtls, int pos) {
@@ -158,11 +158,11 @@ public class FieldDetail implements IFieldDetail {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.AbstractFieldDetails#setPosLen(int, int)
+	 * @see com.tech4box.JRecord.Common.AbstractFieldDetails#setPosLen(int, int)
 	 */
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.IFieldDetail#setPosLen(int, int)
+	 * @see com.tech4box.JRecord.Common.IFieldDetail#setPosLen(int, int)
 	 */
 	@Override
 	public final IFieldDetail setPosLen(final int pPosition, final int pLength) {
@@ -175,7 +175,7 @@ public class FieldDetail implements IFieldDetail {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.IFieldDetail#setPosOnly(int)
+	 * @see com.tech4box.JRecord.Common.IFieldDetail#setPosOnly(int)
 	 */
 	@Override
 	public FieldDetail setPosOnly(final int pPosition) {
@@ -189,11 +189,11 @@ public class FieldDetail implements IFieldDetail {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.AbstractFieldDetails#getDecimal()
+	 * @see com.tech4box.JRecord.Common.AbstractFieldDetails#getDecimal()
 	 */
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.IFieldDetail#getDecimal()
+	 * @see com.tech4box.JRecord.Common.IFieldDetail#getDecimal()
 	 */
 	@Override
 	public final int getDecimal() {
@@ -202,11 +202,11 @@ public class FieldDetail implements IFieldDetail {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.AbstractFieldDetails#getLen()
+	 * @see com.tech4box.JRecord.Common.AbstractFieldDetails#getLen()
 	 */
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.IFieldDetail#getLen()
+	 * @see com.tech4box.JRecord.Common.IFieldDetail#getLen()
 	 */
 	@Override
 	public int getLen() {
@@ -215,11 +215,11 @@ public class FieldDetail implements IFieldDetail {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.AbstractFieldDetails#getName()
+	 * @see com.tech4box.JRecord.Common.AbstractFieldDetails#getName()
 	 */
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.IFieldDetail#getName()
+	 * @see com.tech4box.JRecord.Common.IFieldDetail#getName()
 	 */
 	@Override
 	public String getName() {
@@ -228,7 +228,7 @@ public class FieldDetail implements IFieldDetail {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.AbstractFieldDetails#getPos()
+	 * @see com.tech4box.JRecord.Common.AbstractFieldDetails#getPos()
 	 */
 
 	/**
@@ -248,7 +248,7 @@ public class FieldDetail implements IFieldDetail {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.IFieldDetail#getPos()
+	 * @see com.tech4box.JRecord.Common.IFieldDetail#getPos()
 	 */
 	@Override
 	public int getPos() {
@@ -270,7 +270,7 @@ public class FieldDetail implements IFieldDetail {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.IFieldDetail#calculateActualEnd(net.sf.JRecord.Common.AbstractIndexedLine)
+	 * @see com.tech4box.JRecord.Common.IFieldDetail#calculateActualEnd(com.tech4box.JRecord.Common.AbstractIndexedLine)
 	 */
 	@Override
 	public int calculateActualEnd(AbstractIndexedLine line) {
@@ -279,7 +279,7 @@ public class FieldDetail implements IFieldDetail {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.IFieldDetail#getType()
+	 * @see com.tech4box.JRecord.Common.IFieldDetail#getType()
 	 */
 	@Override
 	public int getType() {
@@ -288,7 +288,7 @@ public class FieldDetail implements IFieldDetail {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.IFieldDetail#getDescription()
+	 * @see com.tech4box.JRecord.Common.IFieldDetail#getDescription()
 	 */
 	@Override
 	public String getDescription() {
@@ -297,7 +297,7 @@ public class FieldDetail implements IFieldDetail {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.IFieldDetail#getEnd()
+	 * @see com.tech4box.JRecord.Common.IFieldDetail#getEnd()
 	 */
 	@Override
 	public int getEnd() {
@@ -306,11 +306,11 @@ public class FieldDetail implements IFieldDetail {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.AbstractFieldDetails#isFixedFormat()
+	 * @see com.tech4box.JRecord.Common.AbstractFieldDetails#isFixedFormat()
 	 */
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.IFieldDetail#isFixedFormat()
+	 * @see com.tech4box.JRecord.Common.IFieldDetail#isFixedFormat()
 	 */
 	@Override
 	public boolean isFixedFormat() {
@@ -319,11 +319,11 @@ public class FieldDetail implements IFieldDetail {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.AbstractFieldDetails#getFontName()
+	 * @see com.tech4box.JRecord.Common.AbstractFieldDetails#getFontName()
 	 */
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.IFieldDetail#getFontName()
+	 * @see com.tech4box.JRecord.Common.IFieldDetail#getFontName()
 	 */
 	@Override
 	public String getFontName() {
@@ -331,11 +331,11 @@ public class FieldDetail implements IFieldDetail {
     }
 
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.AbstractFieldDetails#getFormat()
+	 * @see com.tech4box.JRecord.Common.AbstractFieldDetails#getFormat()
 	 */
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.IFieldDetail#getFormat()
+	 * @see com.tech4box.JRecord.Common.IFieldDetail#getFormat()
 	 */
 	@Override
 	public int getFormat() {
@@ -343,11 +343,11 @@ public class FieldDetail implements IFieldDetail {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.AbstractFieldDetails#getParamater()
+	 * @see com.tech4box.JRecord.Common.AbstractFieldDetails#getParamater()
 	 */
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.IFieldDetail#getParamater()
+	 * @see com.tech4box.JRecord.Common.IFieldDetail#getParamater()
 	 */
 	@Override
 	public String getParamater() {
@@ -355,11 +355,11 @@ public class FieldDetail implements IFieldDetail {
 	}
 
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.AbstractFieldDetails#getQuote()
+	 * @see com.tech4box.JRecord.Common.AbstractFieldDetails#getQuote()
 	 */
 
 //	/* (non-Javadoc)
-//	 * @see net.sf.JRecord.Common.IFieldDetail#getQuote()
+//	 * @see com.tech4box.JRecord.Common.IFieldDetail#getQuote()
 //	 */
 //	@Override
 //	public String getQuote() {
@@ -368,7 +368,7 @@ public class FieldDetail implements IFieldDetail {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.AbstractFieldDetails#getRecord()
+	 * @see com.tech4box.JRecord.Common.AbstractFieldDetails#getRecord()
 	 */
 
 	@Override
@@ -378,7 +378,7 @@ public class FieldDetail implements IFieldDetail {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.IFieldDetail#getRecord()
+	 * @see com.tech4box.JRecord.Common.IFieldDetail#getRecord()
 	 */
 	@Override
 	public AbstractRecord getRecord() {
@@ -387,22 +387,22 @@ public class FieldDetail implements IFieldDetail {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.AbstractFieldDetails#setRecord(net.sf.JRecord.Common.AbstractRecord)
+	 * @see com.tech4box.JRecord.Common.AbstractFieldDetails#setRecord(com.tech4box.JRecord.Common.AbstractRecord)
 	 */
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.IFieldDetail#setRecord(net.sf.JRecord.Common.AbstractRecord)
+	 * @see com.tech4box.JRecord.Common.IFieldDetail#setRecord(com.tech4box.JRecord.Common.AbstractRecord)
 	 */
 	public void setRecord(AbstractRecord record) {
 		this.record = record;
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.AbstractFieldDetails#setNameType(java.lang.String, int)
+	 * @see com.tech4box.JRecord.Common.AbstractFieldDetails#setNameType(java.lang.String, int)
 	 */
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.IFieldDetail#setNameType(java.lang.String, int)
+	 * @see com.tech4box.JRecord.Common.IFieldDetail#setNameType(java.lang.String, int)
 	 */
 	@Override
 	public void setNameType(String newName, int newType) {
@@ -412,11 +412,11 @@ public class FieldDetail implements IFieldDetail {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.AbstractFieldDetails#getDefaultValue()
+	 * @see com.tech4box.JRecord.Common.AbstractFieldDetails#getDefaultValue()
 	 */
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.IFieldDetail#getDefaultValue()
+	 * @see com.tech4box.JRecord.Common.IFieldDetail#getDefaultValue()
 	 */
 	@Override
 	public Object getDefaultValue() {
@@ -425,11 +425,11 @@ public class FieldDetail implements IFieldDetail {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.AbstractFieldDetails#setDefaultValue(java.lang.Object)
+	 * @see com.tech4box.JRecord.Common.AbstractFieldDetails#setDefaultValue(java.lang.Object)
 	 */
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.IFieldDetail#setDefaultValue(java.lang.Object)
+	 * @see com.tech4box.JRecord.Common.IFieldDetail#setDefaultValue(java.lang.Object)
 	 */
 	@Override
 	public void setDefaultValue(Object defaultValue) {

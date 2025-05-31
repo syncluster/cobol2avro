@@ -36,9 +36,9 @@ import com.tech4box.JRecord.Common.RecordException;
 import com.tech4box.JRecord.Details.LayoutDetail;
 import com.tech4box.JRecord.External.ExternalRecord;
 import com.tech4box.JRecord.External.Def.ExternalField;
-import net.sf.JRecord.Types.Type;
-import net.sf.JRecord.def.IO.builders.ICsvIOBuilder;
-import net.sf.JRecord.def.IO.builders.IFixedWidthIOBuilder;
+import com.tech4box.JRecord.Types.Type;
+import com.tech4box.JRecord.def.IO.builders.ICsvIOBuilder;
+import com.tech4box.JRecord.def.IO.builders.IFixedWidthIOBuilder;
 import junit.framework.TestCase;
 
 public class TstFixedBuilder extends TestCase {

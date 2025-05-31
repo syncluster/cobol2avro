@@ -40,7 +40,7 @@ package com.tech4box.JRecord.External;
 
 import com.tech4box.JRecord.Details.LayoutDetail;
 import com.tech4box.JRecord.External.Def.AbstractConversion;
-import net.sf.JRecord.Log.AbsSSLogger;
+import com.tech4box.JRecord.Log.AbsSSLogger;
 
 
 /**

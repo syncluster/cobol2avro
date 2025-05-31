@@ -30,13 +30,13 @@ package com.tech4box.JRecord.zTest.Cobol.occursDependingOn;
 
 import java.io.IOException;
 
-import net.sf.JRecord.JRecordInterface1;
-import net.sf.JRecord.Common.RecordException;
-import net.sf.JRecord.IO.AbstractLineWriter;
-import net.sf.JRecord.Types.Type;
-import net.sf.JRecord.def.IO.builders.ICsvIOBuilder;
-import net.sf.JRecord.def.IO.builders.IDefineCsvFields;
-import net.sf.JRecord.zTest.Common.TstConstants;
+import com.tech4box.JRecord.JRecordInterface1;
+import com.tech4box.JRecord.Common.RecordException;
+import com.tech4box.JRecord.IO.AbstractLineWriter;
+import com.tech4box.JRecord.Types.Type;
+import com.tech4box.JRecord.def.IO.builders.ICsvIOBuilder;
+import com.tech4box.JRecord.def.IO.builders.IDefineCsvFields;
+import com.tech4box.JRecord.zTest.Common.TstConstants;
 
 public class WriteSampleCsvFile {
 

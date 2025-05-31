@@ -65,9 +65,9 @@ import com.tech4box.JRecord.CsvParser.CsvParserManagerChar;
 import com.tech4box.JRecord.CsvParser.CsvParserManagerByte;
 import com.tech4box.JRecord.Option.IRecordPositionOption;
 import com.tech4box.JRecord.Option.Options;
-import net.sf.JRecord.Types.Type;
-import net.sf.JRecord.Types.TypeManager;
-import net.sf.JRecord.cgen.defc.ILayoutDetails4gen;
+import com.tech4box.JRecord.Types.Type;
+import com.tech4box.JRecord.Types.TypeManager;
+import com.tech4box.JRecord.cgen.defc.ILayoutDetails4gen;
 import com.tech4box.JRecord.definitiuons.CsvCharDetails;
 
 

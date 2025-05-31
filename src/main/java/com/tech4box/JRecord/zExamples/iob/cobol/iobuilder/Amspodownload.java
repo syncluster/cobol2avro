@@ -26,8 +26,8 @@
 package com.tech4box.JRecord.zExamples.iob.cobol.iobuilder;
 
 
-import net.sf.JRecord.cgen.impl.ArrayFieldName;
-import net.sf.JRecord.cgen.def.*;
+import com.tech4box.JRecord.cgen.impl.ArrayFieldName;
+import com.tech4box.JRecord.cgen.def.*;
 
 /**
  * This class holds the Cobol fields names as constants.

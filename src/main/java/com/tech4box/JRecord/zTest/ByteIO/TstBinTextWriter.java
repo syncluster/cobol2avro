@@ -31,10 +31,10 @@ package com.tech4box.JRecord.zTest.ByteIO;
 import java.io.IOException;
 
 import junit.framework.TestCase;
-import net.sf.JRecord.ByteIO.ByteTextReader;
-import net.sf.JRecord.ByteIO.BinaryByteWriter;
-import net.sf.JRecord.Common.Constants;
-import net.sf.JRecord.zTest.Common.TstConstants;
+import com.tech4box.JRecord.ByteIO.ByteTextReader;
+import com.tech4box.JRecord.ByteIO.BinaryByteWriter;
+import com.tech4box.JRecord.Common.Constants;
+import com.tech4box.JRecord.zTest.Common.TstConstants;
 
 public class TstBinTextWriter  extends TestCase {
 

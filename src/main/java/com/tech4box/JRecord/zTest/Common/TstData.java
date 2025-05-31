@@ -32,7 +32,7 @@
  *
  * ------------------------------------------------------------------------ */
 
-package net.sf.JRecord.zTest.Common;
+package com.tech4box.JRecord.zTest.Common;
 
 /**
  *

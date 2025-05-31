@@ -39,7 +39,7 @@ import com.tech4box.JRecord.Details.LayoutDetail;
 import com.tech4box.JRecord.External.CopybookLoader;
 import com.tech4box.JRecord.External.CopybookLoaderFactory;
 import com.tech4box.JRecord.External.ExternalRecord;
-import net.sf.JRecord.Log.TextLog;
+import com.tech4box.JRecord.Log.TextLog;
 import com.tech4box.JRecord.Numeric.ICopybookDialects;
 
 /**

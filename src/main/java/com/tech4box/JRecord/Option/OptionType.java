@@ -34,7 +34,7 @@ public class OptionType implements IRecordPositionOption {
 		this.name = name;
 	}
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Option.IOptionType#getName()
+	 * @see com.tech4box.JRecord.Option.IOptionType#getName()
 	 */
 	@Override
 	public String getName() {

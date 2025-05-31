@@ -39,8 +39,8 @@ import java.util.HashMap;
 
 import com.tech4box.JRecord.Common.AbstractManager;
 import com.tech4box.JRecord.Common.Constants;
-import net.sf.JRecord.Types.Type;
-import net.sf.cb2xml.def.Cb2xmlConstants;
+import com.tech4box.JRecord.Types.Type;
+import com.tech4box.cb2xml.def.Cb2xmlConstants;
 
 /**
  * This class will store all Cobol Numeric Type Converters. A converter
@@ -116,7 +116,7 @@ public class ConversionManager implements AbstractManager {
 
 
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.AbstractManager#getManagerName()
+	 * @see com.tech4box.JRecord.Common.AbstractManager#getManagerName()
 	 */
 	@Override
 	public String getManagerName() {

@@ -36,8 +36,8 @@ import javax.xml.bind.JAXBException;
 import com.tech4box.JRecord.Details.RecordDecider;
 import com.tech4box.JRecord.ExternalRecordSelection.ExternalSelection;
 import com.tech4box.JRecord.Option.IRecordPositionOption;
-import net.sf.JRecord.def.IO.builders.ISchemaIOBuilder;
-import net.sf.JRecord.def.IO.builders.Icb2xmlLoadOptions;
+import com.tech4box.JRecord.def.IO.builders.ISchemaIOBuilder;
+import com.tech4box.JRecord.def.IO.builders.Icb2xmlLoadOptions;
 
 
 /**

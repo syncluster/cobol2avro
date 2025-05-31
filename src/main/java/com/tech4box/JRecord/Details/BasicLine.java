@@ -30,7 +30,7 @@ package com.tech4box.JRecord.Details;
 
 import com.tech4box.JRecord.Common.Constants;
 import com.tech4box.JRecord.Common.IFieldDetail;
-import net.sf.JRecord.Types.Type;
+import com.tech4box.JRecord.Types.Type;
 import com.tech4box.JRecord.detailsSelection.RecordSelection;
 
 public abstract class BasicLine extends BaseLine implements AbstractLine {

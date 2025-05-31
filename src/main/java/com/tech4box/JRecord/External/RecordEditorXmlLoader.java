@@ -45,9 +45,9 @@ import com.tech4box.JRecord.External.base.ExternalConversion;
 import com.tech4box.JRecord.ExternalRecordSelection.ExternalFieldSelection;
 import com.tech4box.JRecord.ExternalRecordSelection.ExternalGroupSelection;
 import com.tech4box.JRecord.ExternalRecordSelection.ExternalSelection;
-import net.sf.JRecord.IO.XmlLineReader;
-import net.sf.JRecord.Log.AbsSSLogger;
-import net.sf.JRecord.Log.TextLog;
+import com.tech4box.JRecord.IO.XmlLineReader;
+import com.tech4box.JRecord.Log.AbsSSLogger;
+import com.tech4box.JRecord.Log.TextLog;
 
 /**
  * Class to Load a RecordLayout (Record or Line Description)
@@ -65,7 +65,7 @@ import net.sf.JRecord.Log.TextLog;
 public class RecordEditorXmlLoader extends BaseCopybookLoader implements ICopybookLoaderStream {
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.External.ICopybookLoaderStream#loadCopyBook(java.io.InputStream, java.lang.String, int, int, java.lang.String, int, int, int, net.sf.JRecord.Log.AbsSSLogger)
+	 * @see com.tech4box.JRecord.External.ICopybookLoaderStream#loadCopyBook(java.io.InputStream, java.lang.String, int, int, java.lang.String, int, int, int, com.tech4box.JRecord.Log.AbsSSLogger)
 	 */
 	@Override
 	public ExternalRecord loadCopyBook(InputStream inputStream,
@@ -80,7 +80,7 @@ public class RecordEditorXmlLoader extends BaseCopybookLoader implements ICopybo
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.External.CopybookLoader#loadCopyBook(java.lang.String, int, int, java.lang.String, int, int, int, net.sf.JRecord.Log.AbsSSLogger)
+	 * @see com.tech4box.JRecord.External.CopybookLoader#loadCopyBook(java.lang.String, int, int, java.lang.String, int, int, int, com.tech4box.JRecord.Log.AbsSSLogger)
 	 */
 	@Override
 	public ExternalRecord loadCopyBook(String copyBookFile,

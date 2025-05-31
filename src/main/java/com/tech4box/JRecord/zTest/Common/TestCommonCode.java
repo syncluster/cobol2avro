@@ -42,7 +42,7 @@ import com.tech4box.JRecord.Details.LayoutDetail;
 import com.tech4box.JRecord.External.CobolCopybookLoader;
 import com.tech4box.JRecord.External.ExternalRecord;
 import com.tech4box.JRecord.External.RecordEditorXmlLoader;
-import net.sf.JRecord.Log.TextLog;
+import com.tech4box.JRecord.Log.TextLog;
 
 
 

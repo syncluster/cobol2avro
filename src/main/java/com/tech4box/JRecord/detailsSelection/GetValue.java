@@ -30,7 +30,7 @@ import java.util.List;
 
 import com.tech4box.JRecord.Common.AbstractIndexedLine;
 import com.tech4box.JRecord.Common.IFieldDetail;
-import net.sf.JRecord.Types.TypeManager;
+import com.tech4box.JRecord.Types.TypeManager;
 
 /**
  * Accumulators These
@@ -98,7 +98,7 @@ public abstract class GetValue  implements IGetValue {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.detailsSelection.copy.IGetValue#isNumeric()
+	 * @see com.tech4box.JRecord.detailsSelection.copy.IGetValue#isNumeric()
 	 */
 	@Override
 	public boolean isNumeric() {
@@ -119,7 +119,7 @@ public abstract class GetValue  implements IGetValue {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.detailsSelection.IGetValue#isIncluded(net.sf.JRecord.Common.AbstractIndexedLine)
+	 * @see com.tech4box.JRecord.detailsSelection.IGetValue#isIncluded(com.tech4box.JRecord.Common.AbstractIndexedLine)
 	 */
 	@Override
 	public boolean isIncluded(AbstractIndexedLine line) {
@@ -142,7 +142,7 @@ public abstract class GetValue  implements IGetValue {
 		}
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.detailsSelection.copy.IGetValue#getValue(java.util.List)
+		 * @see com.tech4box.JRecord.detailsSelection.copy.IGetValue#getValue(java.util.List)
 		 */
 		@Override
 		public Object getValue(List<? extends AbstractIndexedLine> lines) {
@@ -159,7 +159,7 @@ public abstract class GetValue  implements IGetValue {
 
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.detailsSelection.copy.IGetValue#getValue(java.util.List)
+		 * @see com.tech4box.JRecord.detailsSelection.copy.IGetValue#getValue(java.util.List)
 		 */
 		@Override
 		public Object getValue(List<? extends AbstractIndexedLine> lines) {
@@ -196,7 +196,7 @@ public abstract class GetValue  implements IGetValue {
 
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.detailsSelection.copy.IGetValue#getValue(java.util.List)
+		 * @see com.tech4box.JRecord.detailsSelection.copy.IGetValue#getValue(java.util.List)
 		 */
 		@Override
 		public Object getValue(List<? extends AbstractIndexedLine> lines) {
@@ -231,7 +231,7 @@ public abstract class GetValue  implements IGetValue {
 		}
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.detailsSelection.copy.IGetValue#getValue(java.util.List)
+		 * @see com.tech4box.JRecord.detailsSelection.copy.IGetValue#getValue(java.util.List)
 		 */
 		@Override
 		public Object getValue(List<? extends AbstractIndexedLine> lines) {
@@ -255,7 +255,7 @@ public abstract class GetValue  implements IGetValue {
 		}
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.detailsSelection.copy.IGetValue#getValue(java.util.List)
+		 * @see com.tech4box.JRecord.detailsSelection.copy.IGetValue#getValue(java.util.List)
 		 */
 		@Override
 		public Object getValue(List<? extends AbstractIndexedLine> lines) {
@@ -281,7 +281,7 @@ public abstract class GetValue  implements IGetValue {
 
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.detailsSelection.copy.IGetValue#getValue(java.util.List)
+		 * @see com.tech4box.JRecord.detailsSelection.copy.IGetValue#getValue(java.util.List)
 		 */
 		@Override
 		public Object getValue(List<? extends AbstractIndexedLine> lines) {

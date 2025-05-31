@@ -69,14 +69,14 @@ import com.tech4box.JRecord.Common.Conversion;
 import com.tech4box.JRecord.External.Def.DependingOn;
 import com.tech4box.JRecord.External.Def.DependingOnDtls;
 import com.tech4box.JRecord.External.Def.ExternalField;
-import net.sf.JRecord.Log.AbsSSLogger;
+import com.tech4box.JRecord.Log.AbsSSLogger;
 import com.tech4box.JRecord.Numeric.ConversionManager;
 import com.tech4box.JRecord.Numeric.Convert;
 import com.tech4box.JRecord.Numeric.ICopybookDialects;
 import com.tech4box.JRecord.Option.ICobolSplitOptions;
-import net.sf.JRecord.Types.Type;
-import net.sf.JRecord.Types.TypeManager;
-import net.sf.cb2xml.def.Cb2xmlConstants;
+import com.tech4box.JRecord.Types.Type;
+import com.tech4box.JRecord.Types.TypeManager;
+import com.tech4box.cb2xml.def.Cb2xmlConstants;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -171,7 +171,7 @@ public class BaseCb2xmlLoader<XRecord extends BaseExternalRecord<XRecord>>  {
     
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.External.ISetDropCopybookName#setSaveCb2xmlDocument(boolean)
+	 * @see com.tech4box.JRecord.External.ISetDropCopybookName#setSaveCb2xmlDocument(boolean)
 	 */
 	public void setSaveCb2xmlDocument(boolean saveCb2xml) {
 		this.saveCb2xml = saveCb2xml;
@@ -180,7 +180,7 @@ public class BaseCb2xmlLoader<XRecord extends BaseExternalRecord<XRecord>>  {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.External.CopybookLoader#loadCopyBook(java.lang.String, int, int, java.lang.String, int, int, net.sf.JRecord.Log.AbsSSLogger)
+	 * @see com.tech4box.JRecord.External.CopybookLoader#loadCopyBook(java.lang.String, int, int, java.lang.String, int, int, com.tech4box.JRecord.Log.AbsSSLogger)
 	 */
 	public final XRecord loadCopyBook(String copyBookFile,
 			int splitCopybookOption, int dbIdx, String font, int binFormat,
@@ -192,7 +192,7 @@ public class BaseCb2xmlLoader<XRecord extends BaseExternalRecord<XRecord>>  {
 
 
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.External.ICopybookLoaderStream#loadCopyBook(java.io.InputStream, java.lang.String, int, int, java.lang.String, int, int, int, net.sf.JRecord.Log.AbsSSLogger)
+	 * @see com.tech4box.JRecord.External.ICopybookLoaderStream#loadCopyBook(java.io.InputStream, java.lang.String, int, int, java.lang.String, int, int, int, com.tech4box.JRecord.Log.AbsSSLogger)
 	 */
 	public XRecord loadCopyBook(InputStream inputStream,
 			String copyBookName, int splitCopybook, int dbIdx, String font,
@@ -1086,7 +1086,7 @@ public class BaseCb2xmlLoader<XRecord extends BaseExternalRecord<XRecord>>  {
     }
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.External.ISetDropCopybookName#setDropCopybookFromFieldNames(boolean)
+	 * @see com.tech4box.JRecord.External.ISetDropCopybookName#setDropCopybookFromFieldNames(boolean)
 	 */
 	public final void setDropCopybookFromFieldNames(
 			boolean dropCopybookFromFieldNames) {
@@ -1096,7 +1096,7 @@ public class BaseCb2xmlLoader<XRecord extends BaseExternalRecord<XRecord>>  {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.External.ISetDropCopybookName#setKeepFillers(boolean)
+	 * @see com.tech4box.JRecord.External.ISetDropCopybookName#setKeepFillers(boolean)
 	 */
 	public void setKeepFillers(boolean keepFiller) {
 		this.keepFiller = keepFiller;

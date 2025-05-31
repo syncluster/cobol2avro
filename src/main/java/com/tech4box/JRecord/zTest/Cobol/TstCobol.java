@@ -31,16 +31,16 @@ package com.tech4box.JRecord.zTest.Cobol;
 import java.math.BigDecimal;
 
 import junit.framework.TestCase;
-import net.sf.JRecord.Common.Constants;
-import net.sf.JRecord.Details.AbstractLine;
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.External.CobolCopybookLoader;
-import net.sf.JRecord.External.CopybookLoader;
-import net.sf.JRecord.IO.AbstractLineReader;
-import net.sf.JRecord.IO.LineIOProvider;
-import net.sf.JRecord.Log.TextLog;
-import net.sf.JRecord.Numeric.ICopybookDialects;
-import net.sf.JRecord.zTest.Common.TstConstants;
+import com.tech4box.JRecord.Common.Constants;
+import com.tech4box.JRecord.Details.AbstractLine;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.External.CobolCopybookLoader;
+import com.tech4box.JRecord.External.CopybookLoader;
+import com.tech4box.JRecord.IO.AbstractLineReader;
+import com.tech4box.JRecord.IO.LineIOProvider;
+import com.tech4box.JRecord.Log.TextLog;
+import com.tech4box.JRecord.Numeric.ICopybookDialects;
+import com.tech4box.JRecord.zTest.Common.TstConstants;
 
 /*
  * 

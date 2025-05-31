@@ -27,8 +27,8 @@ package com.tech4box.JRecord.zExamples.iob.cobol.readWrite;
 
 import com.tech4box.JRecord.JRecordInterface1;
 import com.tech4box.JRecord.Details.AbstractLine;
-import net.sf.JRecord.IO.AbstractLineWriter;
-import net.sf.JRecord.def.IO.builders.IIOBuilder;
+import com.tech4box.JRecord.IO.AbstractLineWriter;
+import com.tech4box.JRecord.def.IO.builders.IIOBuilder;
 import com.tech4box.JRecord.zTest.Common.TstConstants;
 
 /**

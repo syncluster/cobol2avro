@@ -37,8 +37,8 @@ import com.tech4box.JRecord.External.ExternalRecord;
 import com.tech4box.JRecord.Common.Constants;
 import com.tech4box.JRecord.Common.Conversion;
 import com.tech4box.JRecord.External.Def.ExternalField;
-import net.sf.JRecord.Log.AbsSSLogger;
-import net.sf.JRecord.Log.TextLog;
+import com.tech4box.JRecord.Log.AbsSSLogger;
+import com.tech4box.JRecord.Log.TextLog;
 
 /**
  * Write a RecordLayout as a RecordEditor-CSBV layout file.
@@ -74,7 +74,7 @@ public class RecordEditorCSVWriter implements CopybookWriter {
 	
 	
 	/**
-	 * @see net.sf.JRecord.External.CopybookWriter#writeCopyBook(String, ExternalRecord, AbsSSLogger)
+	 * @see com.tech4box.JRecord.External.CopybookWriter#writeCopyBook(String, ExternalRecord, AbsSSLogger)
 	 */
 	@Override
 	public String writeCopyBook(String directory, BaseExternalRecord<?> copybook,
@@ -96,7 +96,7 @@ public class RecordEditorCSVWriter implements CopybookWriter {
 	}
 
 	/**
-	 * @see net.sf.JRecord.External.CopybookWriter#writeCopyBook(OutputStream, ExternalRecord, AbsSSLogger)
+	 * @see com.tech4box.JRecord.External.CopybookWriter#writeCopyBook(OutputStream, ExternalRecord, AbsSSLogger)
 	 */
 	@SuppressWarnings("deprecation")
 	@Override

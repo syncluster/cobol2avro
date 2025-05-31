@@ -52,9 +52,9 @@ import com.tech4box.JRecord.schema.IArrayItemCheck;
 import com.tech4box.JRecord.schema.jaxb.Condition;
 import com.tech4box.JRecord.schema.jaxb.Copybook;
 import com.tech4box.JRecord.schema.jaxb.Item;
-import net.sf.cb2xml.def.Cb2xmlConstants;
-import net.sf.cb2xml.sablecc.lexer.LexerException;
-import net.sf.cb2xml.sablecc.parser.ParserException;
+import com.tech4box.cb2xml.def.Cb2xmlConstants;
+import com.tech4box.cb2xml.sablecc.lexer.LexerException;
+import com.tech4box.cb2xml.sablecc.parser.ParserException;
 import junit.framework.TestCase;
 
 

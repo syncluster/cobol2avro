@@ -38,15 +38,15 @@ import java.io.IOException;
 import java.util.Arrays;
 
 import junit.framework.TestCase;
-import net.sf.JRecord.ByteIO.VbDumpByteReader;
-import net.sf.JRecord.ByteIO.VbDumpByteWriter;
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.External.CobolCopybookLoader;
-import net.sf.JRecord.External.CopybookLoader;
-import net.sf.JRecord.Numeric.ICopybookDialects;
-import net.sf.JRecord.zTest.Common.IO;
-import net.sf.JRecord.zTest.Common.TstConstants;
-import net.sf.JRecord.zTest.Common.TstData;
+import com.tech4box.JRecord.ByteIO.VbDumpByteReader;
+import com.tech4box.JRecord.ByteIO.VbDumpByteWriter;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.External.CobolCopybookLoader;
+import com.tech4box.JRecord.External.CopybookLoader;
+import com.tech4box.JRecord.Numeric.ICopybookDialects;
+import com.tech4box.JRecord.zTest.Common.IO;
+import com.tech4box.JRecord.zTest.Common.TstConstants;
+import com.tech4box.JRecord.zTest.Common.TstData;
 
 /**
  *

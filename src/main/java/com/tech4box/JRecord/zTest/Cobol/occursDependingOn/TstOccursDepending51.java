@@ -3,11 +3,11 @@ package com.tech4box.JRecord.zTest.Cobol.occursDependingOn;
 import java.io.IOException;
 
 import junit.framework.TestCase;
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.Details.RecordDetail;
-import net.sf.JRecord.IO.CobolIoProvider;
-import net.sf.JRecord.Numeric.ICopybookDialects;
-import net.sf.JRecord.def.IO.builders.ICobolIOBuilder;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.Details.RecordDetail;
+import com.tech4box.JRecord.IO.CobolIoProvider;
+import com.tech4box.JRecord.Numeric.ICopybookDialects;
+import com.tech4box.JRecord.def.IO.builders.ICobolIOBuilder;
 
 public class TstOccursDepending51 extends TestCase {
 

@@ -48,9 +48,9 @@ import com.tech4box.JRecord.External.CopybookLoader;
 import com.tech4box.JRecord.External.ExternalRecord;
 import com.tech4box.JRecord.External.ICopybookLoaderCobol;
 import com.tech4box.JRecord.External.base.Cb2xmlDocument;
-import net.sf.JRecord.IO.builders.CblIOBuilderMultiSchemaBase;
+import com.tech4box.JRecord.IO.builders.CblIOBuilderMultiSchemaBase;
 import com.tech4box.JRecord.Option.IReformatFieldNames;
-import net.sf.JRecord.def.IO.builders.ISchemaIOBuilder;
+import com.tech4box.JRecord.def.IO.builders.ISchemaIOBuilder;
 import com.tech4box.JRecord.schema.jaxb.Condition;
 import com.tech4box.JRecord.schema.jaxb.Copybook;
 import com.tech4box.JRecord.schema.jaxb.Item;
@@ -153,7 +153,7 @@ public class CobolSchemaReader<T> extends CblIOBuilderMultiSchemaBase<T> impleme
 	}
 
 	/* 
-	 * @see net.sf.JRecord.IO.builders.CblIOBuilderMultiSchemaBase#setSplitCopybook(int)
+	 * @see com.tech4box.JRecord.IO.builders.CblIOBuilderMultiSchemaBase#setSplitCopybook(int)
 	 */
 	@Override
 	public final T setSplitCopybook(int splitCopybook) {

@@ -29,7 +29,7 @@ package com.tech4box.JRecord.zExamples.iob.csv;
 import com.tech4box.JRecord.JRecordInterface1;
 import com.tech4box.JRecord.Common.Constants;
 import com.tech4box.JRecord.Details.AbstractLine;
-import net.sf.JRecord.IO.AbstractLineReader;
+import com.tech4box.JRecord.IO.AbstractLineReader;
 
 /**
  * Example of Reading a Binary CSV files with names on the first line

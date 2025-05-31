@@ -48,8 +48,8 @@ public interface Convert extends ICopybookDialects {
      * @return Get the Binary Definition details
      */
     public abstract Object getNumericDefinition();
-//  public abstract net.sf.cb2xml.def.NumericDefinition getNumericDefinition();
-//  using Object instead of net.sf.cb2xml.def.NumericDefinition to avoid dependency on cb2xml when
+//  public abstract com.tech4box.cb2xml.def.NumericDefinition getNumericDefinition();
+//  using Object instead of com.tech4box.cb2xml.def.NumericDefinition to avoid dependency on cb2xml when
 //  it is otherwise not needed
 
     /**

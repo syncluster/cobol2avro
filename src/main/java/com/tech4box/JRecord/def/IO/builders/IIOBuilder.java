@@ -30,7 +30,7 @@ package com.tech4box.JRecord.def.IO.builders;
 
 import java.io.IOException;
 
-import net.sf.JRecord.External.ExternalRecord;
+import com.tech4box.JRecord.External.ExternalRecord;
 
 
 /**

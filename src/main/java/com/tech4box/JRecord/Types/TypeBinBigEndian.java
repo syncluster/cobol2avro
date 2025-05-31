@@ -40,8 +40,8 @@
       
 package com.tech4box.JRecord.Types;
 
-import net.sf.JRecord.Common.Conversion;
-import net.sf.JRecord.Common.IFieldDetail;
+import com.tech4box.JRecord.Common.Conversion;
+import com.tech4box.JRecord.Common.IFieldDetail;
 
 /**
  * Type for Binary Integers - Big Endian (high to low format)

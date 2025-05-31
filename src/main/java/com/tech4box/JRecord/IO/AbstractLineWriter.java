@@ -38,8 +38,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 
-import net.sf.JRecord.Details.AbstractLine;
-import net.sf.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.Details.AbstractLine;
+import com.tech4box.JRecord.Details.LayoutDetail;
 
 
 /**

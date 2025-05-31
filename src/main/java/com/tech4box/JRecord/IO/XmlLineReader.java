@@ -44,14 +44,14 @@ import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamConstants;
 import javax.xml.stream.XMLStreamReader;
 
-import net.sf.JRecord.Common.Constants;
-import net.sf.JRecord.Common.FieldDetail;
-import net.sf.JRecord.Common.XmlConstants;
-import net.sf.JRecord.Details.AbstractLine;
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.Details.RecordDetail;
-import net.sf.JRecord.Details.XmlLine;
-import net.sf.JRecord.Types.Type;
+import com.tech4box.JRecord.Common.Constants;
+import com.tech4box.JRecord.Common.FieldDetail;
+import com.tech4box.JRecord.Common.XmlConstants;
+import com.tech4box.JRecord.Details.AbstractLine;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.Details.RecordDetail;
+import com.tech4box.JRecord.Details.XmlLine;
+import com.tech4box.JRecord.Types.Type;
 
 /**
  * This class reads an XML file and returns Each Element in the file as a AbstractLine.

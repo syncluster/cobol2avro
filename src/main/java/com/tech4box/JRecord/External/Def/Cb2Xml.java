@@ -43,13 +43,13 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.Reader;
 
-import net.sf.JRecord.Log.AbsSSLogger;
+import com.tech4box.JRecord.Log.AbsSSLogger;
 import com.tech4box.JRecord.Numeric.ConversionManager;
 import com.tech4box.JRecord.Numeric.Convert;
-import net.sf.cb2xml.CopyBookAnalyzer;
-import net.sf.cb2xml.def.NumericDefinition;
-import net.sf.cb2xml.sablecc.lexer.LexerException;
-import net.sf.cb2xml.sablecc.parser.ParserException;
+import com.tech4box.cb2xml.CopyBookAnalyzer;
+import com.tech4box.cb2xml.def.NumericDefinition;
+import com.tech4box.cb2xml.sablecc.lexer.LexerException;
+import com.tech4box.cb2xml.sablecc.parser.ParserException;
 
 import org.w3c.dom.Document;
 
@@ -87,7 +87,7 @@ public class Cb2Xml {
 
 		
 		CopyBookAnalyzer.setNumericDetails((NumericDefinition) conv.getNumericDefinition());
-		return net.sf.cb2xml.Cb2Xml2.convertToXMLDOM(file, debug, format);
+		return com.tech4box.cb2xml.Cb2Xml2.convertToXMLDOM(file, debug, format);
 //		//log = TextLog.getLog(log);
 //		
 ////		try {
@@ -143,7 +143,7 @@ public class Cb2Xml {
 		Convert conv = ConversionManager.getInstance().getConverter4code(binaryFormat) ;
 	
 		CopyBookAnalyzer.setNumericDetails((NumericDefinition) conv.getNumericDefinition());
-		return net.sf.cb2xml.Cb2Xml2.convertToXMLDOM(is, name, debug, format);
+		return com.tech4box.cb2xml.Cb2Xml2.convertToXMLDOM(is, name, debug, format);
 	}
 	
 
@@ -153,7 +153,7 @@ public class Cb2Xml {
 		Convert conv = ConversionManager.getInstance().getConverter4code(binaryFormat) ;
 	
 		CopyBookAnalyzer.setNumericDetails((NumericDefinition) conv.getNumericDefinition());
-		return net.sf.cb2xml.Cb2Xml2.convert(reader, name, debug, format);
+		return com.tech4box.cb2xml.Cb2Xml2.convert(reader, name, debug, format);
 	}
 
 }

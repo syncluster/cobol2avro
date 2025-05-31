@@ -43,26 +43,27 @@
 
 package com.tech4box.JRecord.IO;
 
-import net.sf.JRecord.ByteIO.AbstractByteReader;
-import net.sf.JRecord.ByteIO.AbstractByteWriter;
-import net.sf.JRecord.ByteIO.BinaryByteWriter;
-import net.sf.JRecord.ByteIO.ByteIOProvider;
-import net.sf.JRecord.ByteIO.ByteTextReader;
-import net.sf.JRecord.ByteIO.CsvByteReader;
-import net.sf.JRecord.ByteIO.IByteReader;
-import net.sf.JRecord.Common.AbstractManager;
-import net.sf.JRecord.Common.CommonBits;
-import net.sf.JRecord.Common.Constants;
-import net.sf.JRecord.Common.Conversion;
-import net.sf.JRecord.Common.IBasicFileSchema;
-import net.sf.JRecord.Details.CharLineProvider;
-import net.sf.JRecord.Details.DefaultLineProvider;
-import net.sf.JRecord.Details.LineProvider;
-import net.sf.JRecord.Details.XmlLineProvider;
-import net.sf.JRecord.External.Def.BasicConversion;
-import net.sf.JRecord.charIO.CsvCharReader;
-import net.sf.JRecord.charIO.ICharReader;
-import net.sf.JRecord.charIO.StandardCharReader;
+import com.tech4box.JRecord.ByteIO.AbstractByteReader;
+import com.tech4box.JRecord.ByteIO.AbstractByteWriter;
+import com.tech4box.JRecord.ByteIO.BinaryByteWriter;
+import com.tech4box.JRecord.ByteIO.ByteIOProvider;
+import com.tech4box.JRecord.ByteIO.ByteTextReader;
+import com.tech4box.JRecord.ByteIO.CsvByteReader;
+import com.tech4box.JRecord.ByteIO.IByteReader;
+import com.tech4box.JRecord.Common.AbstractManager;
+import com.tech4box.JRecord.Common.CommonBits;
+import com.tech4box.JRecord.Common.Constants;
+import com.tech4box.JRecord.Common.Conversion;
+import com.tech4box.JRecord.Common.IBasicFileSchema;
+import com.tech4box.JRecord.Details.CharLineProvider;
+import com.tech4box.JRecord.Details.DefaultLineProvider;
+import com.tech4box.JRecord.Details.LineProvider;
+import com.tech4box.JRecord.Details.XmlLineProvider;
+import com.tech4box.JRecord.External.Def.BasicConversion;
+import com.tech4box.JRecord.JRecordInterface1;
+import com.tech4box.JRecord.charIO.CsvCharReader;
+import com.tech4box.JRecord.charIO.ICharReader;
+import com.tech4box.JRecord.charIO.StandardCharReader;
 
 /**
  * LineIOprovider - This class returns a LineIO class appropriate for
@@ -70,8 +71,8 @@ import net.sf.JRecord.charIO.StandardCharReader;
  * Constants.IO_*.
  * 
  * <b>Note:</b> This is part of the "old JRecord Interface". 
- * Most users  will be better off using {@link net.sf.JRecord.net.sf.JRecord.JRecordInterface1} to 
- * create {@link net.sf.JRecord.def.IO.builders.IIOBuilder} classes.
+ * Most users  will be better off using {@link com.tech4box.JRecord.com.tech4box.JRecord.JRecordInterface1} to
+ * create {@link com.tech4box.JRecord.def.IO.builders.IIOBuilder} classes.
  *
  * <pre>
  * <b>Usage:</b>
@@ -186,7 +187,7 @@ public class LineIOProvider implements AbstractManager {
      * @param fileStructure File Structure of the required reader
      *
      * @return line reader
-     * @deprecated use {@link net.sf.JRecord.JRecordInterface1} to create {@link net.sf.JRecord.def.IO.builders.IIOBuilder} classes.
+     * @deprecated use {@link JRecordInterface1} to create {@link com.tech4box.JRecord.def.IO.builders.IIOBuilder} classes.
      * or use {@link LineIOProvider#getLineReader(IBasicFileSchema)}
      */
     public AbstractLineReader getLineReader(int fileStructure) {
@@ -195,16 +196,16 @@ public class LineIOProvider implements AbstractManager {
 
     /**
      * <b>Note:</b> This is part of the "old JRecord Interface". 
-     * Most users  will be better off using {@link net.sf.JRecord.JRecordInterface1} to 
-     * create {@link net.sf.JRecord.def.IO.builders.IIOBuilder} classes.
+     * Most users  will be better off using {@link JRecordInterface1} to
+     * create {@link com.tech4box.JRecord.def.IO.builders.IIOBuilder} classes.
      * 
      * 
      * Get Reader for Simple-Schema
      * 
      *  
      * <b>Note:</b> This is part of the "old JRecord Interface". 
-     * Most users  will be better off using {@link net.sf.JRecord.JRecordInterface1} to 
-     * create {@link net.sf.JRecord.def.IO.builders.IIOBuilder} classes.
+     * Most users  will be better off using {@link JRecordInterface1} to
+     * create {@link com.tech4box.JRecord.def.IO.builders.IIOBuilder} classes.
      * 
      * @param fs file-schema
      * 
@@ -216,8 +217,8 @@ public class LineIOProvider implements AbstractManager {
     
     /**
      * <b>Note:</b> This is part of the "old JRecord Interface". 
-     * Most users  will be better off using {@link net.sf.JRecord.JRecordInterface1} to 
-     * create {@link net.sf.JRecord.def.IO.builders.IIOBuilder} classes.
+     * Most users  will be better off using {@link JRecordInterface1} to
+     * create {@link com.tech4box.JRecord.def.IO.builders.IIOBuilder} classes.
      * 
      * Get Reader for Simple-Schema
      * 
@@ -280,7 +281,7 @@ public class LineIOProvider implements AbstractManager {
      * @param lineProvider Line-Provider used to create lines
      *
      * @return line reader
-     * @deprecated use use {@link net.sf.JRecord.JRecordInterface1} to create {@link net.sf.JRecord.def.IO.builders.IIOBuilder} classes
+     * @deprecated use use {@link JRecordInterface1} to create {@link com.tech4box.JRecord.def.IO.builders.IIOBuilder} classes
      * or {@link LineIOProvider#getLineReader(IBasicFileSchema)}
      */
     public AbstractLineReader getLineReader(int fileStructure,
@@ -330,7 +331,7 @@ public class LineIOProvider implements AbstractManager {
      * @param fileStructure File Structure
      *
      * @return record reader
-     * @deprecated  use {@link net.sf.JRecord.JRecordInterface1} to create {@link net.sf.JRecord.def.IO.builders.IIOBuilder} classes
+     * @deprecated  use {@link JRecordInterface1} to create {@link com.tech4box.JRecord.def.IO.builders.IIOBuilder} classes
      * or {@link LineIOProvider#getLineWriter(IBasicFileSchema)}
      */
     public AbstractLineWriter getLineWriter(int fileStructure) {
@@ -339,8 +340,8 @@ public class LineIOProvider implements AbstractManager {
 
     /** 
      * <b>Note:</b> This is part of the "old JRecord Interface". 
-     * Most users  will be better off using {@link net.sf.JRecord.JRecordInterface1} to 
-     * create {@link net.sf.JRecord.def.IO.builders.IIOBuilder} classes.
+     * Most users  will be better off using {@link JRecordInterface1} to
+     * create {@link com.tech4box.JRecord.def.IO.builders.IIOBuilder} classes.
 
      * Get writer for the schema
      * 
@@ -355,8 +356,8 @@ public class LineIOProvider implements AbstractManager {
     /**
      *  
      * <b>Note:</b> This is part of the "old JRecord Interface". 
-     * Most users  will be better off using {@link net.sf.JRecord.JRecordInterface1} to 
-     * create {@link net.sf.JRecord.def.IO.builders.IIOBuilder} classes.
+     * Most users  will be better off using {@link JRecordInterface1} to
+     * create {@link com.tech4box.JRecord.def.IO.builders.IIOBuilder} classes.
      *
      * Gets a Record Writer Class for fileStructure / character-set,
      * This method will probably get depreciated in favour of {@link LineIOProvider#getLineWriter(IBasicFileSchema)} 

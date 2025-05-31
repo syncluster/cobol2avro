@@ -46,14 +46,14 @@ import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 
-import net.sf.JRecord.Common.Constants;
-import net.sf.JRecord.CsvParser.ICsvCharLineParser;
-import net.sf.JRecord.CsvParser.BasicCsvLineParser;
-import net.sf.JRecord.CsvParser.CsvDefinition;
-import net.sf.JRecord.CsvParser.CsvParserManagerChar;
-import net.sf.JRecord.Details.AbstractLine;
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.Details.RecordDetail;
+import com.tech4box.JRecord.Common.Constants;
+import com.tech4box.JRecord.CsvParser.ICsvCharLineParser;
+import com.tech4box.JRecord.CsvParser.BasicCsvLineParser;
+import com.tech4box.JRecord.CsvParser.CsvDefinition;
+import com.tech4box.JRecord.CsvParser.CsvParserManagerChar;
+import com.tech4box.JRecord.Details.AbstractLine;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.Details.RecordDetail;
 
 /**
  * This class writes "Line's" to a text file

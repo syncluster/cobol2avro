@@ -7,8 +7,8 @@ import junit.framework.TestCase;
 import com.tech4box.JRecord.Common.FieldDetail;
 import com.tech4box.JRecord.Details.LayoutDetail;
 import com.tech4box.JRecord.Details.RecordDetail;
-import net.sf.JRecord.Types.Type;
-import net.sf.JRecord.def.IO.builders.ICobolIOBuilder;
+import com.tech4box.JRecord.Types.Type;
+import com.tech4box.JRecord.def.IO.builders.ICobolIOBuilder;
 
 public class CommonCodeFields {
 

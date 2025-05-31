@@ -34,8 +34,8 @@ package com.tech4box.JRecord.schema;
 import java.util.List;
 
 import com.tech4box.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.IO.builders.SchemaIOBuilder;
-import net.sf.JRecord.def.IO.builders.ISchemaIOBuilder;
+import com.tech4box.JRecord.IO.builders.SchemaIOBuilder;
+import com.tech4box.JRecord.def.IO.builders.ISchemaIOBuilder;
 import com.tech4box.JRecord.schema.jaxb.ICopybook;
 import com.tech4box.JRecord.schema.jaxb.IItem;
 

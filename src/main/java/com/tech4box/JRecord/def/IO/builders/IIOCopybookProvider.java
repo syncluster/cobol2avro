@@ -33,7 +33,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.Reader;
 
-import net.sf.JRecord.External.ExternalRecord;
+import com.tech4box.JRecord.External.ExternalRecord;
 
 /**
  * Interface to create IOBuilders the use a RecordEditor-Xml file schema

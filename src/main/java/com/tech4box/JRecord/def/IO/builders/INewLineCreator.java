@@ -30,7 +30,7 @@ package com.tech4box.JRecord.def.IO.builders;
 
 import java.io.IOException;
 
-import net.sf.JRecord.Details.AbstractLine;
+import com.tech4box.JRecord.Details.AbstractLine;
 
 /**
  * Class to create an empty Line

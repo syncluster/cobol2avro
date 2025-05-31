@@ -32,7 +32,7 @@
       
 package com.tech4box.JRecord.Types;
 
-import net.sf.JRecord.Common.IFieldDetail;
+import com.tech4box.JRecord.Common.IFieldDetail;
 
 /**
  * Type for null terminated char String (ie C style string)

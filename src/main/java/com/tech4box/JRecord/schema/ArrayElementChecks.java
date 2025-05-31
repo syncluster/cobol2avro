@@ -182,7 +182,7 @@ public class ArrayElementChecks {
 		}
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.schema.IArrayItemCheck#getCount(net.sf.JRecord.Details.AbstractLine, int)
+		 * @see com.tech4box.JRecord.schema.IArrayItemCheck#getCount(com.tech4box.JRecord.Details.AbstractLine, int)
 		 */
 		@Override
 		public int getCount(AbstractLine line, IItem item, int[] indexs, int defaultCount) {
@@ -257,7 +257,7 @@ public class ArrayElementChecks {
 		}
 		
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.schema.IArrayItemCheck#getCount(net.sf.JRecord.Details.AbstractLine, int)
+		 * @see com.tech4box.JRecord.schema.IArrayItemCheck#getCount(com.tech4box.JRecord.Details.AbstractLine, int)
 		 */
 		@Override
 		public int getCount(AbstractLine line, IItem item, int[] indexs, int defaultCount) {
@@ -265,7 +265,7 @@ public class ArrayElementChecks {
 		}
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.schema.IArrayItemCheck#updateForCount(net.sf.JRecord.Details.AbstractLine, int)
+		 * @see com.tech4box.JRecord.schema.IArrayItemCheck#updateForCount(com.tech4box.JRecord.Details.AbstractLine, int)
 		 */
 		@Override
 		public void updateForCount(AbstractLine line, IItem item, int[] indexs, int count) {
@@ -312,7 +312,7 @@ public class ArrayElementChecks {
 		}
 		
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.schema.IArrayItemCheck#getCount(net.sf.JRecord.Details.AbstractLine, int)
+		 * @see com.tech4box.JRecord.schema.IArrayItemCheck#getCount(com.tech4box.JRecord.Details.AbstractLine, int)
 		 */
 		@Override
 		public int getCount(AbstractLine line, IItem item, int[] indexs, int defaultCount) {
@@ -321,7 +321,7 @@ public class ArrayElementChecks {
 		}
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.schema.IArrayItemCheck#updateForCount(net.sf.JRecord.Details.AbstractLine, int)
+		 * @see com.tech4box.JRecord.schema.IArrayItemCheck#updateForCount(com.tech4box.JRecord.Details.AbstractLine, int)
 		 */
 		@Override
 		public void updateForCount(AbstractLine line, IItem item, int[] indexs, int count) {

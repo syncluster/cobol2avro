@@ -35,9 +35,9 @@ import com.tech4box.JRecord.Common.IFieldDetail;
 import com.tech4box.JRecord.CsvParser.ICsvCharLineParser;
 import com.tech4box.JRecord.CsvParser.CsvDefinition;
 import com.tech4box.JRecord.CsvParser.CsvParserManagerChar;
-import net.sf.JRecord.Types.Type;
-import net.sf.JRecord.Types.TypeChar;
-import net.sf.JRecord.Types.TypeManager;
+import com.tech4box.JRecord.Types.Type;
+import com.tech4box.JRecord.Types.TypeChar;
+import com.tech4box.JRecord.Types.TypeManager;
 
 public class CharLine extends BasicLine implements AbstractLine {
 

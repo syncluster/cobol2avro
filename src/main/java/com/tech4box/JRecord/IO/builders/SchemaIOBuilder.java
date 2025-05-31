@@ -28,9 +28,9 @@
 
 package com.tech4box.JRecord.IO.builders;
 
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.External.ExternalRecord;
-import net.sf.JRecord.def.IO.builders.ISchemaIOBuilder;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.External.ExternalRecord;
+import com.tech4box.JRecord.def.IO.builders.ISchemaIOBuilder;
 
 /**
  * IO Builder based on an existing File-Schema (LayoutDetail);
@@ -49,7 +49,7 @@ public class SchemaIOBuilder extends CblIOBuilderBase<ISchemaIOBuilder> implemen
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.IO.builders.CblIOBuilderBase#getExternalRecordImpl()
+	 * @see com.tech4box.JRecord.IO.builders.CblIOBuilderBase#getExternalRecordImpl()
 	 */
 	@Override
 	protected ExternalRecord getExternalRecordImpl()  {

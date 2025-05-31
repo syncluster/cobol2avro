@@ -34,7 +34,7 @@ import com.tech4box.JRecord.JRecordInterface1;
 import com.tech4box.JRecord.Common.Constants;
 import com.tech4box.JRecord.External.ExternalRecord;
 import com.tech4box.JRecord.External.Def.ExternalField;
-import net.sf.JRecord.Types.Type;
+import com.tech4box.JRecord.Types.Type;
 import junit.framework.TestCase;
 
 public class TstCheckSchema extends TestCase {

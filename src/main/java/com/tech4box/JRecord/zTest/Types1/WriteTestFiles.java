@@ -42,12 +42,12 @@ import com.tech4box.JRecord.Details.AbstractLine;
 import com.tech4box.JRecord.Details.CharLine;
 import com.tech4box.JRecord.Details.Line;
 import com.tech4box.JRecord.External.base.ExternalConversion;
-import net.sf.JRecord.IO.AbstractLineWriter;
-import net.sf.JRecord.IO.LineIOProvider;
-import net.sf.JRecord.Types.Type;
-import net.sf.JRecord.Types.TypeManager;
-import net.sf.JRecord.Types.TypeNum;
-import net.sf.JRecord.Types.TypeSignSeparate;
+import com.tech4box.JRecord.IO.AbstractLineWriter;
+import com.tech4box.JRecord.IO.LineIOProvider;
+import com.tech4box.JRecord.Types.Type;
+import com.tech4box.JRecord.Types.TypeManager;
+import com.tech4box.JRecord.Types.TypeNum;
+import com.tech4box.JRecord.Types.TypeSignSeparate;
 
 /**
  * @author Bruce Martin

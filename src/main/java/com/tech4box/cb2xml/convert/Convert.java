@@ -8,8 +8,8 @@
 
 package com.tech4box.cb2xml.convert;
 
-import net.sf.cb2xml.util.FileUtils;
-import net.sf.cb2xml.util.XmlUtils;
+import com.tech4box.cb2xml.util.FileUtils;
+import com.tech4box.cb2xml.util.XmlUtils;
 
 import org.w3c.dom.Document;
 
@@ -17,7 +17,7 @@ import org.w3c.dom.Document;
  * utility that demonstrates how to convert an XML data file into its mainframe (COBOL) equivalent
  * the copybook (in its XML form) is required for the conversion of course
  * 
- * note that files within the "net.sf.cb2xml.convert" package are not stable
+ * note that files within the "com.tech4box.cb2xml.convert" package are not stable
  * 
  * @author Peter Thomas
  */

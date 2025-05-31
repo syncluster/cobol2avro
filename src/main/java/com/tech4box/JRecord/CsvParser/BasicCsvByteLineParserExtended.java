@@ -38,7 +38,7 @@ import java.util.List;
 import com.tech4box.JRecord.Common.ByteArray;
 import com.tech4box.JRecord.Common.CommonBits;
 import com.tech4box.JRecord.Common.Conversion;
-import net.sf.JRecord.Types.Type;
+import com.tech4box.JRecord.Types.Type;
 
 /**
  * Basic CSV line parser. Basically

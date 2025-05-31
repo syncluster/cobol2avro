@@ -44,9 +44,9 @@ import com.tech4box.JRecord.Details.CsvLine;
 import com.tech4box.JRecord.Details.LayoutDetail;
 import com.tech4box.JRecord.Details.Line;
 import com.tech4box.JRecord.External.ExternalRecord;
-import net.sf.JRecord.IO.AbstractLineReader;
-import net.sf.JRecord.IO.LineIOProvider;
-import net.sf.JRecord.Types.Type;
+import com.tech4box.JRecord.IO.AbstractLineReader;
+import com.tech4box.JRecord.IO.LineIOProvider;
+import com.tech4box.JRecord.Types.Type;
 import com.tech4box.JRecord.zTest.Common.TestCommonCode;
 import junit.framework.TestCase;
 

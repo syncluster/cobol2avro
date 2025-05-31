@@ -40,9 +40,9 @@ import com.tech4box.JRecord.Details.AbstractLine;
 import com.tech4box.JRecord.Details.FieldIterator;
 import com.tech4box.JRecord.Details.LayoutDetail;
 import com.tech4box.JRecord.Details.RecordDetail;
-import net.sf.JRecord.IO.AbstractLineReader;
-import net.sf.JRecord.Types.Type;
-import net.sf.JRecord.def.IO.builders.IIOBuilder;
+import com.tech4box.JRecord.IO.AbstractLineReader;
+import com.tech4box.JRecord.Types.Type;
+import com.tech4box.JRecord.def.IO.builders.IIOBuilder;
 
 public class TstXmlSchema1 extends TestCase {
 	

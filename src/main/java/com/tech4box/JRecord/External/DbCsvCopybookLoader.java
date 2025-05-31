@@ -41,8 +41,8 @@ import com.tech4box.JRecord.CsvParser.BasicCsvLineParser;
 import com.tech4box.JRecord.CsvParser.CsvDefinition;
 import com.tech4box.JRecord.CsvParser.CsvParserManagerChar;
 import com.tech4box.JRecord.External.Def.ExternalField;
-import net.sf.JRecord.Log.AbsSSLogger;
-import net.sf.JRecord.Types.Type;
+import com.tech4box.JRecord.Log.AbsSSLogger;
+import com.tech4box.JRecord.Types.Type;
 
 import org.xml.sax.SAXException;
 

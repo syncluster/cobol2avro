@@ -35,17 +35,17 @@
 package com.tech4box.JRecord.zTest.ByteIO;
 
 import junit.framework.TestCase;
-import net.sf.JRecord.ByteIO.ByteIOProvider;
-import net.sf.JRecord.ByteIO.FixedLengthByteReader;
-import net.sf.JRecord.ByteIO.FixedLengthByteWriter;
-import net.sf.JRecord.ByteIO.FujitsuVbByteReader;
-import net.sf.JRecord.ByteIO.FujitsuVbByteWriter;
-import net.sf.JRecord.ByteIO.VbByteReader;
-import net.sf.JRecord.ByteIO.VbByteWriter;
-import net.sf.JRecord.ByteIO.VbDumpByteReader;
-import net.sf.JRecord.ByteIO.VbDumpByteWriter;
-import net.sf.JRecord.Common.BasicFileSchema;
-import net.sf.JRecord.Common.Constants;
+import com.tech4box.JRecord.ByteIO.ByteIOProvider;
+import com.tech4box.JRecord.ByteIO.FixedLengthByteReader;
+import com.tech4box.JRecord.ByteIO.FixedLengthByteWriter;
+import com.tech4box.JRecord.ByteIO.FujitsuVbByteReader;
+import com.tech4box.JRecord.ByteIO.FujitsuVbByteWriter;
+import com.tech4box.JRecord.ByteIO.VbByteReader;
+import com.tech4box.JRecord.ByteIO.VbByteWriter;
+import com.tech4box.JRecord.ByteIO.VbDumpByteReader;
+import com.tech4box.JRecord.ByteIO.VbDumpByteWriter;
+import com.tech4box.JRecord.Common.BasicFileSchema;
+import com.tech4box.JRecord.Common.Constants;
 
 /**
  *

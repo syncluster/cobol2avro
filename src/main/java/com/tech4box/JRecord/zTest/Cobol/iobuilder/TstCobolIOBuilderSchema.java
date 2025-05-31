@@ -31,18 +31,18 @@ package com.tech4box.JRecord.zTest.Cobol.iobuilder;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-import net.sf.JRecord.JRecordInterface1;
-import net.sf.JRecord.Common.Constants;
-import net.sf.JRecord.Common.FieldDetail;
-import net.sf.JRecord.Common.IFieldDetail;
-import net.sf.JRecord.Common.RecordException;
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.Details.RecordDetail;
-import net.sf.JRecord.External.CopybookLoader;
-import net.sf.JRecord.IO.CobolIoProvider;
-import net.sf.JRecord.Numeric.ICopybookDialects;
-import net.sf.JRecord.def.IO.builders.ICobolIOBuilder;
-import net.sf.cb2xml.def.Cb2xmlConstants;
+import com.tech4box.JRecord.JRecordInterface1;
+import com.tech4box.JRecord.Common.Constants;
+import com.tech4box.JRecord.Common.FieldDetail;
+import com.tech4box.JRecord.Common.IFieldDetail;
+import com.tech4box.JRecord.Common.RecordException;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.Details.RecordDetail;
+import com.tech4box.JRecord.External.CopybookLoader;
+import com.tech4box.JRecord.IO.CobolIoProvider;
+import com.tech4box.JRecord.Numeric.ICopybookDialects;
+import com.tech4box.JRecord.def.IO.builders.ICobolIOBuilder;
+import com.tech4box.cb2xml.def.Cb2xmlConstants;
 import junit.framework.TestCase;
 
 public class TstCobolIOBuilderSchema extends TestCase {

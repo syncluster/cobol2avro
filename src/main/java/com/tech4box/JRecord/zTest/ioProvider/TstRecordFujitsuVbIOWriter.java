@@ -45,11 +45,11 @@ import com.tech4box.JRecord.Details.LayoutDetail;
 import com.tech4box.JRecord.External.CobolCopybookLoader;
 import com.tech4box.JRecord.External.CopybookLoader;
 import com.tech4box.JRecord.External.ToLayoutDetail;
-import net.sf.JRecord.IO.LineIOProvider;
+import com.tech4box.JRecord.IO.LineIOProvider;
 import com.tech4box.JRecord.Numeric.ICopybookDialects;
-import net.sf.JRecord.zTest.Common.IO;
+import com.tech4box.JRecord.zTest.Common.IO;
 import com.tech4box.JRecord.zTest.Common.TstConstants;
-import net.sf.JRecord.zTest.Common.TstData;
+import com.tech4box.JRecord.zTest.Common.TstData;
 
 /**
  *

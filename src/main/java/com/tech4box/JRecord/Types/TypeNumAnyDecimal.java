@@ -27,9 +27,9 @@ package com.tech4box.JRecord.Types;
 
 import java.math.BigDecimal;
 
-import net.sf.JRecord.Common.Conversion;
-import net.sf.JRecord.Common.IFieldDetail;
-import net.sf.JRecord.Common.RecordException;
+import com.tech4box.JRecord.Common.Conversion;
+import com.tech4box.JRecord.Common.IFieldDetail;
+import com.tech4box.JRecord.Common.RecordException;
 
 public class TypeNumAnyDecimal extends TypeNum {
 
@@ -39,7 +39,7 @@ public class TypeNumAnyDecimal extends TypeNum {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Types.TypeNum#addDecimalPoint(java.lang.String, int)
+	 * @see com.tech4box.JRecord.Types.TypeNum#addDecimalPoint(java.lang.String, int)
 	 */
 	@Override
 	protected String addDecimalPoint(String s, int decimal) {
@@ -56,7 +56,7 @@ public class TypeNumAnyDecimal extends TypeNum {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Types.TypeNum#formatValueForRecord(net.sf.JRecord.Common.FieldDetail, java.lang.String)
+	 * @see com.tech4box.JRecord.Types.TypeNum#formatValueForRecord(com.tech4box.JRecord.Common.FieldDetail, java.lang.String)
 	 */
 	@Override
 	public String formatValueForRecord(IFieldDetail field, String val) {
@@ -80,7 +80,7 @@ public class TypeNumAnyDecimal extends TypeNum {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Types.TypeNum#hasFloatingDecimal()
+	 * @see com.tech4box.JRecord.Types.TypeNum#hasFloatingDecimal()
 	 */
 	@Override
 	public boolean hasFloatingDecimal() {

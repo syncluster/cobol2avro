@@ -12,8 +12,8 @@ import java.io.BufferedReader;
 import java.io.Reader;
 import java.io.StringReader;
 
-import net.sf.cb2xml.def.Cb2xmlConstants;
-import net.sf.cb2xml.util.XmlUtils;
+import com.tech4box.cb2xml.def.Cb2xmlConstants;
+import com.tech4box.cb2xml.util.XmlUtils;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -25,7 +25,7 @@ import org.w3c.dom.Text;
 * given the XML form of the copybook
 * to-do: all the stuff related to COMP fields, packed decimal amd all other non-straightforward field types
 * 
-*  * note that files within the "net.sf.cb2xml.convert" package are not stable
+*  * note that files within the "com.tech4box.cb2xml.convert" package are not stable
 * 
 * @author Peter Thomas
 */

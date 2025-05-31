@@ -25,7 +25,7 @@
       
 package com.tech4box.JRecord.Numeric;
 
-import net.sf.JRecord.Types.Type;
+import com.tech4box.JRecord.Types.Type;
 
 
 /**
@@ -65,7 +65,7 @@ public class CommaDecimal implements Convert {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Numeric.Convert#getTypeIdentifier(java.lang.String, java.lang.String, boolean, boolean, java.lang.String)
+	 * @see com.tech4box.JRecord.Numeric.Convert#getTypeIdentifier(java.lang.String, java.lang.String, boolean, boolean, java.lang.String)
 	 */
 	@Override
 	public int getTypeIdentifier(String usage, String picture, boolean signed,

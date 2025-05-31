@@ -38,7 +38,7 @@ import java.math.BigDecimal;
 import java.util.Comparator;
 import java.util.Date;
 
-import net.sf.JRecord.Types.Type;
+import com.tech4box.JRecord.Types.Type;
 
 /**
  * This class will compare two lines

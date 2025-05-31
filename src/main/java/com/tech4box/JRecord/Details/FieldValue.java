@@ -29,7 +29,7 @@
 package com.tech4box.JRecord.Details;
 
 import com.tech4box.JRecord.Common.IFieldDetail;
-import net.sf.JRecord.Types.Type;
+import com.tech4box.JRecord.Types.Type;
 
 /**
  * Reference to one field in a line (or Record).

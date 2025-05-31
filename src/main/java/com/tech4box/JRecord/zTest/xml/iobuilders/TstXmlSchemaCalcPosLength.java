@@ -4,13 +4,13 @@ import java.io.ByteArrayInputStream;
 import java.io.IOException;
 
 import junit.framework.TestCase;
-import net.sf.JRecord.JRecordInterface1;
-import net.sf.JRecord.Common.Conversion;
-import net.sf.JRecord.Common.FieldDetail;
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.External.RecordEditorXmlLoader;
-import net.sf.JRecord.Types.Type;
-import net.sf.JRecord.zTest.Common.CommonCodeFields;
+import com.tech4box.JRecord.JRecordInterface1;
+import com.tech4box.JRecord.Common.Conversion;
+import com.tech4box.JRecord.Common.FieldDetail;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.External.RecordEditorXmlLoader;
+import com.tech4box.JRecord.Types.Type;
+import com.tech4box.JRecord.zTest.Common.CommonCodeFields;
 
 
 /**

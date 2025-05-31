@@ -98,7 +98,7 @@ public class CsvByteReader extends BaseByteTextReader {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.ByteIO.BaseByteTextReader#getEolPosition()
+	 * @see com.tech4box.JRecord.ByteIO.BaseByteTextReader#getEolPosition()
 	 */
 	@Override
 	protected int getEolPosition() {
@@ -132,7 +132,7 @@ public class CsvByteReader extends BaseByteTextReader {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.ByteIO.BaseByteTextReader#open(java.io.InputStream)
+	 * @see com.tech4box.JRecord.ByteIO.BaseByteTextReader#open(java.io.InputStream)
 	 */
 	@Override
 	protected void  setLineSearch() {
@@ -412,7 +412,7 @@ public class CsvByteReader extends BaseByteTextReader {
 	private class StdLineNoDtls implements ILineNoDtls {
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.ByteIO.CsvByteReader.ILineNoDtls#getNoLines()
+		 * @see com.tech4box.JRecord.ByteIO.CsvByteReader.ILineNoDtls#getNoLines()
 		 */
 		@Override
 		public int getNoLines() {
@@ -420,7 +420,7 @@ public class CsvByteReader extends BaseByteTextReader {
 		}
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.ByteIO.CsvByteReader.ILineNoDtls#incNoLines()
+		 * @see com.tech4box.JRecord.ByteIO.CsvByteReader.ILineNoDtls#incNoLines()
 		 */
 		@Override
 		public void incNoLines() {
@@ -428,7 +428,7 @@ public class CsvByteReader extends BaseByteTextReader {
 		}
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.ByteIO.CsvByteReader.ILineNoDtls#isQuoteEscEol()
+		 * @see com.tech4box.JRecord.ByteIO.CsvByteReader.ILineNoDtls#isQuoteEscEol()
 		 */
 		@Override
 		public boolean isQuoteEscEol(int quoteEscPos, int start) {
@@ -452,7 +452,7 @@ public class CsvByteReader extends BaseByteTextReader {
 		int noLines = 0;
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.ByteIO.CsvByteReader.ILineNoDtls#getNoLines()
+		 * @see com.tech4box.JRecord.ByteIO.CsvByteReader.ILineNoDtls#getNoLines()
 		 */
 		@Override
 		public int getNoLines() {
@@ -460,7 +460,7 @@ public class CsvByteReader extends BaseByteTextReader {
 		}
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.ByteIO.CsvByteReader.ILineNoDtls#incNoLines()
+		 * @see com.tech4box.JRecord.ByteIO.CsvByteReader.ILineNoDtls#incNoLines()
 		 */
 		@Override
 		public void incNoLines() {
@@ -468,7 +468,7 @@ public class CsvByteReader extends BaseByteTextReader {
 		}
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.ByteIO.CsvByteReader.ILineNoDtls#isQuoteEscEol()
+		 * @see com.tech4box.JRecord.ByteIO.CsvByteReader.ILineNoDtls#isQuoteEscEol()
 		 */
 		@Override
 		public boolean isQuoteEscEol(int quoteEscPos, int start) {

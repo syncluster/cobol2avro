@@ -35,7 +35,7 @@
 
 package com.tech4box.JRecord.External;
 
-import net.sf.JRecord.Log.AbsSSLogger;
+import com.tech4box.JRecord.Log.AbsSSLogger;
 import com.tech4box.JRecord.Option.ICobolSplitOptions;
 
 

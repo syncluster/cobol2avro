@@ -42,9 +42,9 @@ import com.tech4box.JRecord.ExternalRecordSelection.ExternalGroupSelection;
 import com.tech4box.JRecord.ExternalRecordSelection.ExternalSelection;
 import com.tech4box.JRecord.ExternalRecordSelection.StreamLine;
 import com.tech4box.JRecord.Option.IRecordPositionOption;
-import net.sf.JRecord.Types.TypeManager;
+import com.tech4box.JRecord.Types.TypeManager;
 
-//import net.sf.RecordEditor.utils.Common;
+//import com.tech4box.RecordEditor.utils.Common;
 
 /**
  *  This class holds the interchange format of of a RecordLayout.
@@ -386,6 +386,7 @@ public class BaseExternalRecord<xRecord extends BaseExternalRecord<xRecord>> ext
    * 
    * @deprecated Was originally Used in the RecordEditor; it serves not purpose in JRecord. 
    */
+  @Deprecated
   public void setSystem(int val) {
 
       if ((val != system) || (updateStatus == NULL_INT_VALUE)) {
@@ -435,6 +436,7 @@ public class BaseExternalRecord<xRecord extends BaseExternalRecord<xRecord>> ext
    * 
    * @deprecated Was originally Used in the RecordEditor; it serves not purpose in JRecord. 
    */
+  @Deprecated
   public void setCopyBook(String val) {
 
       if ((val == null || "".equals(val))
@@ -722,7 +724,7 @@ public class BaseExternalRecord<xRecord extends BaseExternalRecord<xRecord>> ext
 //  Code for implementing IBasicSchema
 //
 //	/* (non-Javadoc)
-//	 * @see net.sf.JRecord.Common.IBasicFileSchema#isBinary()
+//	 * @see com.tech4box.JRecord.Common.IBasicFileSchema#isBinary()
 //	 */
 //	//@Override
 //	public boolean isBinary() {
@@ -742,7 +744,7 @@ public class BaseExternalRecord<xRecord extends BaseExternalRecord<xRecord>> ext
 //	}
 //
 //	/* (non-Javadoc)
-//	 * @see net.sf.JRecord.Common.IBasicFileSchema#getMaximumRecordLength()
+//	 * @see com.tech4box.JRecord.Common.IBasicFileSchema#getMaximumRecordLength()
 //	 */
 //	//@Override
 //	public int getMaximumRecordLength() {
@@ -979,6 +981,7 @@ public class BaseExternalRecord<xRecord extends BaseExternalRecord<xRecord>> ext
 	 * @return System Name
 	 * @deprecated Was originally Used in the RecordEditor; it serves not purpose in JRecord. 
 	 */
+    @Deprecated
 	public String getSystemName() {
 		return systemName;
 	}
@@ -989,6 +992,7 @@ public class BaseExternalRecord<xRecord extends BaseExternalRecord<xRecord>> ext
 	 * 
 	 * @deprecated Was originally Used in the RecordEditor; it serves not purpose in JRecord. 
 	 */
+    @Deprecated
 	public void setSystemName(String newSystemName) {
 		this.systemName = newSystemName;
 	}
@@ -1000,7 +1004,8 @@ public class BaseExternalRecord<xRecord extends BaseExternalRecord<xRecord>> ext
 	 * @return the tstField
 	 *
 	 * @deprecated Use getTstFields
-	 */ @Deprecated
+	 */
+    @Deprecated
 	public String getTstField() {
 
 		ExternalFieldSelection f = getFirstSelection(recSelect);
@@ -1019,7 +1024,8 @@ public class BaseExternalRecord<xRecord extends BaseExternalRecord<xRecord>> ext
 	 * @param value Value to compare field to
 	 *
 	 *  @deprecated  use addTstField
-	 */ @Deprecated
+	 */
+    @Deprecated
 	public void setTstField(String tstField, String value) {
 
 		recSelect = new ExternalFieldSelection(tstField, value);
@@ -1059,6 +1065,7 @@ public class BaseExternalRecord<xRecord extends BaseExternalRecord<xRecord>> ext
 	 * @return the tstFieldValue
 	 * @deprecated Use getTstFields
 	 */
+    @Deprecated
 	public String getTstFieldValue() {
 		ExternalFieldSelection f = getFirstSelection(recSelect);
 		if (f == null) {

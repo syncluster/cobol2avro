@@ -30,11 +30,11 @@ package com.tech4box.JRecord.zTest.line;
 
 import java.io.ByteArrayInputStream;
 
-import net.sf.JRecord.Details.AbstractLine;
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.External.RecordEditorXmlLoader;
-import net.sf.JRecord.IO.AbstractLineReader;
-import net.sf.JRecord.IO.LineIOProvider;
+import com.tech4box.JRecord.Details.AbstractLine;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.External.RecordEditorXmlLoader;
+import com.tech4box.JRecord.IO.AbstractLineReader;
+import com.tech4box.JRecord.IO.LineIOProvider;
 import junit.framework.TestCase;
 
 /**

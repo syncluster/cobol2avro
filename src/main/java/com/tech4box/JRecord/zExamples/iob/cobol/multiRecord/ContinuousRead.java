@@ -37,9 +37,9 @@ import com.tech4box.JRecord.Details.Line;
 import com.tech4box.JRecord.External.CopybookLoader;
 import com.tech4box.JRecord.External.ExternalRecord;
 import com.tech4box.JRecord.ExternalRecordSelection.ExternalFieldSelection;
-import net.sf.JRecord.IO.ContinuousLineReader;
+import com.tech4box.JRecord.IO.ContinuousLineReader;
 import com.tech4box.JRecord.Numeric.ICopybookDialects;
-import net.sf.JRecord.def.IO.builders.ICobolIOBuilder;
+import com.tech4box.JRecord.def.IO.builders.ICobolIOBuilder;
 
 public class ContinuousRead {
 

@@ -2,10 +2,10 @@ package com.tech4box.JRecord.zTest.Cobol.occursDependingOn;
 
 import java.io.IOException;
 
-import net.sf.JRecord.Details.AbstractLine;
-import net.sf.JRecord.IO.CobolIoProvider;
-import net.sf.JRecord.Numeric.ICopybookDialects;
-import net.sf.JRecord.def.IO.builders.ICobolIOBuilder;
+import com.tech4box.JRecord.Details.AbstractLine;
+import com.tech4box.JRecord.IO.CobolIoProvider;
+import com.tech4box.JRecord.Numeric.ICopybookDialects;
+import com.tech4box.JRecord.def.IO.builders.ICobolIOBuilder;
 
 public class WriteOD61 {
 

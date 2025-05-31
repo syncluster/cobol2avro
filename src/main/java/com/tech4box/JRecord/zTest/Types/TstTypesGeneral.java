@@ -33,23 +33,23 @@ import java.util.HashSet;
 import java.util.Random;
 
 import junit.framework.TestCase;
-import net.sf.JRecord.Common.AbstractFieldValue;
-import net.sf.JRecord.Common.CommonBits;
-import net.sf.JRecord.Common.Constants;
-import net.sf.JRecord.Common.Conversion;
-import net.sf.JRecord.Common.FieldDetail;
-import net.sf.JRecord.Common.RecordException;
-import net.sf.JRecord.Details.AbstractLine;
-import net.sf.JRecord.Details.CharLine;
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.Details.Line;
-import net.sf.JRecord.External.CopybookLoader;
-import net.sf.JRecord.Numeric.ICopybookDialects;
-import net.sf.JRecord.Types.Type;
-import net.sf.JRecord.Types.TypeManager;
-import net.sf.JRecord.Types.TypeNum;
-import net.sf.JRecord.Types.TypeSignSeparate;
-import net.sf.JRecord.zTest.Common.TestCommonCode;
+import com.tech4box.JRecord.Common.AbstractFieldValue;
+import com.tech4box.JRecord.Common.CommonBits;
+import com.tech4box.JRecord.Common.Constants;
+import com.tech4box.JRecord.Common.Conversion;
+import com.tech4box.JRecord.Common.FieldDetail;
+import com.tech4box.JRecord.Common.RecordException;
+import com.tech4box.JRecord.Details.AbstractLine;
+import com.tech4box.JRecord.Details.CharLine;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.Details.Line;
+import com.tech4box.JRecord.External.CopybookLoader;
+import com.tech4box.JRecord.Numeric.ICopybookDialects;
+import com.tech4box.JRecord.Types.Type;
+import com.tech4box.JRecord.Types.TypeManager;
+import com.tech4box.JRecord.Types.TypeNum;
+import com.tech4box.JRecord.Types.TypeSignSeparate;
+import com.tech4box.JRecord.zTest.Common.TestCommonCode;
 
 
 /**

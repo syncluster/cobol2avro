@@ -42,11 +42,11 @@ import com.tech4box.JRecord.Details.AbstractLine;
 import com.tech4box.JRecord.Details.LayoutDetail;
 import com.tech4box.JRecord.Details.Line;
 import com.tech4box.JRecord.External.ExternalRecord;
-import net.sf.JRecord.IO.AbstractLineReader;
-import net.sf.JRecord.IO.AbstractLineWriter;
-import net.sf.JRecord.IO.LineIOProvider;
-import net.sf.JRecord.Types.Type;
-import net.sf.JRecord.zTest.Common.TstData;
+import com.tech4box.JRecord.IO.AbstractLineReader;
+import com.tech4box.JRecord.IO.AbstractLineWriter;
+import com.tech4box.JRecord.IO.LineIOProvider;
+import com.tech4box.JRecord.Types.Type;
+import com.tech4box.JRecord.zTest.Common.TstData;
 
 /**
  * Do basic check of Csv-Readers/Writers with Helper methods

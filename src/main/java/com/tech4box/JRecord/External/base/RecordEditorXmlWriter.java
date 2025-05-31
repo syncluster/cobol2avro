@@ -42,7 +42,7 @@ import com.tech4box.JRecord.ExternalRecordSelection.ExternalFieldSelection;
 import com.tech4box.JRecord.ExternalRecordSelection.ExternalGroupSelection;
 import com.tech4box.JRecord.ExternalRecordSelection.ExternalSelection;
 import com.tech4box.JRecord.ExternalRecordSelection.StreamLine;
-import net.sf.JRecord.Log.AbsSSLogger;
+import com.tech4box.JRecord.Log.AbsSSLogger;
 import com.tech4box.JRecord.detailsSelection.RecordSel;
 
 /**

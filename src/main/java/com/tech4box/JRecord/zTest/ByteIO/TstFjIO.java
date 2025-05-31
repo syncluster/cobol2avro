@@ -31,9 +31,9 @@ package com.tech4box.JRecord.zTest.ByteIO;
 import java.io.IOException;
 
 import junit.framework.TestCase;
-import net.sf.JRecord.ByteIO.FujitsuVbByteReader;
-import net.sf.JRecord.ByteIO.FujitsuVbByteWriter;
-import net.sf.JRecord.zTest.Common.TstConstants;
+import com.tech4box.JRecord.ByteIO.FujitsuVbByteReader;
+import com.tech4box.JRecord.ByteIO.FujitsuVbByteWriter;
+import com.tech4box.JRecord.zTest.Common.TstConstants;
 
 
 public class TstFjIO extends TestCase {

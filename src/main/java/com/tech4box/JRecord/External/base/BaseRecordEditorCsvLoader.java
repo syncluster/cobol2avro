@@ -50,10 +50,10 @@ import com.tech4box.JRecord.CsvParser.BasicCsvLineParser;
 import com.tech4box.JRecord.CsvParser.CsvDefinition;
 import com.tech4box.JRecord.External.Def.ExternalField;
 import com.tech4box.JRecord.ExternalRecordSelection.ExternalFieldSelection;
-import net.sf.JRecord.Log.AbsSSLogger;
-import net.sf.JRecord.Log.TextLog;
+import com.tech4box.JRecord.Log.AbsSSLogger;
+import com.tech4box.JRecord.Log.TextLog;
 import com.tech4box.JRecord.Numeric.ICopybookDialects;
-import net.sf.JRecord.Types.Type;
+import com.tech4box.JRecord.Types.Type;
 
 /**
  * This class reads a Record Layout (Copybook) stored in a  tab delimited file.

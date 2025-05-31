@@ -28,15 +28,15 @@
 
 package com.tech4box.JRecord.cgen.impl;
 
-import net.sf.JRecord.Common.FieldDetail;
-import net.sf.JRecord.Common.IFieldDetail;
-import net.sf.JRecord.Details.RecordDetail;
-import net.sf.JRecord.External.Def.DependingOnDtls;
-import net.sf.JRecord.Types.Type;
-import net.sf.JRecord.cgen.def.IArray1Dimension;
-import net.sf.JRecord.cgen.def.IArray2Dimension;
-import net.sf.JRecord.cgen.def.IArray3Dimension;
-import net.sf.JRecord.cgen.def.IArrayAnyDimension;
+import com.tech4box.JRecord.Common.FieldDetail;
+import com.tech4box.JRecord.Common.IFieldDetail;
+import com.tech4box.JRecord.Details.RecordDetail;
+import com.tech4box.JRecord.External.Def.DependingOnDtls;
+import com.tech4box.JRecord.Types.Type;
+import com.tech4box.JRecord.cgen.def.IArray1Dimension;
+import com.tech4box.JRecord.cgen.def.IArray2Dimension;
+import com.tech4box.JRecord.cgen.def.IArray3Dimension;
+import com.tech4box.JRecord.cgen.def.IArrayAnyDimension;
 
 public class ArrayFieldDefinition implements IArray1Dimension, IArray2Dimension, IArray3Dimension, IArrayAnyDimension {
 
@@ -79,7 +79,7 @@ public class ArrayFieldDefinition implements IArray1Dimension, IArray2Dimension,
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.cgen.def.IArray3Dimension#get(int, int, int)
+	 * @see com.tech4box.JRecord.cgen.def.IArray3Dimension#get(int, int, int)
 	 */
 	@Override
 	public IFieldDetail get(int index1, int index2, int index3) {
@@ -87,7 +87,7 @@ public class ArrayFieldDefinition implements IArray1Dimension, IArray2Dimension,
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.cgen.def.IArray2Dimension#get(int, int)
+	 * @see com.tech4box.JRecord.cgen.def.IArray2Dimension#get(int, int)
 	 */
 	@Override
 	public IFieldDetail get(int index1, int index2) {
@@ -95,7 +95,7 @@ public class ArrayFieldDefinition implements IArray1Dimension, IArray2Dimension,
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.cgen.def.IArray1Dimension#get(int)
+	 * @see com.tech4box.JRecord.cgen.def.IArray1Dimension#get(int)
 	 */
 	@Override
 	public IFieldDetail get(int indexs) {
@@ -178,7 +178,7 @@ public class ArrayFieldDefinition implements IArray1Dimension, IArray2Dimension,
 	}
 	
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.cgen.def.IArrayAnyDimension#getIndexCount()
+	 * @see com.tech4box.JRecord.cgen.def.IArrayAnyDimension#getIndexCount()
 	 */
 	@Override
 	public int getIndexCount() {

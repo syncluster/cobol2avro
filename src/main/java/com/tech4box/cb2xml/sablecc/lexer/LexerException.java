@@ -2,7 +2,7 @@
 
 package com.tech4box.cb2xml.sablecc.lexer;
 
-import net.sf.cb2xml.sablecc.node.*;
+import com.tech4box.cb2xml.sablecc.node.*;
 
 @SuppressWarnings("serial")
 public class LexerException extends Exception

@@ -35,14 +35,14 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 
 import junit.framework.TestCase;
-import net.sf.JRecord.JRecordInterface1;
-import net.sf.JRecord.Common.Constants;
-import net.sf.JRecord.Common.Conversion;
-import net.sf.JRecord.External.CopybookLoader;
-import net.sf.JRecord.ExternalRecordSelection.ExternalFieldSelection;
-import net.sf.JRecord.Numeric.ICopybookDialects;
-import net.sf.JRecord.def.IO.builders.ICobolIOBuilder;
-import net.sf.JRecord.def.IO.builders.ICobolMultiCopybookIOBuilder;
+import com.tech4box.JRecord.JRecordInterface1;
+import com.tech4box.JRecord.Common.Constants;
+import com.tech4box.JRecord.Common.Conversion;
+import com.tech4box.JRecord.External.CopybookLoader;
+import com.tech4box.JRecord.ExternalRecordSelection.ExternalFieldSelection;
+import com.tech4box.JRecord.Numeric.ICopybookDialects;
+import com.tech4box.JRecord.def.IO.builders.ICobolIOBuilder;
+import com.tech4box.JRecord.def.IO.builders.ICobolMultiCopybookIOBuilder;
 
 
 public class TstMultiCopybookRead05 extends TestCase {

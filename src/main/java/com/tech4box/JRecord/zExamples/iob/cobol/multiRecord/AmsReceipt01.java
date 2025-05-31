@@ -27,9 +27,9 @@ package com.tech4box.JRecord.zExamples.iob.cobol.multiRecord;
 
 import com.tech4box.JRecord.JRecordInterface1;
 import com.tech4box.JRecord.Details.AbstractLine;
-import net.sf.JRecord.IO.AbstractLineReader;
+import com.tech4box.JRecord.IO.AbstractLineReader;
 import com.tech4box.JRecord.Numeric.ICopybookDialects;
-import net.sf.JRecord.def.IO.builders.ICobolIOBuilder;
+import com.tech4box.JRecord.def.IO.builders.ICobolIOBuilder;
 
 
 

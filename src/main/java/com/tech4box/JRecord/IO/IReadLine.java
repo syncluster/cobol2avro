@@ -30,7 +30,7 @@ package com.tech4box.JRecord.IO;
 
 import java.io.IOException;
 
-import net.sf.JRecord.Details.AbstractLine;
+import com.tech4box.JRecord.Details.AbstractLine;
 
 public interface IReadLine {
 

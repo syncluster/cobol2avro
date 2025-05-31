@@ -33,7 +33,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import net.sf.JRecord.ByteIO.VbsByteReader;
+import com.tech4box.JRecord.ByteIO.VbsByteReader;
 import junit.framework.TestCase;
 
 /**

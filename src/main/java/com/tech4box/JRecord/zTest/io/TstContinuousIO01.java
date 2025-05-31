@@ -33,18 +33,18 @@ import java.io.ByteArrayOutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.sf.JRecord.Common.Constants;
-import net.sf.JRecord.Details.AbstractLine;
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.Details.Line;
-import net.sf.JRecord.External.CopybookLoader;
-import net.sf.JRecord.External.ExternalRecord;
-import net.sf.JRecord.ExternalRecordSelection.ExternalFieldSelection;
-import net.sf.JRecord.IO.CobolIoProvider;
-import net.sf.JRecord.IO.ContinuousLineReader;
-import net.sf.JRecord.IO.ContinuousLineWriter;
-import net.sf.JRecord.Numeric.ICopybookDialects;
-import net.sf.JRecord.def.IO.builders.ICobolIOBuilder;
+import com.tech4box.JRecord.Common.Constants;
+import com.tech4box.JRecord.Details.AbstractLine;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.Details.Line;
+import com.tech4box.JRecord.External.CopybookLoader;
+import com.tech4box.JRecord.External.ExternalRecord;
+import com.tech4box.JRecord.ExternalRecordSelection.ExternalFieldSelection;
+import com.tech4box.JRecord.IO.CobolIoProvider;
+import com.tech4box.JRecord.IO.ContinuousLineReader;
+import com.tech4box.JRecord.IO.ContinuousLineWriter;
+import com.tech4box.JRecord.Numeric.ICopybookDialects;
+import com.tech4box.JRecord.def.IO.builders.ICobolIOBuilder;
 import junit.framework.TestCase;
 
 /**

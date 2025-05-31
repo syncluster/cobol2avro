@@ -32,7 +32,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.Reader;
 
-import net.sf.JRecord.Log.AbsSSLogger;
+import com.tech4box.JRecord.Log.AbsSSLogger;
 
 public interface ICopybookLoaderStream extends CopybookLoader {
 

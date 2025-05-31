@@ -51,7 +51,7 @@ public class PropertyManager {
 
         String baseDirectory = "/home/bm/RecordEdit/HSQLDB/lib";
 
-        URL o = PropertyManager.class.getClassLoader().getResource("net/sf/JRecord/Common/PropertyManager.class");
+        URL o = PropertyManager.class.getClassLoader().getResource("com.tech4box/JRecord/Common/PropertyManager.class");
 
         if (o != null) {
             String dir = o.toString();

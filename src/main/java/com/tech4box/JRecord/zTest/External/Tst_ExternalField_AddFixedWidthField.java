@@ -10,7 +10,7 @@ import com.tech4box.JRecord.External.ExternalRecord;
 import com.tech4box.JRecord.External.ExternalRecord.FieldAdjustmentOptions;
 import com.tech4box.JRecord.External.Def.ExternalField;
 import com.tech4box.JRecord.Numeric.ICopybookDialects;
-import net.sf.JRecord.Types.Type;
+import com.tech4box.JRecord.Types.Type;
 
 public class Tst_ExternalField_AddFixedWidthField extends TestCase {
 	

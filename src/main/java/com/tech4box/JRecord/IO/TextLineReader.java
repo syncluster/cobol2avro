@@ -43,19 +43,19 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
-import net.sf.JRecord.Common.Constants;
-import net.sf.JRecord.Common.FieldDetail;
-import net.sf.JRecord.Common.IFieldDetail;
-import net.sf.JRecord.CsvParser.ICsvCharLineParser;
-import net.sf.JRecord.CsvParser.CsvDefinition;
-import net.sf.JRecord.CsvParser.CsvParserManagerChar;
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.Details.LineProvider;
-import net.sf.JRecord.Details.RecordDetail;
-import net.sf.JRecord.Types.Type;
-import net.sf.JRecord.charIO.ICharReader;
-import net.sf.JRecord.charIO.StandardCharReader;
-import net.sf.JRecord.definitiuons.CsvCharDetails;
+import com.tech4box.JRecord.Common.Constants;
+import com.tech4box.JRecord.Common.FieldDetail;
+import com.tech4box.JRecord.Common.IFieldDetail;
+import com.tech4box.JRecord.CsvParser.ICsvCharLineParser;
+import com.tech4box.JRecord.CsvParser.CsvDefinition;
+import com.tech4box.JRecord.CsvParser.CsvParserManagerChar;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.Details.LineProvider;
+import com.tech4box.JRecord.Details.RecordDetail;
+import com.tech4box.JRecord.Types.Type;
+import com.tech4box.JRecord.charIO.ICharReader;
+import com.tech4box.JRecord.charIO.StandardCharReader;
+import com.tech4box.JRecord.definitiuons.CsvCharDetails;
 
 
 /**

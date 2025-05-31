@@ -32,14 +32,14 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 
-import net.sf.JRecord.Common.Constants;
-import net.sf.JRecord.Common.Conversion;
-import net.sf.JRecord.Common.RecordException;
-import net.sf.JRecord.IO.AbstractLineReader;
-import net.sf.JRecord.IO.AbstractLineWriter;
-import net.sf.JRecord.IO.CobolIoProvider;
-import net.sf.JRecord.Numeric.ICopybookDialects;
-import net.sf.JRecord.def.IO.builders.ICobolIOBuilder;
+import com.tech4box.JRecord.Common.Constants;
+import com.tech4box.JRecord.Common.Conversion;
+import com.tech4box.JRecord.Common.RecordException;
+import com.tech4box.JRecord.IO.AbstractLineReader;
+import com.tech4box.JRecord.IO.AbstractLineWriter;
+import com.tech4box.JRecord.IO.CobolIoProvider;
+import com.tech4box.JRecord.Numeric.ICopybookDialects;
+import com.tech4box.JRecord.def.IO.builders.ICobolIOBuilder;
 import junit.framework.TestCase;
 
 public class TstReadingWriting60 extends TestCase {

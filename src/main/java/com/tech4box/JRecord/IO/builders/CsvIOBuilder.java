@@ -30,11 +30,11 @@ package com.tech4box.JRecord.IO.builders;
 
 import java.io.IOException;
 
-import net.sf.JRecord.Common.Constants;
-import net.sf.JRecord.Common.RecordException;
-import net.sf.JRecord.External.ExternalRecord;
-import net.sf.JRecord.def.IO.builders.ICsvIOBuilder;
-import net.sf.JRecord.def.IO.builders.IDefineCsvFields;
+import com.tech4box.JRecord.Common.Constants;
+import com.tech4box.JRecord.Common.RecordException;
+import com.tech4box.JRecord.External.ExternalRecord;
+import com.tech4box.JRecord.def.IO.builders.ICsvIOBuilder;
+import com.tech4box.JRecord.def.IO.builders.IDefineCsvFields;
 
 public class CsvIOBuilder extends CblIOBuilderBase<ICsvIOBuilder> implements ICsvIOBuilder, IDefineCsvFields {
 
@@ -93,7 +93,7 @@ public class CsvIOBuilder extends CblIOBuilderBase<ICsvIOBuilder> implements ICs
 
 	
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.def.IO.builders.ICsvIOBuilder#setParser(int)
+	 * @see com.tech4box.JRecord.def.IO.builders.ICsvIOBuilder#setParser(int)
 	 */
 	@Override
 	public ICsvIOBuilder setParser(int csvParser) {
@@ -102,7 +102,7 @@ public class CsvIOBuilder extends CblIOBuilderBase<ICsvIOBuilder> implements ICs
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.IO.builders.CblIOBuilderBase#checkOk(boolean)
+	 * @see com.tech4box.JRecord.IO.builders.CblIOBuilderBase#checkOk(boolean)
 	 */
 	@Override
 	protected void checkOk(boolean input) {
@@ -126,7 +126,7 @@ public class CsvIOBuilder extends CblIOBuilderBase<ICsvIOBuilder> implements ICs
 	}
 
 //	/* (non-Javadoc)
-//	 * @see net.sf.JRecord.IO.builders.CblIOBuilderBase#newLine()
+//	 * @see com.tech4box.JRecord.IO.builders.CblIOBuilderBase#newLine()
 //	 */
 //	@Override
 //	public AbstractLine newLine() throws IOException {
@@ -142,7 +142,7 @@ public class CsvIOBuilder extends CblIOBuilderBase<ICsvIOBuilder> implements ICs
 	
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.External.ExternalRecord#addCsvField(java.lang.String, int, int)
+	 * @see com.tech4box.JRecord.External.ExternalRecord#addCsvField(java.lang.String, int, int)
 	 */
 	@Override
 	public IDefineCsvFields addCsvField(String name, int type, int decimal) {
@@ -153,7 +153,7 @@ public class CsvIOBuilder extends CblIOBuilderBase<ICsvIOBuilder> implements ICs
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.IO.builders.CsvIOBuilder.IDefineCsvFields#endOfRecord()
+	 * @see com.tech4box.JRecord.IO.builders.CsvIOBuilder.IDefineCsvFields#endOfRecord()
 	 */
 	@Override
 	public CsvIOBuilder endOfRecord() {

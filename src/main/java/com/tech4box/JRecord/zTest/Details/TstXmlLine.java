@@ -52,7 +52,7 @@ import com.tech4box.JRecord.Details.Line;
 import com.tech4box.JRecord.Details.RecordDetail;
 import com.tech4box.JRecord.External.CobolCopybookLoader;
 import com.tech4box.JRecord.External.CopybookLoader;
-import net.sf.JRecord.IO.XmlLineReader;
+import com.tech4box.JRecord.IO.XmlLineReader;
 import com.tech4box.JRecord.Numeric.ICopybookDialects;
 import com.tech4box.JRecord.zTest.Common.TstConstants;
 

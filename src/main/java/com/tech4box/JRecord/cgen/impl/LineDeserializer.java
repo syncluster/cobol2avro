@@ -1,7 +1,7 @@
 package com.tech4box.JRecord.cgen.impl;
 
-import net.sf.JRecord.cgen.def.IAsPojoSetData;
-import net.sf.JRecord.cgen.def.IDeserializer;
+import com.tech4box.JRecord.cgen.def.IAsPojoSetData;
+import com.tech4box.JRecord.cgen.def.IDeserializer;
 
 public class LineDeserializer<Line> implements IDeserializer<Line> {
 

@@ -355,7 +355,7 @@ implements ICsvSchemaBuilder, IFixedWidthSchemaBuilder {
 	//  Code for implementing IBasicSchema
 	//
 	//	/* (non-Javadoc)
-	//	 * @see net.sf.JRecord.Common.IBasicFileSchema#isBinary()
+	//	 * @see com.tech4box.JRecord.Common.IBasicFileSchema#isBinary()
 	//	 */
 	//	//@Override
 	//	public boolean isBinary() {
@@ -375,7 +375,7 @@ implements ICsvSchemaBuilder, IFixedWidthSchemaBuilder {
 	//	}
 	//
 	//	/* (non-Javadoc)
-	//	 * @see net.sf.JRecord.Common.IBasicFileSchema#getMaximumRecordLength()
+	//	 * @see com.tech4box.JRecord.Common.IBasicFileSchema#getMaximumRecordLength()
 	//	 */
 	//	//@Override
 	//	public int getMaximumRecordLength() {
@@ -454,7 +454,7 @@ implements ICsvSchemaBuilder, IFixedWidthSchemaBuilder {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.External.FixedWidthSchemaBuilders.IByLengthBuilder#skipBytes(int)
+	 * @see com.tech4box.JRecord.External.FixedWidthSchemaBuilders.IByLengthBuilder#skipBytes(int)
 	 */
 	@Override
 	public ExternalRecord skipBytes(int numberOfBytes) {
@@ -493,7 +493,7 @@ implements ICsvSchemaBuilder, IFixedWidthSchemaBuilder {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.External.FixedWidthSchemaBuilders.IByPositionBuilder#skipFieldPosition(int)
+	 * @see com.tech4box.JRecord.External.FixedWidthSchemaBuilders.IByPositionBuilder#skipFieldPosition(int)
 	 */
 	@Override
 	public ExternalRecord skipFieldPosition(int pos) {
@@ -693,11 +693,11 @@ implements ICsvSchemaBuilder, IFixedWidthSchemaBuilder {
 	 * Convert it the ExternalRecord Into an IOBuilder
 	 * @return
 	 */
-	public final net.sf.JRecord.def.IO.builders.ISchemaIOBuilder asIOBuilder() {
+	public final com.tech4box.JRecord.def.IO.builders.ISchemaIOBuilder asIOBuilder() {
 		LayoutDetail layoutDetail = this.asLayoutDetail();
 		return layoutDetail==null
 				? null
-				: net.sf.JRecord.IO.builders.SchemaIOBuilder.newSchemaIOBuilder(layoutDetail);
+				: com.tech4box.JRecord.IO.builders.SchemaIOBuilder.newSchemaIOBuilder(layoutDetail);
 	}
 
 

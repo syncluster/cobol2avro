@@ -2,10 +2,10 @@ package com.tech4box.JRecord.zTest.Cobol.iobuilder;
 
 import java.io.IOException;
 
-import net.sf.JRecord.JRecordInterface1;
-import net.sf.JRecord.Details.AbstractLine;
-import net.sf.JRecord.def.IO.builders.ICobolIOBuilder;
-import net.sf.JRecord.zTest.Common.TstConstants;
+import com.tech4box.JRecord.JRecordInterface1;
+import com.tech4box.JRecord.Details.AbstractLine;
+import com.tech4box.JRecord.def.IO.builders.ICobolIOBuilder;
+import com.tech4box.JRecord.zTest.Common.TstConstants;
 import junit.framework.TestCase;
 
 /**

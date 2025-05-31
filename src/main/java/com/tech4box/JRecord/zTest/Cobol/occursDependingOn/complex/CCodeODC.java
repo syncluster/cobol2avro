@@ -4,13 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 import junit.framework.TestCase;
-import net.sf.JRecord.Common.AbstractFieldValue;
-import net.sf.JRecord.Common.FieldDetail;
-import net.sf.JRecord.Common.IFieldDetail;
-import net.sf.JRecord.Common.RecordException;
-import net.sf.JRecord.Details.AbstractLine;
-import net.sf.JRecord.Details.FieldIterator;
-import net.sf.JRecord.zTest.Cobol.occursDependingOn.Code;
+import com.tech4box.JRecord.Common.AbstractFieldValue;
+import com.tech4box.JRecord.Common.FieldDetail;
+import com.tech4box.JRecord.Common.IFieldDetail;
+import com.tech4box.JRecord.Common.RecordException;
+import com.tech4box.JRecord.Details.AbstractLine;
+import com.tech4box.JRecord.Details.FieldIterator;
+import com.tech4box.JRecord.zTest.Cobol.occursDependingOn.Code;
 
 public class CCodeODC {
 	

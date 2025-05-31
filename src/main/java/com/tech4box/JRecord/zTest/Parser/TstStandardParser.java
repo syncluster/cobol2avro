@@ -31,7 +31,7 @@ package com.tech4box.JRecord.zTest.Parser;
 import junit.framework.TestCase;
 import com.tech4box.JRecord.CsvParser.CsvDefinition;
 import com.tech4box.JRecord.CsvParser.StandardCsvLineParser;
-import net.sf.JRecord.Types.Type;
+import com.tech4box.JRecord.Types.Type;
 
 public class TstStandardParser extends TestCase {
 

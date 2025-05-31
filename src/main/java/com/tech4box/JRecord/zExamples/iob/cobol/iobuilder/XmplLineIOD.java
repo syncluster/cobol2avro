@@ -40,9 +40,9 @@ package com.tech4box.JRecord.zExamples.iob.cobol.iobuilder;
 
 import com.tech4box.JRecord.Common.Constants;
 import com.tech4box.JRecord.Details.AbstractLine;
-import net.sf.JRecord.IO.AbstractLineReader;
-import net.sf.JRecord.IO.CobolIoProvider;
-import net.sf.JRecord.def.IO.builders.ICobolIOBuilder;
+import com.tech4box.JRecord.IO.AbstractLineReader;
+import com.tech4box.JRecord.IO.CobolIoProvider;
+import com.tech4box.JRecord.def.IO.builders.ICobolIOBuilder;
 
 
 /**

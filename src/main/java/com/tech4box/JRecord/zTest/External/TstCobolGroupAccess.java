@@ -35,7 +35,7 @@ import com.tech4box.JRecord.JRecordInterface1;
 import com.tech4box.JRecord.Common.IFieldDetail;
 import com.tech4box.JRecord.Common.RecordException;
 import com.tech4box.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.def.IO.builders.ICobolIOBuilder;
+import com.tech4box.JRecord.def.IO.builders.ICobolIOBuilder;
 import junit.framework.TestCase;
 
 public class TstCobolGroupAccess extends TestCase {

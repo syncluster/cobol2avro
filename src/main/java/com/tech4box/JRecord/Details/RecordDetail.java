@@ -57,8 +57,8 @@ import com.tech4box.JRecord.External.Def.DependingOnDefinition;
 import com.tech4box.JRecord.External.Def.DependingOnDtls;
 import com.tech4box.JRecord.ExternalRecordSelection.ExternalSelection;
 import com.tech4box.JRecord.Option.IRecordPositionOption;
-import net.sf.JRecord.Types.TypeManager;
-import net.sf.JRecord.cgen.defc.IRecordDetail4gen;
+import com.tech4box.JRecord.Types.TypeManager;
+import com.tech4box.JRecord.cgen.defc.IRecordDetail4gen;
 import com.tech4box.JRecord.definitiuons.CsvCharDetails;
 import com.tech4box.JRecord.detailsSelection.Convert;
 import com.tech4box.JRecord.detailsSelection.FieldSelectX;
@@ -357,6 +357,7 @@ public class RecordDetail implements AbstractRecordX<FieldDetail>, ICsvDefinitio
 	 *
 	 * @deprecated use getSelectionField
 	 */
+	@Deprecated
 	public int getSelectionFieldIdx() {
 		 if (recordSelection.getElementCount() <= 0) {
 			 return Constants.NULL_INTEGER;
@@ -383,6 +384,7 @@ public class RecordDetail implements AbstractRecordX<FieldDetail>, ICsvDefinitio
 	 * @param newSelectionField the selectionFld to set
 	 * @deprecated you should do this at the External record stage before you build the layout
 	 */
+	@Deprecated
 	public final void setSelectionField(FieldDetail newSelectionField) {
 
 		 recordSelection.setRecSel(
@@ -563,6 +565,7 @@ public class RecordDetail implements AbstractRecordX<FieldDetail>, ICsvDefinitio
      *
      * @deprecated
      */
+	@Deprecated
     public String getDelimiter() {
         return delimiter.asString();
     }
@@ -585,7 +588,7 @@ public class RecordDetail implements AbstractRecordX<FieldDetail>, ICsvDefinitio
 //	}
 
 //	/**
-//	 * @see net.sf.JRecord.Common.AbstractRecord#getQuote()
+//	 * @see com.tech4box.JRecord.Common.AbstractRecord#getQuote()
 //	 */
 //    @Override
 //    public String getQuote() {
@@ -756,6 +759,7 @@ public class RecordDetail implements AbstractRecordX<FieldDetail>, ICsvDefinitio
 	 * @return requested fields
 	 * @deprecated use {@link #getGroupFields(String...)}
 	 */
+	@Deprecated
 	public final List<IFieldDetail> getFields(String fieldName, String... groupNames) {
 
 		ArrayList<IFieldDetail> ret = new ArrayList<IFieldDetail>();
@@ -821,6 +825,7 @@ public class RecordDetail implements AbstractRecordX<FieldDetail>, ICsvDefinitio
 	 * 
 	 * @deprecated {@link #getGroupFields(String...)}
 	 */
+	@Deprecated
 	public final List<IFieldDetail> getFieldsGroupsInSequence(String fieldName, String... groupNames) {
 		return getFieldsGroupsInSequence(fieldName, 0, 0, groupNames);
 	}
@@ -934,6 +939,7 @@ public class RecordDetail implements AbstractRecordX<FieldDetail>, ICsvDefinitio
 	 * 
 	 * @deprecated use {@link #getGroupField(String...)}
 	 */
+	@Deprecated
 	public final IFieldDetail getUniqueField(String fieldName, String... groupNames) {
 		List<IFieldDetail> flds = getFields(fieldName, groupNames);
 
@@ -974,6 +980,7 @@ public class RecordDetail implements AbstractRecordX<FieldDetail>, ICsvDefinitio
 	 * 
 	 * @deprecated use {@link #getGroupField(String...)}
 	 */
+	@Deprecated
 	public final IFieldDetail getUniqueFieldGroupsInSequence(String fieldName, String... groupNames) {
 		List<IFieldDetail> flds = getFieldsGroupsInSequence(fieldName, 0, 0, groupNames);
 
@@ -1116,7 +1123,7 @@ public class RecordDetail implements AbstractRecordX<FieldDetail>, ICsvDefinitio
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.AbstractRecord#calculateActualPosition(net.sf.JRecord.Common.AbstractIndexedLine, net.sf.JRecord.External.Def.DependingOnDtls, int)
+	 * @see com.tech4box.JRecord.Common.AbstractRecord#calculateActualPosition(com.tech4box.JRecord.Common.AbstractIndexedLine, com.tech4box.JRecord.External.Def.DependingOnDtls, int)
 	 */
 	@Override
 	public int calculateActualPosition(AbstractIndexedLine line, DependingOnDtls dependingOnDtls, int pos) {
@@ -1133,7 +1140,7 @@ public class RecordDetail implements AbstractRecordX<FieldDetail>, ICsvDefinitio
 	}
 
 //	/* (non-Javadoc)
-//	 * @see net.sf.JRecord.Common.AbstractRecord#calculateActualPosition(net.sf.JRecord.Common.AbstractIndexedLine, net.sf.JRecord.External.Def.DependingOnDtls, int)
+//	 * @see com.tech4box.JRecord.Common.AbstractRecord#calculateActualPosition(com.tech4box.JRecord.Common.AbstractIndexedLine, com.tech4box.JRecord.External.Def.DependingOnDtls, int)
 //	 */
 //	@Override
 //	public int calculateActualPosition(AbstractIndexedLine line, DependingOnDtls dependingOnDtls, int pos) {

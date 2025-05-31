@@ -34,20 +34,20 @@ import java.io.FileReader;
 import java.util.StringTokenizer;
 
 import junit.framework.TestCase;
-import net.sf.JRecord.Common.Constants;
-import net.sf.JRecord.CsvParser.ICsvCharLineParser;
-import net.sf.JRecord.CsvParser.CsvParserManagerChar;
-import net.sf.JRecord.Details.AbstractLine;
-import net.sf.JRecord.Details.CsvLine;
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.Details.Line;
-import net.sf.JRecord.Details.RecordDetail;
-import net.sf.JRecord.External.RecordEditorXmlLoader;
-import net.sf.JRecord.IO.AbstractLineWriter;
-import net.sf.JRecord.IO.LineIOProvider;
-import net.sf.JRecord.IO.TextLineReader;
-import net.sf.JRecord.IO.TextLineWriter;
-import net.sf.JRecord.zTest.Common.TstConstants;
+import com.tech4box.JRecord.Common.Constants;
+import com.tech4box.JRecord.CsvParser.ICsvCharLineParser;
+import com.tech4box.JRecord.CsvParser.CsvParserManagerChar;
+import com.tech4box.JRecord.Details.AbstractLine;
+import com.tech4box.JRecord.Details.CsvLine;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.Details.Line;
+import com.tech4box.JRecord.Details.RecordDetail;
+import com.tech4box.JRecord.External.RecordEditorXmlLoader;
+import com.tech4box.JRecord.IO.AbstractLineWriter;
+import com.tech4box.JRecord.IO.LineIOProvider;
+import com.tech4box.JRecord.IO.TextLineReader;
+import com.tech4box.JRecord.IO.TextLineWriter;
+import com.tech4box.JRecord.zTest.Common.TstConstants;
 
 
 public class TstCsvWrite  extends TestCase {

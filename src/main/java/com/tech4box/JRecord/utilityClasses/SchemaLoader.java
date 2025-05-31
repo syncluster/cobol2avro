@@ -33,12 +33,12 @@ import com.tech4box.JRecord.External.CopybookLoader;
 import com.tech4box.JRecord.External.ExternalRecord;
 import com.tech4box.JRecord.External.RecordEditorXmlLoader;
 import com.tech4box.JRecord.JRecordInterface1;
-import net.sf.JRecord.Log.TextLog;
+import com.tech4box.JRecord.Log.TextLog;
 
 /**
  * This class is used by some of the utilities. 
  * Most users  will be better off using {@link JRecordInterface1#COBOL} to
- * create {@link net.sf.JRecord.def.IO.builders.IIOBuilder} classes
+ * create {@link com.tech4box.JRecord.def.IO.builders.IIOBuilder} classes
  * 
  * @author Bruce Martin
  *
@@ -48,7 +48,7 @@ public class SchemaLoader {
 	/**
 	 * This method is used by several utilities. 
 	 * Most users  will be better off using {@link JRecordInterface1#COBOL} to
-     * create {@link net.sf.JRecord.def.IO.builders.IIOBuilder} classes
+     * create {@link com.tech4box.JRecord.def.IO.builders.IIOBuilder} classes
      * 
 	 * @param schemaFileName name of the schema/Cobol file
 	 * @param split Cobol split option

@@ -28,11 +28,11 @@
 
 package com.tech4box.JRecord.zTest.copy;
 
-import net.sf.JRecord.Common.Constants;
-import net.sf.JRecord.External.base.ExternalConversion;
-import net.sf.JRecord.Numeric.ConversionManager;
-import net.sf.JRecord.Numeric.ICopybookDialects;
-import net.sf.JRecord.zExamples.copy.ParseArgsCobol2Cobol;
+import com.tech4box.JRecord.Common.Constants;
+import com.tech4box.JRecord.External.base.ExternalConversion;
+import com.tech4box.JRecord.Numeric.ConversionManager;
+import com.tech4box.JRecord.Numeric.ICopybookDialects;
+import com.tech4box.JRecord.zExamples.copy.ParseArgsCobol2Cobol;
 import junit.framework.TestCase;
 
 

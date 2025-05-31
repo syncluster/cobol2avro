@@ -33,8 +33,8 @@ import com.tech4box.JRecord.Common.Conversion;
 import com.tech4box.JRecord.Common.IFieldDetail;
 import com.tech4box.JRecord.Details.AbstractLine;
 import com.tech4box.JRecord.Details.Line;
-import net.sf.JRecord.IO.AbstractLineReader;
-import net.sf.JRecord.IO.LineIOProvider;
+import com.tech4box.JRecord.IO.AbstractLineReader;
+import com.tech4box.JRecord.IO.LineIOProvider;
 import junit.framework.TestCase;
 
 /**

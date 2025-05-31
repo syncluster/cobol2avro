@@ -34,15 +34,15 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.Reader;
 
-import net.sf.JRecord.External.CopybookLoaderFactory;
-import net.sf.JRecord.External.ExternalRecord;
-import net.sf.JRecord.External.ICopybookLoaderStream;
-import net.sf.JRecord.External.base.RecordEditorXmlWriter;
-import net.sf.JRecord.Log.TextLog;
-import net.sf.JRecord.Numeric.ICopybookDialects;
-import net.sf.JRecord.def.IO.builders.ICobolCopybookIOProvider;
-import net.sf.JRecord.def.IO.builders.IIOCopybookProvider;
-import net.sf.JRecord.def.IO.builders.Icb2xmlIOProvider;
+import com.tech4box.JRecord.External.CopybookLoaderFactory;
+import com.tech4box.JRecord.External.ExternalRecord;
+import com.tech4box.JRecord.External.ICopybookLoaderStream;
+import com.tech4box.JRecord.External.base.RecordEditorXmlWriter;
+import com.tech4box.JRecord.Log.TextLog;
+import com.tech4box.JRecord.Numeric.ICopybookDialects;
+import com.tech4box.JRecord.def.IO.builders.ICobolCopybookIOProvider;
+import com.tech4box.JRecord.def.IO.builders.IIOCopybookProvider;
+import com.tech4box.JRecord.def.IO.builders.Icb2xmlIOProvider;
 
 public class FileSchemaBuilder implements ICobolCopybookIOProvider, IIOCopybookProvider, Icb2xmlIOProvider {
 	private static final CopybookLoaderFactory lf = CopybookLoaderFactory.getInstance();
@@ -55,7 +55,7 @@ public class FileSchemaBuilder implements ICobolCopybookIOProvider, IIOCopybookP
 	}
 	
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.IO.builders.ICobolIOCopybookProvider#newIOBuilder(java.lang.String)
+	 * @see com.tech4box.JRecord.IO.builders.ICobolIOCopybookProvider#newIOBuilder(java.lang.String)
 	 */
 	@Override
 	public CblIOBuilderMultiSchema newIOBuilder(String copybookFilename) {
@@ -69,7 +69,7 @@ public class FileSchemaBuilder implements ICobolCopybookIOProvider, IIOCopybookP
 
 	
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.IO.builders.ICobolIOCopybookProvider#newIOBuilder(java.io.InputStream, java.lang.String)
+	 * @see com.tech4box.JRecord.IO.builders.ICobolIOCopybookProvider#newIOBuilder(java.io.InputStream, java.lang.String)
 	 */
 	@Override
 	public CblIOBuilderMultiSchema newIOBuilder(InputStream cobolCopybookStream, String copybookName) {
@@ -90,7 +90,7 @@ public class FileSchemaBuilder implements ICobolCopybookIOProvider, IIOCopybookP
 	
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.def.IO.builders.ICobolCopybookIOProvider#newIOBuilder(java.io.Reader, java.lang.String)
+	 * @see com.tech4box.JRecord.def.IO.builders.ICobolCopybookIOProvider#newIOBuilder(java.io.Reader, java.lang.String)
 	 */
 	@Override
 	public CblIOBuilderMultiSchema newIOBuilder(Reader copybookReader, String copybookName) {
@@ -106,7 +106,7 @@ public class FileSchemaBuilder implements ICobolCopybookIOProvider, IIOCopybookP
 	}
 
 	/**
-	 * @see net.sf.JRecord.IO.builders.ICobolIOCopybookProvider#newMultiCopybookIOBuilder(String)
+	 * @see com.tech4box.JRecord.IO.builders.ICobolIOCopybookProvider#newMultiCopybookIOBuilder(String)
 	 */
 	@Override 
 	public CblIOBuilderMultiSchema newMultiCopybookIOBuilder(String copybookname) {
@@ -118,7 +118,7 @@ public class FileSchemaBuilder implements ICobolCopybookIOProvider, IIOCopybookP
 	}
 	
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.def.IO.builders.IIOCopybookProvider#export(java.lang.String, net.sf.JRecord.External.ExternalRecord)
+	 * @see com.tech4box.JRecord.def.IO.builders.IIOCopybookProvider#export(java.lang.String, com.tech4box.JRecord.External.ExternalRecord)
 	 */
 	@Override
 	public void export(String fileName, ExternalRecord schema) throws Exception {
@@ -126,7 +126,7 @@ public class FileSchemaBuilder implements ICobolCopybookIOProvider, IIOCopybookP
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.def.IO.builders.IIOCopybookProvider#export(java.io.OutputStream, net.sf.JRecord.External.ExternalRecord)
+	 * @see com.tech4box.JRecord.def.IO.builders.IIOCopybookProvider#export(java.io.OutputStream, com.tech4box.JRecord.External.ExternalRecord)
 	 */
 	@Override
 	public void export(OutputStream outStream, ExternalRecord schema) throws Exception {

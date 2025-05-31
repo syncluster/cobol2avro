@@ -28,7 +28,7 @@ package com.tech4box.JRecord.Types;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 
-import net.sf.JRecord.Common.IFieldDetail;
+import com.tech4box.JRecord.Common.IFieldDetail;
 
 public class TypeRmComp extends TypeNum {
 	public final static int POSITIVE = 11; // x'0b'

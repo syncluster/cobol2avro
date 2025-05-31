@@ -39,7 +39,7 @@ public abstract class AbsGroup extends ExternalGroupSelection<RecordSel> impleme
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Details.Selection.RecordSel#getFirstField()
+	 * @see com.tech4box.JRecord.Details.Selection.RecordSel#getFirstField()
 	 */
 	@Override
 	public FieldSelect getFirstField() {
@@ -54,7 +54,7 @@ public abstract class AbsGroup extends ExternalGroupSelection<RecordSel> impleme
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Details.Selection.RecordSel#getAllFields(java.util.List)
+	 * @see com.tech4box.JRecord.Details.Selection.RecordSel#getAllFields(java.util.List)
 	 */
 	@Override
 	public void getAllFields(List<FieldSelect> fields) {

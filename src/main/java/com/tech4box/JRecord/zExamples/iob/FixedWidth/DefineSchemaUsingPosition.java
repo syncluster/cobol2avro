@@ -30,8 +30,8 @@ import java.io.IOException;
 import com.tech4box.JRecord.JRecordInterface1;
 import com.tech4box.JRecord.Common.RecordException;
 import com.tech4box.JRecord.Details.AbstractLine;
-import net.sf.JRecord.IO.AbstractLineReader;
-import net.sf.JRecord.Types.Type;
+import com.tech4box.JRecord.IO.AbstractLineReader;
+import com.tech4box.JRecord.Types.Type;
 
 
 /**

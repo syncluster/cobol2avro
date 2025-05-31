@@ -40,10 +40,10 @@ import com.tech4box.JRecord.Details.IFieldValue;
 import com.tech4box.JRecord.Details.LayoutDetail;
 import com.tech4box.JRecord.Details.LineProvider;
 import com.tech4box.JRecord.Details.RecordDetail;
-import net.sf.JRecord.IO.AbstractLineReader;
-import net.sf.JRecord.IO.AbstractLineWriter;
-import net.sf.JRecord.IO.LineIOProvider;
-import net.sf.JRecord.def.IO.builders.INewLineCreator;
+import com.tech4box.JRecord.IO.AbstractLineReader;
+import com.tech4box.JRecord.IO.AbstractLineWriter;
+import com.tech4box.JRecord.IO.LineIOProvider;
+import com.tech4box.JRecord.def.IO.builders.INewLineCreator;
 
 /**
  * This is a Class containing static methods to read a file using a Schema and write the
@@ -426,7 +426,7 @@ public class Copy {
 
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.def.IO.builders.INewLineCreator#newLine()
+		 * @see com.tech4box.JRecord.def.IO.builders.INewLineCreator#newLine()
 		 */
 		@Override
 		public AbstractLine newLine() throws IOException {

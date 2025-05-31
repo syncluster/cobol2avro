@@ -37,18 +37,18 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import net.sf.JRecord.JRecordInterface1;
-import net.sf.JRecord.Common.Constants;
-import net.sf.JRecord.Common.FieldDetail;
-import net.sf.JRecord.Common.RecordException;
-import net.sf.JRecord.Details.AbstractLine;
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.Details.RecordDetail;
-import net.sf.JRecord.IO.AbstractLineReader;
-import net.sf.JRecord.IO.AbstractLineWriter;
-import net.sf.JRecord.IO.CobolIoProvider;
-import net.sf.JRecord.def.IO.builders.ICobolIOBuilder;
-import net.sf.JRecord.zTest.Common.TstConstants;
+import com.tech4box.JRecord.JRecordInterface1;
+import com.tech4box.JRecord.Common.Constants;
+import com.tech4box.JRecord.Common.FieldDetail;
+import com.tech4box.JRecord.Common.RecordException;
+import com.tech4box.JRecord.Details.AbstractLine;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.Details.RecordDetail;
+import com.tech4box.JRecord.IO.AbstractLineReader;
+import com.tech4box.JRecord.IO.AbstractLineWriter;
+import com.tech4box.JRecord.IO.CobolIoProvider;
+import com.tech4box.JRecord.def.IO.builders.ICobolIOBuilder;
+import com.tech4box.JRecord.zTest.Common.TstConstants;
 import junit.framework.TestCase;
 
 

@@ -32,8 +32,8 @@ import com.tech4box.JRecord.Common.Constants;
 import com.tech4box.JRecord.Common.Conversion;
 import com.tech4box.JRecord.Numeric.ConversionManager;
 import com.tech4box.JRecord.Numeric.Convert;
-import net.sf.JRecord.Types.Type;
-import net.sf.JRecord.Types.TypeManager;
+import com.tech4box.JRecord.Types.Type;
+import com.tech4box.JRecord.Types.TypeManager;
 
 @SuppressWarnings("deprecation")
 public class BasicConversion implements AbstractConversion {
@@ -288,7 +288,7 @@ public class BasicConversion implements AbstractConversion {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.External.Def.AbstractConversion#isValid(int, int)
+	 * @see com.tech4box.JRecord.External.Def.AbstractConversion#isValid(int, int)
 	 */
 	@Override
 	public boolean isValid(int idx, int type) {
@@ -331,7 +331,7 @@ public class BasicConversion implements AbstractConversion {
 	}
 
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.IO.AbstractLineIOProvider#getStructureName(int)
+	 * @see com.tech4box.JRecord.IO.AbstractLineIOProvider#getStructureName(int)
 	 */
     public static String getStructureName(int fileStructure) {
 //    	for (int i = 0; i < keys.length && keys[i] != Constants.NULL_INTEGER; i++) {

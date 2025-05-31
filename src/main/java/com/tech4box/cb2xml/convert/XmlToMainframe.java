@@ -25,7 +25,7 @@ import org.w3c.dom.NodeList;
 * Thefore, I recommend using a hashtable to programmatically pass data or retrieve data 
 * to (or from) a mainframe, (based on the copybook structure of course).
 * 
-*  * note that files within the "net.sf.cb2xml.convert" package are not stable
+*  * note that files within the "com.tech4box.cb2xml.convert" package are not stable
 * 
 * @author Peter Thomas
 */

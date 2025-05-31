@@ -9,9 +9,9 @@ import com.tech4box.JRecord.Details.AbstractLine;
 import com.tech4box.JRecord.Details.CharLine;
 import com.tech4box.JRecord.Details.IFieldValue;
 import com.tech4box.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.Types.Type;
-import net.sf.JRecord.def.IO.builders.ICobolIOBuilder;
-import net.sf.JRecord.def.IO.builders.ICsvIOBuilder;
+import com.tech4box.JRecord.Types.Type;
+import com.tech4box.JRecord.def.IO.builders.ICobolIOBuilder;
+import com.tech4box.JRecord.def.IO.builders.ICsvIOBuilder;
 
 
 /**

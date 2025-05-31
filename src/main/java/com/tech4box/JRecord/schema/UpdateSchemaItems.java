@@ -39,8 +39,8 @@ import com.tech4box.JRecord.Common.IFieldDetail;
 import com.tech4box.JRecord.Details.LayoutDetail;
 import com.tech4box.JRecord.Details.RecordDetail;
 import com.tech4box.JRecord.External.Def.DependingOnDefinition.SizeField;
-import net.sf.JRecord.cgen.impl.ArrayFieldDefinition;
-import net.sf.JRecord.cgen.impl.ArrayFieldDefinition1;
+import com.tech4box.JRecord.cgen.impl.ArrayFieldDefinition;
+import com.tech4box.JRecord.cgen.impl.ArrayFieldDefinition1;
 import com.tech4box.JRecord.schema.jaxb.Copybook;
 import com.tech4box.JRecord.schema.jaxb.Item;
 
@@ -262,7 +262,7 @@ public class UpdateSchemaItems implements ISchemaInformation {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.ISchemaDetails#getArrayItems()
+	 * @see com.tech4box.JRecord.schema.ISchemaDetails#getArrayItems()
 	 */
 	@Override
 	public final Map<String, Item> getArrayItems() {
@@ -270,7 +270,7 @@ public class UpdateSchemaItems implements ISchemaInformation {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.ISchemaDetails#getRecordHierarchyMap()
+	 * @see com.tech4box.JRecord.schema.ISchemaDetails#getRecordHierarchyMap()
 	 */
 	@Override
 	public final Map<String, Integer> getRecordHierarchyMap() {
@@ -297,7 +297,7 @@ public class UpdateSchemaItems implements ISchemaInformation {
 	}
 	
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.ISchemaDetails#getRecordIndex(java.lang.String)
+	 * @see com.tech4box.JRecord.schema.ISchemaDetails#getRecordIndex(java.lang.String)
 	 */
 	@Override
 	public final int getRecordIndex(String name) {
@@ -313,7 +313,7 @@ public class UpdateSchemaItems implements ISchemaInformation {
 		return r;
 	}
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.ISchemaDetails#getMaxRecordHierarchyLevel()
+	 * @see com.tech4box.JRecord.schema.ISchemaDetails#getMaxRecordHierarchyLevel()
 	 */
 	@Override
 	public final int getMaxRecordHierarchyLevel() {
@@ -324,7 +324,7 @@ public class UpdateSchemaItems implements ISchemaInformation {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.ISchemaDetails#getDuplicateFieldsStatus()
+	 * @see com.tech4box.JRecord.schema.ISchemaDetails#getDuplicateFieldsStatus()
 	 */
 	@Override
 	public final int getDuplicateFieldsStatus() {
@@ -380,7 +380,7 @@ public class UpdateSchemaItems implements ISchemaInformation {
 	}
 	
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.ISchemaDetails#updateName(java.lang.String)
+	 * @see com.tech4box.JRecord.schema.ISchemaDetails#updateName(java.lang.String)
 	 */
 	@Override
 	public String updateName(String name) {
@@ -433,7 +433,7 @@ public class UpdateSchemaItems implements ISchemaInformation {
 	
 	
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.ISchemaDetails#getFieldLookup()
+	 * @see com.tech4box.JRecord.schema.ISchemaDetails#getFieldLookup()
 	 */
 	@Override
 	public final IGetRecordFieldByName getFieldLookup() {
@@ -446,7 +446,7 @@ public class UpdateSchemaItems implements ISchemaInformation {
 	}
 	
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.ISchemaDetails#isRedefinedBinaryField()
+	 * @see com.tech4box.JRecord.schema.ISchemaDetails#isRedefinedBinaryField()
 	 */
 	@Override
 	public final boolean isRedefinedBinaryField() {
@@ -485,7 +485,7 @@ public class UpdateSchemaItems implements ISchemaInformation {
 		}
 		
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.cbl2xml.impl.IGetRecordFieldByName#getField(java.lang.String, java.lang.String)
+		 * @see com.tech4box.JRecord.cbl2xml.impl.IGetRecordFieldByName#getField(java.lang.String, java.lang.String)
 		 */
 		@Override
 		public IFieldDetail getField(String recordName, String fieldName, int[] indexs) {

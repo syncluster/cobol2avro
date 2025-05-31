@@ -67,7 +67,7 @@ public class OrSelection extends AbsGroup {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Details.Selection.RecordSelection#isSelected(net.sf.JRecord.Details.AbstractLine)
+	 * @see com.tech4box.JRecord.Details.Selection.RecordSelection#isSelected(com.tech4box.JRecord.Details.AbstractLine)
 	 */
 	@Override
 	public boolean isSelected(AbstractIndexedLine line) {
@@ -94,7 +94,7 @@ public class OrSelection extends AbsGroup {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.detailsSelection.RecordSel#isIncluded(net.sf.JRecord.Common.AbstractIndexedLine)
+	 * @see com.tech4box.JRecord.detailsSelection.RecordSel#isIncluded(com.tech4box.JRecord.Common.AbstractIndexedLine)
 	 */
 	@Override
 	public boolean isIncluded(AbstractIndexedLine line) {

@@ -31,11 +31,11 @@ package com.tech4box.JRecord.cgen.impl;
 import java.io.IOException;
 import java.io.InputStream;
 
-import net.sf.JRecord.ByteIO.AbstractByteReader;
-import net.sf.JRecord.ByteIO.ByteIOProvider;
-import net.sf.JRecord.Common.IBasicFileSchema;
-import net.sf.JRecord.cgen.def.IDeserializer;
-import net.sf.JRecord.cgen.def.IReader;
+import com.tech4box.JRecord.ByteIO.AbstractByteReader;
+import com.tech4box.JRecord.ByteIO.ByteIOProvider;
+import com.tech4box.JRecord.Common.IBasicFileSchema;
+import com.tech4box.JRecord.cgen.def.IDeserializer;
+import com.tech4box.JRecord.cgen.def.IReader;
 
 /**
  * This class writes an object as bytes using 

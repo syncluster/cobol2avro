@@ -33,15 +33,15 @@ import java.io.InputStream;
 import java.io.Reader;
 import java.util.ArrayList;
 
-import net.sf.JRecord.Common.Constants;
-import net.sf.JRecord.Common.RecordException;
-import net.sf.JRecord.External.ExternalRecord;
-import net.sf.JRecord.External.ICopybookLoaderStream;
-import net.sf.JRecord.External.ISetDropCopybookName;
-import net.sf.JRecord.External.Def.ExternalField;
-import net.sf.JRecord.ExternalRecordSelection.ExternalSelection;
-import net.sf.JRecord.Log.AbsSSLogger;
-import net.sf.JRecord.Numeric.ICopybookDialects;
+import com.tech4box.JRecord.Common.Constants;
+import com.tech4box.JRecord.Common.RecordException;
+import com.tech4box.JRecord.External.ExternalRecord;
+import com.tech4box.JRecord.External.ICopybookLoaderStream;
+import com.tech4box.JRecord.External.ISetDropCopybookName;
+import com.tech4box.JRecord.External.Def.ExternalField;
+import com.tech4box.JRecord.ExternalRecordSelection.ExternalSelection;
+import com.tech4box.JRecord.Log.AbsSSLogger;
+import com.tech4box.JRecord.Numeric.ICopybookDialects;
 
 
 public class CblIOBuilderMultiSchemaBase<IOB>
@@ -76,7 +76,7 @@ extends CblIOBuilderBase<IOB> implements IGetLoader  {
 
 	
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.def.IO.builders.ICobolMultiCopybookIOBuilder#addCopyBook(java.lang.String)
+	 * @see com.tech4box.JRecord.def.IO.builders.ICobolMultiCopybookIOBuilder#addCopyBook(java.lang.String)
 	 */
 	public IOB addCopyBook(String fileName) {
 		copybooks.add(new CreateExternalFromFile(this, fileName));
@@ -94,7 +94,7 @@ extends CblIOBuilderBase<IOB> implements IGetLoader  {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.IO.builders.CblIOBuilderBase#getExternalRecordImpl()
+	 * @see com.tech4box.JRecord.IO.builders.CblIOBuilderBase#getExternalRecordImpl()
 	 */
 	@Override
 	protected ExternalRecord getExternalRecordImpl() throws IOException { 
@@ -143,7 +143,7 @@ extends CblIOBuilderBase<IOB> implements IGetLoader  {
 	
 
 	/**
-	 * @see net.sf.JRecord.def.IO.ICobolIOBuilder#setSplitCopybook(int)
+	 * @see com.tech4box.JRecord.def.IO.ICobolIOBuilder#setSplitCopybook(int)
 	 */
 	public IOB setSplitCopybook(int splitCopybook) {
 		getLast().setSplitCopybook(splitCopybook);
@@ -192,7 +192,7 @@ extends CblIOBuilderBase<IOB> implements IGetLoader  {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.IO.builders.IGetLoader#getLoader()
+	 * @see com.tech4box.JRecord.IO.builders.IGetLoader#getLoader()
 	 */
 	@Override
 	public final ICopybookLoaderStream getLoader() {

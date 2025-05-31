@@ -42,14 +42,14 @@ import com.tech4box.JRecord.Common.BasicFileSchema;
 import com.tech4box.JRecord.Common.Constants;
 import com.tech4box.JRecord.Common.Conversion;
 import com.tech4box.JRecord.Details.DefaultLineProvider;
-import net.sf.JRecord.IO.AbstractLineReader;
-import net.sf.JRecord.IO.AbstractLineWriter;
-import net.sf.JRecord.IO.BinTextReader;
-import net.sf.JRecord.IO.BinTextWriter;
-import net.sf.JRecord.IO.FixedLengthWriter;
-import net.sf.JRecord.IO.LineIOProvider;
-import net.sf.JRecord.IO.LineReaderWrapper;
-import net.sf.JRecord.IO.LineWriterWrapper;
+import com.tech4box.JRecord.IO.AbstractLineReader;
+import com.tech4box.JRecord.IO.AbstractLineWriter;
+import com.tech4box.JRecord.IO.BinTextReader;
+import com.tech4box.JRecord.IO.BinTextWriter;
+import com.tech4box.JRecord.IO.FixedLengthWriter;
+import com.tech4box.JRecord.IO.LineIOProvider;
+import com.tech4box.JRecord.IO.LineReaderWrapper;
+import com.tech4box.JRecord.IO.LineWriterWrapper;
 import junit.framework.TestCase;
 
 

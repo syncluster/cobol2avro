@@ -32,19 +32,19 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 
-import net.sf.JRecord.ByteIO.FixedLengthByteWriter;
-import net.sf.JRecord.Common.Constants;
-import net.sf.JRecord.Common.RecordException;
-import net.sf.JRecord.Details.AbstractLine;
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.Details.Line;
-import net.sf.JRecord.IO.AbstractLineReader;
-import net.sf.JRecord.IO.AbstractLineWriter;
-import net.sf.JRecord.IO.FixedLengthWriter;
-import net.sf.JRecord.IO.LineIOProvider;
-import net.sf.JRecord.IO.LineWriterWrapper;
-import net.sf.JRecord.def.IO.builders.ICobolIOBuilder;
-import net.sf.JRecord.JRecordInterface1;
+import com.tech4box.JRecord.ByteIO.FixedLengthByteWriter;
+import com.tech4box.JRecord.Common.Constants;
+import com.tech4box.JRecord.Common.RecordException;
+import com.tech4box.JRecord.Details.AbstractLine;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.Details.Line;
+import com.tech4box.JRecord.IO.AbstractLineReader;
+import com.tech4box.JRecord.IO.AbstractLineWriter;
+import com.tech4box.JRecord.IO.FixedLengthWriter;
+import com.tech4box.JRecord.IO.LineIOProvider;
+import com.tech4box.JRecord.IO.LineWriterWrapper;
+import com.tech4box.JRecord.def.IO.builders.ICobolIOBuilder;
+import com.tech4box.JRecord.JRecordInterface1;
 import junit.framework.TestCase;
 
 public class TstFixedLineReaderWriter extends TestCase {

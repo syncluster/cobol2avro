@@ -28,10 +28,10 @@
 
 package com.tech4box.JRecord.zTest.csv.iobuilder;
 
-import net.sf.JRecord.JRecordInterface1;
-import net.sf.JRecord.External.ExternalRecord;
-import net.sf.JRecord.External.Def.ExternalField;
-import net.sf.JRecord.Types.Type;
+import com.tech4box.JRecord.JRecordInterface1;
+import com.tech4box.JRecord.External.ExternalRecord;
+import com.tech4box.JRecord.External.Def.ExternalField;
+import com.tech4box.JRecord.Types.Type;
 import junit.framework.TestCase;
 
 public class TstCheckSchema extends TestCase {

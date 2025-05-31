@@ -31,9 +31,9 @@ package com.tech4box.JRecord.IO;
 import java.io.IOException;
 import java.io.InputStream;
 
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.Details.LineProvider;
-import net.sf.JRecord.charIO.FixedLengthCharReader;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.Details.LineProvider;
+import com.tech4box.JRecord.charIO.FixedLengthCharReader;
 
 /**
  * Fixed Length Character file line reader.

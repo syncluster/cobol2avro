@@ -201,7 +201,7 @@ public class ParseArgsCobol2Csv implements IUpdateFieldName {
 
     
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.zExamples.cobol.toCsv.UpdateFieldName#fixName(java.lang.String)
+	 * @see com.tech4box.JRecord.zExamples.cobol.toCsv.UpdateFieldName#fixName(java.lang.String)
 	 */
     @Override
 	public final  String updateName(String name) {

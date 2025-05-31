@@ -28,12 +28,12 @@
 
 package com.tech4box.JRecord.IO.builders;
 
-import net.sf.JRecord.External.CopybookLoader;
-import net.sf.JRecord.External.ExternalRecord;
-import net.sf.JRecord.External.ICopybookLoaderStream;
-import net.sf.JRecord.External.ISetDropCopybookName;
-import net.sf.JRecord.External.Def.ExternalField;
-import net.sf.JRecord.ExternalRecordSelection.ExternalSelection;
+import com.tech4box.JRecord.External.CopybookLoader;
+import com.tech4box.JRecord.External.ExternalRecord;
+import com.tech4box.JRecord.External.ICopybookLoaderStream;
+import com.tech4box.JRecord.External.ISetDropCopybookName;
+import com.tech4box.JRecord.External.Def.ExternalField;
+import com.tech4box.JRecord.ExternalRecordSelection.ExternalSelection;
 
 public abstract class CreateExternalBase {
 	final IGetLoader parent;

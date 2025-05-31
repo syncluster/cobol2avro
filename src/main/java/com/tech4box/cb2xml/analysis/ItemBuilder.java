@@ -1,6 +1,6 @@
 package com.tech4box.cb2xml.analysis;
 
-import net.sf.cb2xml.def.Cb2xmlConstants;
+import com.tech4box.cb2xml.def.Cb2xmlConstants;
 
 public class ItemBuilder {
 

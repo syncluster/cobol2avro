@@ -30,7 +30,7 @@ package com.tech4box.cb2xml.def;
 
 import java.util.List;
 
-import net.sf.cb2xml.def.Cb2xmlConstants.SignClause;
+import com.tech4box.cb2xml.def.Cb2xmlConstants.SignClause;
 
 
 /**

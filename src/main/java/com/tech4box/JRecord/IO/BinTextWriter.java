@@ -31,13 +31,13 @@ package com.tech4box.JRecord.IO;
 import java.io.IOException;
 import java.io.OutputStream;
 
-import net.sf.JRecord.ByteIO.ByteTextWriter;
-import net.sf.JRecord.ByteIO.BinaryByteWriter;
-import net.sf.JRecord.Common.Conversion;
-import net.sf.JRecord.CsvParser.CsvParserManagerChar;
-import net.sf.JRecord.Details.AbstractLine;
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.Details.RecordDetail;
+import com.tech4box.JRecord.ByteIO.ByteTextWriter;
+import com.tech4box.JRecord.ByteIO.BinaryByteWriter;
+import com.tech4box.JRecord.Common.Conversion;
+import com.tech4box.JRecord.CsvParser.CsvParserManagerChar;
+import com.tech4box.JRecord.Details.AbstractLine;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.Details.RecordDetail;
 
 
 /**

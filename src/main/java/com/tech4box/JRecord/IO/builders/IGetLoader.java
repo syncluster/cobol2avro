@@ -28,8 +28,8 @@
 
 package com.tech4box.JRecord.IO.builders;
 
-import net.sf.JRecord.External.ICopybookLoaderStream;
-import net.sf.JRecord.Log.AbsSSLogger;
+import com.tech4box.JRecord.External.ICopybookLoaderStream;
+import com.tech4box.JRecord.Log.AbsSSLogger;
 
 public interface IGetLoader {
 

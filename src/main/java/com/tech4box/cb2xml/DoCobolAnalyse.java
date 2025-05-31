@@ -5,12 +5,12 @@ import java.io.PushbackReader;
 import java.io.Reader;
 import java.io.StringReader;
 
-import net.sf.cb2xml.def.Cb2xmlConstants;
-import net.sf.cb2xml.sablecc.lexer.Lexer;
-import net.sf.cb2xml.sablecc.lexer.LexerException;
-import net.sf.cb2xml.sablecc.node.Start;
-import net.sf.cb2xml.sablecc.parser.Parser;
-import net.sf.cb2xml.sablecc.parser.ParserException;
+import com.tech4box.cb2xml.def.Cb2xmlConstants;
+import com.tech4box.cb2xml.sablecc.lexer.Lexer;
+import com.tech4box.cb2xml.sablecc.lexer.LexerException;
+import com.tech4box.cb2xml.sablecc.node.Start;
+import com.tech4box.cb2xml.sablecc.parser.Parser;
+import com.tech4box.cb2xml.sablecc.parser.ParserException;
 
 /**
  *   Run the Cobol Copybook Analysis in a separate thread so

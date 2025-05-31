@@ -31,11 +31,11 @@ package com.tech4box.JRecord.zTest.Types;
 import java.math.BigInteger;
 
 import junit.framework.TestCase;
-import net.sf.JRecord.Common.Conversion;
-import net.sf.JRecord.Common.FieldDetail;
-import net.sf.JRecord.Common.RecordException;
-import net.sf.JRecord.Types.Type;
-import net.sf.JRecord.Types.TypeManager;
+import com.tech4box.JRecord.Common.Conversion;
+import com.tech4box.JRecord.Common.FieldDetail;
+import com.tech4box.JRecord.Common.RecordException;
+import com.tech4box.JRecord.Types.Type;
+import com.tech4box.JRecord.Types.TypeManager;
 
 public class TstBinType2 extends TestCase {
 

@@ -38,10 +38,10 @@ package com.tech4box.JRecord.Types;
 
 import java.math.BigInteger;
 
-import net.sf.JRecord.Common.CommonBits;
-import net.sf.JRecord.Common.Conversion;
-import net.sf.JRecord.Common.IFieldDetail;
-import net.sf.JRecord.Common.RecordException;
+import com.tech4box.JRecord.Common.CommonBits;
+import com.tech4box.JRecord.Common.Conversion;
+import com.tech4box.JRecord.Common.IFieldDetail;
+import com.tech4box.JRecord.Common.RecordException;
 
 /**
  * Bit Type  - displays the raw bits

@@ -37,23 +37,23 @@ import java.io.OutputStream;
 import java.util.Map;
 import java.util.TreeMap;
 
-import net.sf.JRecord.Common.CommonBits;
-import net.sf.JRecord.Common.Constants;
-import net.sf.JRecord.Common.Conversion;
-import net.sf.JRecord.Details.AbstractLine;
-import net.sf.JRecord.Details.CharLineProvider;
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.Details.LineProvider;
-import net.sf.JRecord.Details.RecordDecider;
-import net.sf.JRecord.External.CopybookLoader;
-import net.sf.JRecord.External.ExternalRecord;
-import net.sf.JRecord.ExternalRecordSelection.ExternalSelection;
-import net.sf.JRecord.IO.AbstractLineReader;
-import net.sf.JRecord.IO.AbstractLineWriter;
-import net.sf.JRecord.IO.LineIOProvider;
-import net.sf.JRecord.Log.AbsSSLogger;
-import net.sf.JRecord.Log.TextLog;
-import net.sf.JRecord.Option.IRecordPositionOption;
+import com.tech4box.JRecord.Common.CommonBits;
+import com.tech4box.JRecord.Common.Constants;
+import com.tech4box.JRecord.Common.Conversion;
+import com.tech4box.JRecord.Details.AbstractLine;
+import com.tech4box.JRecord.Details.CharLineProvider;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.Details.LineProvider;
+import com.tech4box.JRecord.Details.RecordDecider;
+import com.tech4box.JRecord.External.CopybookLoader;
+import com.tech4box.JRecord.External.ExternalRecord;
+import com.tech4box.JRecord.ExternalRecordSelection.ExternalSelection;
+import com.tech4box.JRecord.IO.AbstractLineReader;
+import com.tech4box.JRecord.IO.AbstractLineWriter;
+import com.tech4box.JRecord.IO.LineIOProvider;
+import com.tech4box.JRecord.Log.AbsSSLogger;
+import com.tech4box.JRecord.Log.TextLog;
+import com.tech4box.JRecord.Option.IRecordPositionOption;
 
 
 /**
@@ -117,7 +117,7 @@ public abstract class CblIOBuilderBase<IOB> /*implements ISchemaIOBuilder*/  {
 
 
 	/**
-	 * @see net.sf.JRecord.def.IO.ICobolIOBuilder#setSplitCopybook(int)
+	 * @see com.tech4box.JRecord.def.IO.ICobolIOBuilder#setSplitCopybook(int)
 	 */
 	public IOB setSplitCopybook(int splitCopybook) {
 		this.splitCopybook = splitCopybook;
@@ -126,7 +126,7 @@ public abstract class CblIOBuilderBase<IOB> /*implements ISchemaIOBuilder*/  {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.IO.IIOBuilder#setFont(java.lang.String)
+	 * @see com.tech4box.JRecord.IO.IIOBuilder#setFont(java.lang.String)
 	 */
 	public IOB setFont(String font) {
 		this.font = font;
@@ -143,7 +143,7 @@ public abstract class CblIOBuilderBase<IOB> /*implements ISchemaIOBuilder*/  {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.IO.IIOBuilder#setCopybookFileFormat(int)
+	 * @see com.tech4box.JRecord.IO.IIOBuilder#setCopybookFileFormat(int)
 	 */
 	public final IOB setCopybookFileFormat(int copybookFileFormat) {
 		this.copybookFileFormat = copybookFileFormat;
@@ -204,7 +204,7 @@ public abstract class CblIOBuilderBase<IOB> /*implements ISchemaIOBuilder*/  {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.IO.IIOBuilder#setLog(net.sf.JRecord.Log.AbsSSLogger)
+	 * @see com.tech4box.JRecord.IO.IIOBuilder#setLog(com.tech4box.JRecord.Log.AbsSSLogger)
 	 */
 	public final IOB setLog(AbsSSLogger log) {
 		this.log = log;
@@ -214,7 +214,7 @@ public abstract class CblIOBuilderBase<IOB> /*implements ISchemaIOBuilder*/  {
 	
 	
     /**
-	 * @see net.sf.JRecord.def.IO.builders.ICobolIOBuilder#newLine()
+	 * @see com.tech4box.JRecord.def.IO.builders.ICobolIOBuilder#newLine()
 	 */
 	public AbstractLine newLine() throws IOException {
 		LayoutDetail schema = getLayout();
@@ -224,7 +224,7 @@ public abstract class CblIOBuilderBase<IOB> /*implements ISchemaIOBuilder*/  {
 
 
     /**
-	 * @see net.sf.JRecord.def.IO.builders.ICobolIOBuilder#newLine()
+	 * @see com.tech4box.JRecord.def.IO.builders.ICobolIOBuilder#newLine()
 	 */
 	public AbstractLine newLine(byte[] data) throws IOException {
 		LayoutDetail schema = getLayout();
@@ -234,7 +234,7 @@ public abstract class CblIOBuilderBase<IOB> /*implements ISchemaIOBuilder*/  {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.IO.IIOBuilder#newReader(java.lang.String)
+	 * @see com.tech4box.JRecord.IO.IIOBuilder#newReader(java.lang.String)
 	 */
 	public final AbstractLineReader newReader(String filename) throws FileNotFoundException, IOException {
 		//checkOk(true);
@@ -242,7 +242,7 @@ public abstract class CblIOBuilderBase<IOB> /*implements ISchemaIOBuilder*/  {
 	}
 	
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.IO.IIOBuilder#newReader(java.io.InputStream)
+	 * @see com.tech4box.JRecord.IO.IIOBuilder#newReader(java.io.InputStream)
 	 */
 	public final AbstractLineReader newReader(InputStream datastream) throws IOException {
 		checkOk(true);
@@ -255,7 +255,7 @@ public abstract class CblIOBuilderBase<IOB> /*implements ISchemaIOBuilder*/  {
 	
 	
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.IO.IIOBuilder#newWriter(java.lang.String)
+	 * @see com.tech4box.JRecord.IO.IIOBuilder#newWriter(java.lang.String)
 	 */
 	public final AbstractLineWriter newWriter(String filename) throws FileNotFoundException, IOException {
 		checkOk(false);
@@ -263,7 +263,7 @@ public abstract class CblIOBuilderBase<IOB> /*implements ISchemaIOBuilder*/  {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.IO.IIOBuilder#newWriter(java.io.OutputStream)
+	 * @see com.tech4box.JRecord.IO.IIOBuilder#newWriter(java.io.OutputStream)
 	 */
 	public final AbstractLineWriter newWriter(OutputStream datastream) throws IOException {
 		checkOk(false);
@@ -319,7 +319,7 @@ public abstract class CblIOBuilderBase<IOB> /*implements ISchemaIOBuilder*/  {
 	
 	
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.IO.builders.ICobolIOBuilder#setRecordSelection(java.lang.String, net.sf.JRecord.ExternalRecordSelection.ExternalSelection)
+	 * @see com.tech4box.JRecord.IO.builders.ICobolIOBuilder#setRecordSelection(java.lang.String, com.tech4box.JRecord.ExternalRecordSelection.ExternalSelection)
 	 */
 	public IOB setRecordSelection(String recordName, ExternalSelection selectionCriteria) {
 		getRecordUpdate(recordName).selection = selectionCriteria;
@@ -455,7 +455,7 @@ public abstract class CblIOBuilderBase<IOB> /*implements ISchemaIOBuilder*/  {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.IO.IIOBuilder#getLayout()
+	 * @see com.tech4box.JRecord.IO.IIOBuilder#getLayout()
 	 */
 	public final LayoutDetail getLayout() throws IOException {
 		if (layout == null) {

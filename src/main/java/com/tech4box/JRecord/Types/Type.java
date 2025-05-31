@@ -44,7 +44,7 @@
       
 package com.tech4box.JRecord.Types;
 
-import net.sf.JRecord.Common.IFieldDetail;
+import com.tech4box.JRecord.Common.IFieldDetail;
 
 /**
  * A "Type" is the interface between the raw data in the file

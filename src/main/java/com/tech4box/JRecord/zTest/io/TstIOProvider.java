@@ -28,13 +28,13 @@
 
 package com.tech4box.JRecord.zTest.io;
 
-import net.sf.JRecord.Common.BasicFileSchema;
-import net.sf.JRecord.Common.Constants;
-import net.sf.JRecord.Common.Conversion;
-import net.sf.JRecord.Details.CharLineProvider;
-import net.sf.JRecord.Details.DefaultLineProvider;
-import net.sf.JRecord.Details.XmlLineProvider;
-import net.sf.JRecord.IO.LineIOProvider;
+import com.tech4box.JRecord.Common.BasicFileSchema;
+import com.tech4box.JRecord.Common.Constants;
+import com.tech4box.JRecord.Common.Conversion;
+import com.tech4box.JRecord.Details.CharLineProvider;
+import com.tech4box.JRecord.Details.DefaultLineProvider;
+import com.tech4box.JRecord.Details.XmlLineProvider;
+import com.tech4box.JRecord.IO.LineIOProvider;
 import junit.framework.TestCase;
 
 public class TstIOProvider extends TestCase {

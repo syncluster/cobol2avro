@@ -13,17 +13,17 @@ import java.io.Writer;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.transform.Result;
 
-import net.sf.cb2xml.analysis.CopyBookAnalyzer;
+import com.tech4box.cb2xml.analysis.CopyBookAnalyzer;
 
-import net.sf.cb2xml.analysis.Copybook;
-import net.sf.cb2xml.def.Cb2xmlConstants;
-import net.sf.cb2xml.def.DialectManager;
-import net.sf.cb2xml.def.IBasicDialect;
-import net.sf.cb2xml.def.NumericDefinition;
-import net.sf.cb2xml.sablecc.lexer.LexerException;
-import net.sf.cb2xml.sablecc.node.Start;
-import net.sf.cb2xml.sablecc.parser.Parser;
-import net.sf.cb2xml.sablecc.parser.ParserException;
+import com.tech4box.cb2xml.analysis.Copybook;
+import com.tech4box.cb2xml.def.Cb2xmlConstants;
+import com.tech4box.cb2xml.def.DialectManager;
+import com.tech4box.cb2xml.def.IBasicDialect;
+import com.tech4box.cb2xml.def.NumericDefinition;
+import com.tech4box.cb2xml.sablecc.lexer.LexerException;
+import com.tech4box.cb2xml.sablecc.node.Start;
+import com.tech4box.cb2xml.sablecc.parser.Parser;
+import com.tech4box.cb2xml.sablecc.parser.ParserException;
 
 /**
  * cb2xml interface program (Number 3). It provides a 
@@ -117,7 +117,7 @@ public class Cb2Xml3 {
 		}
 		
 		/* (non-Javadoc)
-		 * @see net.sf.cb2xml.ICb2XmlBuilder#setDebug(boolean)
+		 * @see com.tech4box.cb2xml.ICb2XmlBuilder#setDebug(boolean)
 		 */
 		@Override
 		public BldrImp setDebug(boolean debug) {
@@ -127,7 +127,7 @@ public class Cb2Xml3 {
 		}
 
 		/* (non-Javadoc)
-		 * @see net.sf.cb2xml.ICb2XmlBuilder#setCobolFormat(int)
+		 * @see com.tech4box.cb2xml.ICb2XmlBuilder#setCobolFormat(int)
 		 */
 		@Override
 		public BldrImp setCobolLineFormat(int lineFormat) {
@@ -138,7 +138,7 @@ public class Cb2Xml3 {
 		}
 
 		/* (non-Javadoc)
-		 * @see net.sf.cb2xml.ICb2XmlBuilder#setCobolColumns(int, int)
+		 * @see com.tech4box.cb2xml.ICb2XmlBuilder#setCobolColumns(int, int)
 		 */
 		@Override
 		public BldrImp setCobolColumns(int startingColumn, int lastColumn) {
@@ -162,7 +162,7 @@ public class Cb2Xml3 {
 		
 		
 		/* (non-Javadoc)
-		 * @see net.sf.cb2xml.ICb2XmlBuilder#setIndent(boolean)
+		 * @see com.tech4box.cb2xml.ICb2XmlBuilder#setIndent(boolean)
 		 */
 		@Override
 		public BldrImp setIndent(boolean indent) {
@@ -205,7 +205,7 @@ public class Cb2Xml3 {
 		
 		
 		/* (non-Javadoc)
-		 * @see net.sf.cb2xml.ICb2XmlBuilder#asXmlString()
+		 * @see com.tech4box.cb2xml.ICb2XmlBuilder#asXmlString()
 		 */
 		@Override
 		public String asXmlString() throws XMLStreamException, LexerException, IOException, ParserException {
@@ -240,7 +240,7 @@ public class Cb2Xml3 {
 		}
 
 		/* (non-Javadoc)
-		 * @see net.sf.cb2xml.ICb2XmlBuilder#writeXml(java.lang.String)
+		 * @see com.tech4box.cb2xml.ICb2XmlBuilder#writeXml(java.lang.String)
 		 */
 		@Override
 		public void writeXml(String filename) throws XMLStreamException, LexerException, IOException, ParserException {
@@ -253,24 +253,24 @@ public class Cb2Xml3 {
 							? Cb2xmlConstants.STANDARD_FONT
 							: encoding;
 			Writer writer = new OutputStreamWriter(out, e);
-			new net.sf.cb2xml.util.WriteXml(newXmlFormat, true, e)
+			new com.tech4box.cb2xml.util.WriteXml(newXmlFormat, true, e)
 						.writeCopybook(writer, getCopybook(), indent);
 			writer.close();
 		}
 
 
 		/* (non-Javadoc)
-		 * @see net.sf.cb2xml.ICb2XmlBuilder#writeXml(java.io.Writer)
+		 * @see com.tech4box.cb2xml.ICb2XmlBuilder#writeXml(java.io.Writer)
 		 */
 		@Override
 		public void writeXml(Writer writer) throws XMLStreamException, LexerException, IOException, ParserException {
-			new net.sf.cb2xml.util.WriteXml(newXmlFormat, true, encoding)
+			new com.tech4box.cb2xml.util.WriteXml(newXmlFormat, true, encoding)
 						.writeCopybook(writer, getCopybook(), indent);
 		}
 		
 		@Override
 		public void writeXml(Result result) throws XMLStreamException, LexerException, IOException, ParserException {
-			new net.sf.cb2xml.util.WriteXml(newXmlFormat, false, encoding)
+			new com.tech4box.cb2xml.util.WriteXml(newXmlFormat, false, encoding)
 						.writeCopybook(result, getCopybook());
 		}
 		

@@ -282,7 +282,7 @@ public abstract class BaseByteTextReader extends AbstractByteReader {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.ByteIO.AbstractByteReader#getBytesRead()
+	 * @see com.tech4box.JRecord.ByteIO.AbstractByteReader#getBytesRead()
 	 */
 	@Override
 	public long getBytesRead() {
@@ -296,7 +296,7 @@ public abstract class BaseByteTextReader extends AbstractByteReader {
 	protected class StdFindLines implements FindLines {
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.ByteIO.BaseByteTextReader.FindLines#findLinesInBuffer(int)
+		 * @see com.tech4box.JRecord.ByteIO.BaseByteTextReader.FindLines#findLinesInBuffer(int)
 		 */
 		@Override
 		public void findLinesInBuffer(int start) {

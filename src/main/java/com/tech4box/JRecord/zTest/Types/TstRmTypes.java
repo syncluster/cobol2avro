@@ -29,10 +29,10 @@
 package com.tech4box.JRecord.zTest.Types;
 
 import junit.framework.TestCase;
-import net.sf.JRecord.Common.FieldDetail;
-import net.sf.JRecord.Types.Type;
-import net.sf.JRecord.Types.TypeRmComp;
-import net.sf.JRecord.Types.TypeRmCompPositive;
+import com.tech4box.JRecord.Common.FieldDetail;
+import com.tech4box.JRecord.Types.Type;
+import com.tech4box.JRecord.Types.TypeRmComp;
+import com.tech4box.JRecord.Types.TypeRmCompPositive;
 
 
 public class TstRmTypes  extends TestCase  {

@@ -25,7 +25,7 @@
       
 package com.tech4box.JRecord.Numeric;
 
-import net.sf.JRecord.Types.Type;
+import com.tech4box.JRecord.Types.Type;
 
 public class CommonCode {
 

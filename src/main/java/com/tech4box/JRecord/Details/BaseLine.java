@@ -71,7 +71,7 @@ public abstract class BaseLine implements AbstractLine {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Details.IGetFieldValueByName#getFieldValue(java.lang.String)
+	 * @see com.tech4box.JRecord.Details.IGetFieldValueByName#getFieldValue(java.lang.String)
 	 */
 	@Override
 	public final IFieldValue getFieldValue(String fieldName) {
@@ -87,7 +87,7 @@ public abstract class BaseLine implements AbstractLine {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Details.AbstractLine#getFieldValueIfExists(java.lang.String)
+	 * @see com.tech4box.JRecord.Details.AbstractLine#getFieldValueIfExists(java.lang.String)
 	 */
 	@Override
 	public IFieldValue getFieldValueIfExists(String fieldName) {

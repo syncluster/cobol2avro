@@ -50,13 +50,13 @@ public class TextLog implements AbsSSLogger {
 	}
 
 	/**
-	 * @see net.sf.JRecord.Log#setReportLevel(int)
+	 * @see com.tech4box.JRecord.Log#setReportLevel(int)
 	 */
 	public void setReportLevel(int level) {
 	}
 
 	/**
-	 * @see net.sf.JRecord.Log#logException(int, Exception)
+	 * @see com.tech4box.JRecord.Log#logException(int, Exception)
 	 */
 	public void logException(int level, Exception ex) {
 
@@ -68,7 +68,7 @@ public class TextLog implements AbsSSLogger {
 		}
 	}
 	/**
-	 * @see net.sf.JRecord.Log#logMsg(int, String)
+	 * @see com.tech4box.JRecord.Log#logMsg(int, String)
 	 */
 	public void logMsg(int level, String msg) {
 

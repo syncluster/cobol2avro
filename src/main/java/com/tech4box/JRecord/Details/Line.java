@@ -47,10 +47,10 @@ import com.tech4box.JRecord.Common.Conversion;
 import com.tech4box.JRecord.Common.FieldDetail;
 import com.tech4box.JRecord.Common.IFieldDetail;
 import com.tech4box.JRecord.Common.RecordException;
-import net.sf.JRecord.Types.Type;
-import net.sf.JRecord.Types.TypeChar;
-import net.sf.JRecord.Types.TypeManager;
-import net.sf.JRecord.Types.TypeNum;
+import com.tech4box.JRecord.Types.Type;
+import com.tech4box.JRecord.Types.TypeChar;
+import com.tech4box.JRecord.Types.TypeManager;
+import com.tech4box.JRecord.Types.TypeNum;
 
 /**
  * This class represents one line (or Record) in the File. It contains
@@ -365,7 +365,7 @@ public class Line extends BasicLine implements AbstractLine, IGetByteData {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Details.IGetByteData#getData()
+	 * @see com.tech4box.JRecord.Details.IGetByteData#getData()
 	 */
 	@Override
 	public byte[] getData() {
@@ -377,7 +377,7 @@ public class Line extends BasicLine implements AbstractLine, IGetByteData {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Details.IGetByteData#setData(byte[])
+	 * @see com.tech4box.JRecord.Details.IGetByteData#setData(byte[])
 	 */
 	@Override
 	public void setData(byte[] data) {

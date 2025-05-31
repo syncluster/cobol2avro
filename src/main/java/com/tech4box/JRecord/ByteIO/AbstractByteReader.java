@@ -62,7 +62,7 @@ public abstract class AbstractByteReader implements IByteReader {
 
 
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.ByteIO.AbstractBByteReader#open(java.lang.String)
+	 * @see com.tech4box.JRecord.ByteIO.AbstractBByteReader#open(java.lang.String)
 	 */
     @Override
 	public void open(String fileName) throws IOException {
@@ -121,7 +121,7 @@ public abstract class AbstractByteReader implements IByteReader {
 	}
 
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.ByteIO.AbstractBByteReader#setLineLength(int)
+	 * @see com.tech4box.JRecord.ByteIO.AbstractBByteReader#setLineLength(int)
 	 */
     @Override
 	public void setLineLength(int lineLength) {
@@ -129,7 +129,7 @@ public abstract class AbstractByteReader implements IByteReader {
 
 
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.ByteIO.AbstractBByteReader#canWrite()
+	 * @see com.tech4box.JRecord.ByteIO.AbstractBByteReader#canWrite()
 	 */
     @Override
 	public boolean canWrite() {
@@ -138,7 +138,7 @@ public abstract class AbstractByteReader implements IByteReader {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.ByteIO.AbstractBByteReader#getBytesRead()
+	 * @see com.tech4box.JRecord.ByteIO.AbstractBByteReader#getBytesRead()
 	 */
 	@Override
 	public long getBytesRead() {

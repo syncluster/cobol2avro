@@ -37,16 +37,16 @@ package com.tech4box.JRecord.IO;
 import java.io.IOException;
 import java.io.InputStream;
 
-import net.sf.JRecord.Common.CommonBits;
-import net.sf.JRecord.Common.IBasicFileSchema;
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.Details.LineProvider;
-import net.sf.JRecord.External.CobolCopybookLoader;
-import net.sf.JRecord.External.CopybookLoader;
-import net.sf.JRecord.IO.builders.CblIOBuilderMultiSchema;
-import net.sf.JRecord.Numeric.ICopybookDialects;
-import net.sf.JRecord.def.IO.builders.ICobolIOBuilder;
-
+import com.tech4box.JRecord.Common.CommonBits;
+import com.tech4box.JRecord.Common.IBasicFileSchema;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.Details.LineProvider;
+import com.tech4box.JRecord.External.CobolCopybookLoader;
+import com.tech4box.JRecord.External.CopybookLoader;
+import com.tech4box.JRecord.IO.builders.CblIOBuilderMultiSchema;
+import com.tech4box.JRecord.JRecordInterface1;
+import com.tech4box.JRecord.Numeric.ICopybookDialects;
+import com.tech4box.JRecord.def.IO.builders.ICobolIOBuilder;
 
 /**
  * 
@@ -130,8 +130,8 @@ public class CobolIoProvider {
 
     /**
      * <b>Note:</b> This is part of the "old JRecord Interface". 
-     * Most users  will be better off using {@link net.sf.JRecord.JRecordInterface1#COBOL} to 
-     * create {@link net.sf.JRecord.def.IO.builders.IIOBuilder} classes or the 
+     * Most users  will be better off using {@link JRecordInterface1#COBOL} to
+     * create {@link com.tech4box.JRecord.def.IO.builders.IIOBuilder} classes or the
      * {@link CobolIoProvider#newIOBuilder(String)}}
      * 
      * Creates a line reader for a Cobol file
@@ -170,8 +170,8 @@ public class CobolIoProvider {
 
     /**
       * <b>Note:</b> This is part of the "old JRecord Interface". 
-     * Most users  will be better off using {@link net.sf.JRecord.JRecordInterface1#COBOL} to 
-     * create {@link net.sf.JRecord.def.IO.builders.IIOBuilder} classes or the 
+     * Most users  will be better off using {@link JRecordInterface1#COBOL} to
+     * create {@link com.tech4box.JRecord.def.IO.builders.IIOBuilder} classes or the
      * {@link CobolIoProvider#newIOBuilder(String)}}
      * 
      * Creates a line reader for a Cobol file
@@ -199,8 +199,8 @@ public class CobolIoProvider {
     
     /**
      * <b>Note:</b> This is part of the "old JRecord Interface". 
-     * Most users  will be better off using {@link net.sf.JRecord.JRecordInterface1#COBOL} to 
-     * create {@link net.sf.JRecord.def.IO.builders.IIOBuilder} classes or the 
+     * Most users  will be better off using {@link JRecordInterface1#COBOL} to
+     * create {@link com.tech4box.JRecord.def.IO.builders.IIOBuilder} classes or the
      * {@link CobolIoProvider#newIOBuilder(String)}}
      * Creates a line reader for a Cobol file
      * 
@@ -252,8 +252,8 @@ public class CobolIoProvider {
 
     /**
      * <b>Note:</b> This is part of the "old JRecord Interface". 
-     * Most users  will be better off using {@link net.sf.JRecord.JRecordInterface1#COBOL} to 
-     * create {@link net.sf.JRecord.def.IO.builders.IIOBuilder} classes or the 
+     * Most users  will be better off using {@link JRecordInterface1#COBOL} to
+     * create {@link com.tech4box.JRecord.def.IO.builders.IIOBuilder} classes or the
      * {@link CobolIoProvider#newIOBuilder(String)}}
      * 
      * Create a line writer for a Cobol File
@@ -273,8 +273,8 @@ public class CobolIoProvider {
 
      /**
       * <b>Note:</b> This is part of the "old JRecord Interface". 
-      * Most users  will be better off using {@link net.sf.JRecord.JRecordInterface1#COBOL} to 
-      * create {@link net.sf.JRecord.def.IO.builders.IIOBuilder} classes or the 
+      * Most users  will be better off using {@link JRecordInterface1#COBOL} to
+      * create {@link com.tech4box.JRecord.def.IO.builders.IIOBuilder} classes or the
       * {@link CobolIoProvider#newIOBuilder(String)}}
       * 
       * Create a line writer for a Cobol File

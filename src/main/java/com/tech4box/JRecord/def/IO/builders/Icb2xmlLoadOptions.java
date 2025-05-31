@@ -28,9 +28,9 @@
 
 package com.tech4box.JRecord.def.IO.builders;
 
-import net.sf.JRecord.Details.RecordDecider;
-import net.sf.JRecord.ExternalRecordSelection.ExternalSelection;
-import net.sf.JRecord.Option.IRecordPositionOption;
+import com.tech4box.JRecord.Details.RecordDecider;
+import com.tech4box.JRecord.ExternalRecordSelection.ExternalSelection;
+import com.tech4box.JRecord.Option.IRecordPositionOption;
 
 
 

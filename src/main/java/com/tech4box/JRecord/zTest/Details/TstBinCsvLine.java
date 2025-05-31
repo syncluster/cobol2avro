@@ -33,9 +33,9 @@ import com.tech4box.JRecord.Details.AbstractLine;
 import com.tech4box.JRecord.Details.LayoutDetail;
 import com.tech4box.JRecord.Details.Line;
 import com.tech4box.JRecord.External.RecordEditorXmlLoader;
-import net.sf.JRecord.Log.TextLog;
+import com.tech4box.JRecord.Log.TextLog;
 import com.tech4box.JRecord.zTest.Common.TstConstants;
-import net.sf.JRecord.zTest.copy.TstCopy;
+import com.tech4box.JRecord.zTest.copy.TstCopy;
 
 /**
  * This class Tests assigning values to a Binary CSV line

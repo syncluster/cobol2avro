@@ -7,12 +7,12 @@ import javax.xml.stream.XMLStreamConstants;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
 
-import net.sf.cb2xml.analysis.BaseItem;
-import net.sf.cb2xml.analysis.Condition;
-import net.sf.cb2xml.analysis.Item;
-import net.sf.cb2xml.analysis.ItemBuilder;
-import net.sf.cb2xml.def.Cb2xmlConstants;
-import net.sf.cb2xml.def.IItem;
+import com.tech4box.cb2xml.analysis.BaseItem;
+import com.tech4box.cb2xml.analysis.Condition;
+import com.tech4box.cb2xml.analysis.Item;
+import com.tech4box.cb2xml.analysis.ItemBuilder;
+import com.tech4box.cb2xml.def.Cb2xmlConstants;
+import com.tech4box.cb2xml.def.IItem;
 
 
 /**

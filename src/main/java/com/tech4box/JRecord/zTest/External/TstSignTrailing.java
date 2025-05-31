@@ -38,8 +38,8 @@ import com.tech4box.JRecord.Details.LayoutDetail;
 import com.tech4box.JRecord.Details.Line;
 import com.tech4box.JRecord.Details.RecordDetail;
 import com.tech4box.JRecord.External.ExternalRecord;
-import net.sf.JRecord.Types.Type;
-import net.sf.JRecord.def.IO.builders.ICobolIOBuilder;
+import com.tech4box.JRecord.Types.Type;
+import com.tech4box.JRecord.def.IO.builders.ICobolIOBuilder;
 import junit.framework.TestCase;
 
 public class TstSignTrailing extends TestCase {

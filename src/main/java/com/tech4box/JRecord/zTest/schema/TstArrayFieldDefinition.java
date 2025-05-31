@@ -6,7 +6,7 @@ import java.io.StringReader;
 import com.tech4box.JRecord.JRecordInterface1;
 import com.tech4box.JRecord.Common.IFieldDetail;
 import com.tech4box.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.cgen.impl.ArrayFieldDefinition;
+import com.tech4box.JRecord.cgen.impl.ArrayFieldDefinition;
 import junit.framework.TestCase;
 
 public class TstArrayFieldDefinition extends TestCase {

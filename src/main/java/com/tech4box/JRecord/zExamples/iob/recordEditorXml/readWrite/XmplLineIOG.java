@@ -28,9 +28,9 @@ package com.tech4box.JRecord.zExamples.iob.recordEditorXml.readWrite;
 import com.tech4box.JRecord.JRecordInterface1;
 import com.tech4box.JRecord.Common.AbstractFieldValue;
 import com.tech4box.JRecord.Details.AbstractLine;
-import net.sf.JRecord.IO.AbstractLineReader;
-import net.sf.JRecord.IO.AbstractLineWriter;
-import net.sf.JRecord.def.IO.builders.IIOBuilder;
+import com.tech4box.JRecord.IO.AbstractLineReader;
+import com.tech4box.JRecord.IO.AbstractLineWriter;
+import com.tech4box.JRecord.def.IO.builders.IIOBuilder;
 import com.tech4box.JRecord.zTest.Common.TstConstants;
 
 /**

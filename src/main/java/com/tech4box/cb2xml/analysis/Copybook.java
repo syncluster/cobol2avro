@@ -3,8 +3,8 @@
  */
 package com.tech4box.cb2xml.analysis;
 
-import net.sf.cb2xml.def.ICopybook;
-import net.sf.cb2xml.def.IItemBase;
+import com.tech4box.cb2xml.def.ICopybook;
+import com.tech4box.cb2xml.def.IItemBase;
 
 /**
  * @author bruce
@@ -25,7 +25,7 @@ public class Copybook extends BaseItem implements ICopybook {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.cb2xml.def.ICopybook#getFilename()
+	 * @see com.tech4box.cb2xml.def.ICopybook#getFilename()
 	 */
 	@Override
 	public String getFilename() {
@@ -38,7 +38,7 @@ public class Copybook extends BaseItem implements ICopybook {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.cb2xml.def.IItemBase#getParent()
+	 * @see com.tech4box.cb2xml.def.IItemBase#getParent()
 	 */
 	@Override
 	public IItemBase getParent() {

@@ -28,10 +28,10 @@
 
 package com.tech4box.JRecord.zTest.Types;
 
-import net.sf.JRecord.Common.FieldDetail;
-import net.sf.JRecord.Common.RecordException;
-import net.sf.JRecord.Types.Type;
-import net.sf.JRecord.Types.TypeSignSeparate;
+import com.tech4box.JRecord.Common.FieldDetail;
+import com.tech4box.JRecord.Common.RecordException;
+import com.tech4box.JRecord.Types.Type;
+import com.tech4box.JRecord.Types.TypeSignSeparate;
 import junit.framework.TestCase;
 
 public class TstSignSeperate extends TestCase {

@@ -40,10 +40,10 @@ import com.tech4box.JRecord.Details.LayoutDetail;
 import com.tech4box.JRecord.Details.Line;
 import com.tech4box.JRecord.External.CopybookLoader;
 import com.tech4box.JRecord.ExternalRecordSelection.ExternalFieldSelection;
-import net.sf.JRecord.IO.AbstractLineReader;
+import com.tech4box.JRecord.IO.AbstractLineReader;
 import com.tech4box.JRecord.Numeric.ICopybookDialects;
-import net.sf.JRecord.def.IO.builders.ICobolIOBuilder;
-import net.sf.JRecord.def.IO.builders.ICobolMultiCopybookIOBuilder;
+import com.tech4box.JRecord.def.IO.builders.ICobolIOBuilder;
+import com.tech4box.JRecord.def.IO.builders.ICobolMultiCopybookIOBuilder;
 
 public class ContinuousRead6 {
 

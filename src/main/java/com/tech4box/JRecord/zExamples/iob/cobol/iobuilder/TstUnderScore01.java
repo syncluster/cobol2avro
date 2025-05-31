@@ -11,7 +11,7 @@ import com.tech4box.JRecord.JRecordInterface1;
 import com.tech4box.JRecord.Common.FieldDetail;
 import com.tech4box.JRecord.Details.LayoutDetail;
 import com.tech4box.JRecord.Details.RecordDetail;
-import net.sf.JRecord.def.IO.builders.ICobolIOBuilder;
+import com.tech4box.JRecord.def.IO.builders.ICobolIOBuilder;
 
 public class TstUnderScore01 {
 

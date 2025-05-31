@@ -29,24 +29,24 @@
 package com.tech4box.JRecord.zTest.io;
 
 import junit.framework.TestCase;
-import net.sf.JRecord.ByteIO.FixedLengthByteReader;
-import net.sf.JRecord.ByteIO.FujitsuVbByteReader;
-import net.sf.JRecord.ByteIO.VbByteReader;
-import net.sf.JRecord.ByteIO.VbByteWriter;
-import net.sf.JRecord.ByteIO.VbDumpByteWriter;
-import net.sf.JRecord.Common.BasicFileSchema;
-import net.sf.JRecord.Common.Constants;
-import net.sf.JRecord.External.CopybookLoader;
-import net.sf.JRecord.IO.AbstractLineReader;
-import net.sf.JRecord.IO.AbstractLineWriter;
-import net.sf.JRecord.IO.CobolIoProvider;
-import net.sf.JRecord.IO.FixedLengthWriter;
-import net.sf.JRecord.IO.LineReaderWrapper;
-import net.sf.JRecord.IO.LineWriterWrapper;
-import net.sf.JRecord.IO.TextLineWriter;
-import net.sf.JRecord.Numeric.ICopybookDialects;
-import net.sf.JRecord.zTest.Common.TstConstants;
-import net.sf.cb2xml.def.Cb2xmlConstants;
+import com.tech4box.JRecord.ByteIO.FixedLengthByteReader;
+import com.tech4box.JRecord.ByteIO.FujitsuVbByteReader;
+import com.tech4box.JRecord.ByteIO.VbByteReader;
+import com.tech4box.JRecord.ByteIO.VbByteWriter;
+import com.tech4box.JRecord.ByteIO.VbDumpByteWriter;
+import com.tech4box.JRecord.Common.BasicFileSchema;
+import com.tech4box.JRecord.Common.Constants;
+import com.tech4box.JRecord.External.CopybookLoader;
+import com.tech4box.JRecord.IO.AbstractLineReader;
+import com.tech4box.JRecord.IO.AbstractLineWriter;
+import com.tech4box.JRecord.IO.CobolIoProvider;
+import com.tech4box.JRecord.IO.FixedLengthWriter;
+import com.tech4box.JRecord.IO.LineReaderWrapper;
+import com.tech4box.JRecord.IO.LineWriterWrapper;
+import com.tech4box.JRecord.IO.TextLineWriter;
+import com.tech4box.JRecord.Numeric.ICopybookDialects;
+import com.tech4box.JRecord.zTest.Common.TstConstants;
+import com.tech4box.cb2xml.def.Cb2xmlConstants;
 
 /**
  * Testing the correct LineReader's and LineWriter's are returned by

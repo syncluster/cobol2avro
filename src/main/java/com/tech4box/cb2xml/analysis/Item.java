@@ -7,14 +7,14 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import net.sf.cb2xml.def.Cb2xmlConstants;
-import net.sf.cb2xml.def.Cb2xmlConstants.Justified;
-import net.sf.cb2xml.def.Cb2xmlConstants.NumericClass;
-import net.sf.cb2xml.def.ICondition;
-import net.sf.cb2xml.def.IItem;
-import net.sf.cb2xml.def.IItemBase;
-import net.sf.cb2xml.def.IItemJr;
-import net.sf.cb2xml.def.IItemJrUpd;
+import com.tech4box.cb2xml.def.Cb2xmlConstants;
+import com.tech4box.cb2xml.def.Cb2xmlConstants.Justified;
+import com.tech4box.cb2xml.def.Cb2xmlConstants.NumericClass;
+import com.tech4box.cb2xml.def.ICondition;
+import com.tech4box.cb2xml.def.IItem;
+import com.tech4box.cb2xml.def.IItemBase;
+import com.tech4box.cb2xml.def.IItemJr;
+import com.tech4box.cb2xml.def.IItemJrUpd;
 
 /**
  * Representation of a field / group definition in
@@ -110,7 +110,7 @@ public class Item extends BaseItem implements IItemJrUpd {
 	
 	
 	/* (non-Javadoc)
-	 * @see net.sf.cb2xml.def.IItem#getParent()
+	 * @see com.tech4box.cb2xml.def.IItem#getParent()
 	 */
 	@Override
 	public IItemBase getParent() {
@@ -133,7 +133,7 @@ public class Item extends BaseItem implements IItemJrUpd {
 //	
 	
 	/* (non-Javadoc)
-	 * @see net.sf.cb2xml.def.IItem#getLevelNumber()
+	 * @see com.tech4box.cb2xml.def.IItem#getLevelNumber()
 	 */
 	@Override
 	public int getLevelNumber() {
@@ -175,7 +175,7 @@ public class Item extends BaseItem implements IItemJrUpd {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.cb2xml.def.IItem#getJustified()
+	 * @see com.tech4box.cb2xml.def.IItem#getJustified()
 	 */
 	@Override
 	public Justified getJustified() {
@@ -296,7 +296,7 @@ public class Item extends BaseItem implements IItemJrUpd {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.cb2xml.def.IItemJr#updatePosition(int)
+	 * @see com.tech4box.cb2xml.def.IItemJr#updatePosition(int)
 	 */
 	@Override
 	public void updatePosition(int adjustment) {

@@ -32,16 +32,16 @@ import java.io.ByteArrayInputStream;
 import java.io.IOException;
 
 import junit.framework.TestCase;
-import net.sf.JRecord.JRecordInterface1;
-import net.sf.JRecord.Common.Constants;
-import net.sf.JRecord.Common.Conversion;
-import net.sf.JRecord.Common.RecordException;
-import net.sf.JRecord.External.CopybookLoader;
-import net.sf.JRecord.External.ExternalRecord;
-import net.sf.JRecord.IO.builders.CblIOBuilderBase;
-import net.sf.JRecord.Numeric.ICopybookDialects;
-import net.sf.JRecord.def.IO.builders.IIOBuilder;
-import net.sf.cb2xml.def.Cb2xmlConstants;
+import com.tech4box.JRecord.JRecordInterface1;
+import com.tech4box.JRecord.Common.Constants;
+import com.tech4box.JRecord.Common.Conversion;
+import com.tech4box.JRecord.Common.RecordException;
+import com.tech4box.JRecord.External.CopybookLoader;
+import com.tech4box.JRecord.External.ExternalRecord;
+import com.tech4box.JRecord.IO.builders.CblIOBuilderBase;
+import com.tech4box.JRecord.Numeric.ICopybookDialects;
+import com.tech4box.JRecord.def.IO.builders.IIOBuilder;
+import com.tech4box.cb2xml.def.Cb2xmlConstants;
 
 
 /**
@@ -525,7 +525,7 @@ public class TstCobolIOBuilder01 extends TestCase {
 
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.IO.builders.CblIOBuilderBase#getExternalRecordImpl()
+		 * @see com.tech4box.JRecord.IO.builders.CblIOBuilderBase#getExternalRecordImpl()
 		 */
 		@Override
 		protected ExternalRecord getExternalRecordImpl() throws RecordException, IOException {

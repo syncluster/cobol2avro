@@ -31,8 +31,8 @@ package com.tech4box.JRecord.zTest.Numeric;
 import com.tech4box.JRecord.Numeric.ConversionManager;
 import com.tech4box.JRecord.Numeric.Convert;
 import com.tech4box.JRecord.Numeric.ICopybookDialects;
-import net.sf.JRecord.Types.Type;
-import net.sf.cb2xml.def.Cb2xmlConstants;
+import com.tech4box.JRecord.Types.Type;
+import com.tech4box.cb2xml.def.Cb2xmlConstants;
 import junit.framework.TestCase;
 
 public class TestOcConvertPictAnalysis  extends TestCase{

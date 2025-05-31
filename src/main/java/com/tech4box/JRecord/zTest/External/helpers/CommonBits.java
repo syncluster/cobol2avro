@@ -34,7 +34,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 
 import com.tech4box.JRecord.Details.AbstractLine;
-import net.sf.JRecord.IO.AbstractLineReader;
+import com.tech4box.JRecord.IO.AbstractLineReader;
 import junit.framework.TestCase;
 
 public class CommonBits {

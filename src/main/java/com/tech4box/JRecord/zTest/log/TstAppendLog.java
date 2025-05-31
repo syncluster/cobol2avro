@@ -28,7 +28,7 @@
 
 package com.tech4box.JRecord.zTest.log;
 
-import net.sf.JRecord.Log.AppendableLog;
+import com.tech4box.JRecord.Log.AppendableLog;
 import junit.framework.TestCase;
 
 public class TstAppendLog extends TestCase {

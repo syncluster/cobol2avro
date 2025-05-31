@@ -5,10 +5,10 @@ import java.io.IOException;
 import java.io.StringReader;
 
 import junit.framework.TestCase;
-import net.sf.JRecord.JRecordInterface1;
-import net.sf.JRecord.External.ExternalRecord;
-import net.sf.JRecord.Numeric.ICopybookDialects;
-import net.sf.JRecord.def.IO.builders.ICobolMultiCopybookIOBuilder;
+import com.tech4box.JRecord.JRecordInterface1;
+import com.tech4box.JRecord.External.ExternalRecord;
+import com.tech4box.JRecord.Numeric.ICopybookDialects;
+import com.tech4box.JRecord.def.IO.builders.ICobolMultiCopybookIOBuilder;
 
 public class TstSetStartingPosition extends TestCase {
 

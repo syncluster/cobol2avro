@@ -31,7 +31,7 @@ import java.util.StringTokenizer;
 
 import com.tech4box.JRecord.Common.Constants;
 import com.tech4box.JRecord.Common.Conversion;
-import net.sf.JRecord.Types.Type;
+import com.tech4box.JRecord.Types.Type;
 
 /**
  * Class contains common code for use in other CSV parser's

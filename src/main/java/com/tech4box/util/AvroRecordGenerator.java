@@ -1,9 +1,9 @@
 package com.tech4box.util;
 
-import net.sf.JRecord.Common.FieldDetail;
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.Details.RecordDetail;
-import net.sf.JRecord.Details.AbstractLine;
+import com.tech4box.JRecord.Common.FieldDetail;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.Details.RecordDetail;
+import com.tech4box.JRecord.Details.AbstractLine;
 import org.apache.avro.Schema;
 import org.apache.avro.generic.GenericData;
 import org.apache.avro.generic.GenericRecord;

@@ -10,7 +10,7 @@ package com.tech4box.cb2xml;
 
 import java.io.PushbackReader;
 
-import net.sf.cb2xml.sablecc.lexer.Lexer;
+import com.tech4box.cb2xml.sablecc.lexer.Lexer;
 
 /**
  * extension of Lexer to enable better error reporting

@@ -28,7 +28,7 @@
 
 package com.tech4box.JRecord.cgen.def;
 
-import net.sf.JRecord.Common.IFieldDetail;
+import com.tech4box.JRecord.Common.IFieldDetail;
 
 public interface IArray2Dimension {
 

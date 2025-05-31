@@ -30,15 +30,15 @@ package com.tech4box.JRecord.zTest.Cobol;
 
 import java.io.ByteArrayInputStream;
 
-import net.sf.JRecord.Common.FieldDetail;
-import net.sf.JRecord.Common.RecordException;
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.External.CobolCopybookLoader;
-import net.sf.JRecord.External.CopybookLoader;
-import net.sf.JRecord.Log.TextLog;
+import com.tech4box.JRecord.Common.FieldDetail;
+import com.tech4box.JRecord.Common.RecordException;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.External.CobolCopybookLoader;
+import com.tech4box.JRecord.External.CopybookLoader;
+import com.tech4box.JRecord.Log.TextLog;
 
 
-import net.sf.JRecord.Numeric.ICopybookDialects;
+import com.tech4box.JRecord.Numeric.ICopybookDialects;
 import junit.framework.TestCase;
 
 /**

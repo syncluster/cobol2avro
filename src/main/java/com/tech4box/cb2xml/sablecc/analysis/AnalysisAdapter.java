@@ -3,7 +3,7 @@
 package com.tech4box.cb2xml.sablecc.analysis;
 
 import java.util.*;
-import net.sf.cb2xml.sablecc.node.*;
+import com.tech4box.cb2xml.sablecc.node.*;
 
 public class AnalysisAdapter implements Analysis
 {

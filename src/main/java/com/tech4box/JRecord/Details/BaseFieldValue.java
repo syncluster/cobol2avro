@@ -34,8 +34,8 @@ import java.math.BigInteger;
 import com.tech4box.JRecord.Common.AbstractFieldValue;
 import com.tech4box.JRecord.Common.IFieldDetail;
 import com.tech4box.JRecord.External.base.ExternalConversion;
-import net.sf.JRecord.Types.Type;
-import net.sf.JRecord.Types.TypeManager;
+import com.tech4box.JRecord.Types.Type;
+import com.tech4box.JRecord.Types.TypeManager;
 
 /**
  * Reference to one field in a line (or Record).
@@ -201,7 +201,7 @@ public abstract class BaseFieldValue  {
 
 	
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.AbstractFieldValue#set(net.sf.JRecord.Common.AbstractFieldValue)
+	 * @see com.tech4box.JRecord.Common.AbstractFieldValue#set(com.tech4box.JRecord.Common.AbstractFieldValue)
 	 */
 	public final void set(AbstractFieldValue value) {
 		set(value.asString());

@@ -5,9 +5,9 @@ import java.io.IOException;
 import java.io.StringReader;
 
 import junit.framework.TestCase;
-import net.sf.JRecord.JRecordInterface1;
-import net.sf.JRecord.Common.Constants;
-import net.sf.JRecord.External.ExternalRecord;
+import com.tech4box.JRecord.JRecordInterface1;
+import com.tech4box.JRecord.Common.Constants;
+import com.tech4box.JRecord.External.ExternalRecord;
 
 /**
  * The class checks the setFont / setDefaultFont + setFileOrganization are

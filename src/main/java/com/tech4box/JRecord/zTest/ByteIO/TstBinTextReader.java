@@ -32,9 +32,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 import junit.framework.TestCase;
-import net.sf.JRecord.ByteIO.ByteTextReader;
-import net.sf.JRecord.Common.Constants;
-import net.sf.JRecord.zTest.Common.TstConstants;
+import com.tech4box.JRecord.ByteIO.ByteTextReader;
+import com.tech4box.JRecord.Common.Constants;
+import com.tech4box.JRecord.zTest.Common.TstConstants;
 
 public class TstBinTextReader  extends TestCase {
 

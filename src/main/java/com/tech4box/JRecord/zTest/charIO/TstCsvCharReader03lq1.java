@@ -30,9 +30,9 @@ package com.tech4box.JRecord.zTest.charIO;
 
 import java.io.IOException;
 
-import net.sf.JRecord.Common.Conversion;
-import net.sf.JRecord.charIO.CsvCharReader;
-import net.sf.JRecord.zTest.Common.TestCommonCode;
+import com.tech4box.JRecord.Common.Conversion;
+import com.tech4box.JRecord.charIO.CsvCharReader;
+import com.tech4box.JRecord.zTest.Common.TestCommonCode;
 import junit.framework.TestCase;
 
 /**

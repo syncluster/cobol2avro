@@ -59,7 +59,7 @@ public class BasicTranslation implements ITranslation {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.ITranslation#convert(java.lang.String, java.lang.String)
+	 * @see com.tech4box.JRecord.Common.ITranslation#convert(java.lang.String, java.lang.String)
 	 */
 	@Override
 	public String convert(String s, String defaultStr) {

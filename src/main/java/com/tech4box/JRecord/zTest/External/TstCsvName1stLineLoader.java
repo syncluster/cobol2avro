@@ -34,8 +34,8 @@ import junit.framework.TestCase;
 import com.tech4box.JRecord.Common.RecordException;
 import com.tech4box.JRecord.External.CsvNamesFirstLineFileLoader;
 import com.tech4box.JRecord.External.ExternalRecord;
-import net.sf.JRecord.Log.TextLog;
-import net.sf.JRecord.zTest.Common.IO;
+import com.tech4box.JRecord.Log.TextLog;
+import com.tech4box.JRecord.zTest.Common.IO;
 import com.tech4box.JRecord.zTest.Common.TstConstants;
 
 public class TstCsvName1stLineLoader extends TestCase {

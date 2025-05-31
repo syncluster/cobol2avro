@@ -32,7 +32,7 @@
 package com.tech4box.JRecord.CsvParser;
 
 import com.tech4box.JRecord.Common.Conversion;
-import net.sf.JRecord.Types.Type;
+import com.tech4box.JRecord.Types.Type;
 
 /**
  * Basic CSV line parser. Basically<br/>

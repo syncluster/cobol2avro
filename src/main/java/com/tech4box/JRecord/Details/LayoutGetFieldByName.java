@@ -42,7 +42,7 @@ public class LayoutGetFieldByName implements IGetFieldByName {
 	}
 	
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.IGetFieldByName#getField(java.lang.String)
+	 * @see com.tech4box.JRecord.Common.IGetFieldByName#getField(java.lang.String)
 	 */
 	@Override
 	public IFieldDetail getField(String fieldName) {

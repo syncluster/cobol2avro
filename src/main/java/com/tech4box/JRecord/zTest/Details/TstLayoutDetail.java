@@ -34,9 +34,9 @@ import com.tech4box.JRecord.Details.LayoutDetail;
 import com.tech4box.JRecord.External.CobolCopybookLoader;
 import com.tech4box.JRecord.External.CopybookLoader;
 import com.tech4box.JRecord.External.ExternalRecord;
-import net.sf.JRecord.Log.TextLog;
+import com.tech4box.JRecord.Log.TextLog;
 import com.tech4box.JRecord.Numeric.ICopybookDialects;
-import net.sf.cb2xml.def.Cb2xmlConstants;
+import com.tech4box.cb2xml.def.Cb2xmlConstants;
 import junit.framework.TestCase;
 
 public class TstLayoutDetail extends TestCase {

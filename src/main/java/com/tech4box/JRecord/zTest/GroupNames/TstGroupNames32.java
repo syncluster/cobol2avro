@@ -42,11 +42,11 @@ import com.tech4box.JRecord.Details.AbstractLine;
 import com.tech4box.JRecord.Details.LayoutDetail;
 import com.tech4box.JRecord.Details.RecordDetail;
 import com.tech4box.JRecord.External.base.RecordEditorXmlWriter;
-import net.sf.JRecord.IO.AbstractLineReader;
-import net.sf.JRecord.Log.TextLog;
+import com.tech4box.JRecord.IO.AbstractLineReader;
+import com.tech4box.JRecord.Log.TextLog;
 import com.tech4box.JRecord.Numeric.ICopybookDialects;
-import net.sf.JRecord.def.IO.builders.ICobolIOBuilder;
-import net.sf.JRecord.def.IO.builders.IIOBuilder;
+import com.tech4box.JRecord.def.IO.builders.ICobolIOBuilder;
+import com.tech4box.JRecord.def.IO.builders.IIOBuilder;
 
 /**
  * This program test accessing Duplicate field names 

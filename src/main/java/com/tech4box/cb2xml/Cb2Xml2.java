@@ -18,10 +18,10 @@ import java.io.Reader;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.transform.dom.DOMResult;
 
-import net.sf.cb2xml.def.Cb2xmlConstants;
-import net.sf.cb2xml.sablecc.lexer.LexerException;
-import net.sf.cb2xml.sablecc.parser.ParserException;
-import net.sf.cb2xml.util.XmlUtils;
+import com.tech4box.cb2xml.def.Cb2xmlConstants;
+import com.tech4box.cb2xml.sablecc.lexer.LexerException;
+import com.tech4box.cb2xml.sablecc.parser.ParserException;
+import com.tech4box.cb2xml.util.XmlUtils;
 
 import org.w3c.dom.Document;
 

@@ -1,7 +1,7 @@
 package com.tech4box.JRecord.schema.jaxb.impl;
 
 import com.tech4box.JRecord.Common.IFieldDetail;
-import net.sf.JRecord.Types.TypeManager;
+import com.tech4box.JRecord.Types.TypeManager;
 import com.tech4box.JRecord.schema.jaxb.IItem;
 import com.tech4box.JRecord.schema.jaxb.interfaces.IFormatField;
 
@@ -10,7 +10,7 @@ public class AddPlusToNumeric implements IFormatField {
 	public static final AddPlusToNumeric INSTANCE = new AddPlusToNumeric();
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.jaxb.interfaces.IFormatField#format(net.sf.JRecord.schema.jaxb.IItem, net.sf.JRecord.Common.IFieldDetail, java.lang.String)
+	 * @see com.tech4box.JRecord.schema.jaxb.interfaces.IFormatField#format(com.tech4box.JRecord.schema.jaxb.IItem, com.tech4box.JRecord.Common.IFieldDetail, java.lang.String)
 	 */
 	@Override
 	public String format(IItem itemDef, IFieldDetail fieldDef, String value) {

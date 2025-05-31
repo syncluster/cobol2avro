@@ -25,7 +25,7 @@
       
 package com.tech4box.JRecord.Types;
 
-import net.sf.JRecord.Common.IFieldDetail;
+import com.tech4box.JRecord.Common.IFieldDetail;
 
 public class TypeCharRestOfFixedRecord extends TypeChar {
 
@@ -42,7 +42,7 @@ public class TypeCharRestOfFixedRecord extends TypeChar {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Types.TypeChar#setField(byte[], int, net.sf.JRecord.Common.FieldDetail, java.lang.Object)
+	 * @see com.tech4box.JRecord.Types.TypeChar#setField(byte[], int, com.tech4box.JRecord.Common.FieldDetail, java.lang.Object)
 	 */
 	@Override
 	public byte[] setField(byte[] record, int position, IFieldDetail field,

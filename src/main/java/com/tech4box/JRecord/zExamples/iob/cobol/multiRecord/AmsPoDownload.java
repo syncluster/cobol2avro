@@ -32,9 +32,9 @@ import com.tech4box.JRecord.Common.RecordException;
 import com.tech4box.JRecord.Details.AbstractLine;
 import com.tech4box.JRecord.External.CopybookLoader;
 import com.tech4box.JRecord.External.ExternalRecord;
-import net.sf.JRecord.IO.AbstractLineReader;
+import com.tech4box.JRecord.IO.AbstractLineReader;
 import com.tech4box.JRecord.Numeric.ICopybookDialects;
-import net.sf.JRecord.def.IO.builders.ICobolIOBuilder;
+import com.tech4box.JRecord.def.IO.builders.ICobolIOBuilder;
 
 
 

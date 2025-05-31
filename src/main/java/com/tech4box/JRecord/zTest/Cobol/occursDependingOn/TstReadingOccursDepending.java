@@ -30,12 +30,12 @@ package com.tech4box.JRecord.zTest.Cobol.occursDependingOn;
 
 import java.io.IOException;
 
-import net.sf.JRecord.Common.Constants;
-import net.sf.JRecord.Common.RecordException;
-import net.sf.JRecord.IO.AbstractLineReader;
-import net.sf.JRecord.IO.CobolIoProvider;
-import net.sf.JRecord.Numeric.ICopybookDialects;
-import net.sf.JRecord.def.IO.builders.ICobolIOBuilder;
+import com.tech4box.JRecord.Common.Constants;
+import com.tech4box.JRecord.Common.RecordException;
+import com.tech4box.JRecord.IO.AbstractLineReader;
+import com.tech4box.JRecord.IO.CobolIoProvider;
+import com.tech4box.JRecord.Numeric.ICopybookDialects;
+import com.tech4box.JRecord.def.IO.builders.ICobolIOBuilder;
 import junit.framework.TestCase;
 
 public class TstReadingOccursDepending extends TestCase {

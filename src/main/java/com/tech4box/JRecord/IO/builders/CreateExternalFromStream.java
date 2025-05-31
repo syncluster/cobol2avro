@@ -32,7 +32,7 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 
-import net.sf.JRecord.External.ExternalRecord;
+import com.tech4box.JRecord.External.ExternalRecord;
 
 public class CreateExternalFromStream  extends CreateExternalBase  implements ICreateExternal  {
 

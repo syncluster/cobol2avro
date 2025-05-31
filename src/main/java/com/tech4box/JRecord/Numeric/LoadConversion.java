@@ -30,7 +30,7 @@ import java.util.Properties;
 import java.util.StringTokenizer;
 
 import com.tech4box.JRecord.Common.PropertyManager;
-import net.sf.JRecord.Types.Type;
+import com.tech4box.JRecord.Types.Type;
 
 public class LoadConversion {
 

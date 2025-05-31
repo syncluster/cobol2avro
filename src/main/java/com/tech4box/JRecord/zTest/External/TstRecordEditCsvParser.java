@@ -45,11 +45,11 @@ import com.tech4box.JRecord.External.RecordEditorCsvLoader;
 import com.tech4box.JRecord.External.Def.ExternalField;
 import com.tech4box.JRecord.External.base.CopybookWriter;
 import com.tech4box.JRecord.External.base.RecordEditorCSVWriter;
-import net.sf.JRecord.Log.AbsSSLogger;
-import net.sf.JRecord.Log.TextLog;
-import net.sf.JRecord.Types.Type;
+import com.tech4box.JRecord.Log.AbsSSLogger;
+import com.tech4box.JRecord.Log.TextLog;
+import com.tech4box.JRecord.Types.Type;
 import com.tech4box.JRecord.zTest.Common.CommonCodeFields;
-import net.sf.JRecord.zTest.Common.IO;
+import com.tech4box.JRecord.zTest.Common.IO;
 import com.tech4box.JRecord.zTest.Common.TstConstants;
 
 /**

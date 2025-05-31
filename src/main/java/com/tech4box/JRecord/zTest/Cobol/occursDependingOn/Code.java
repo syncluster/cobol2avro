@@ -33,15 +33,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 import junit.framework.TestCase;
-import net.sf.JRecord.Common.AbstractFieldValue;
-import net.sf.JRecord.Common.FieldDetail;
-import net.sf.JRecord.Common.IFieldDetail;
-import net.sf.JRecord.Common.RecordException;
-import net.sf.JRecord.Details.AbstractLine;
-import net.sf.JRecord.Details.FieldIterator;
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.occursDepending.IOccursDependingPositionCalculation;
-import net.sf.JRecord.occursDepending.ODCalculationComplex;
+import com.tech4box.JRecord.Common.AbstractFieldValue;
+import com.tech4box.JRecord.Common.FieldDetail;
+import com.tech4box.JRecord.Common.IFieldDetail;
+import com.tech4box.JRecord.Common.RecordException;
+import com.tech4box.JRecord.Details.AbstractLine;
+import com.tech4box.JRecord.Details.FieldIterator;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.occursDepending.IOccursDependingPositionCalculation;
+import com.tech4box.JRecord.occursDepending.ODCalculationComplex;
 
 public class Code {
 	

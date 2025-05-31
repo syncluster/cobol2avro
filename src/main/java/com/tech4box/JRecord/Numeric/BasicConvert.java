@@ -26,8 +26,8 @@
 package com.tech4box.JRecord.Numeric;
 
 import com.tech4box.JRecord.Common.Constants;
-import net.sf.JRecord.Types.Type;
-import net.sf.cb2xml.def.Cb2xmlConstants;
+import com.tech4box.JRecord.Types.Type;
+import com.tech4box.cb2xml.def.Cb2xmlConstants;
 
 /**
  * Standard Cobol Type to JRecord Type conversion class.
@@ -59,7 +59,7 @@ import net.sf.cb2xml.def.Cb2xmlConstants;
 
     	name = binName;
     	try {
-    		numericDefinition = new net.sf.cb2xml.def.BasicNumericDefinition(
+    		numericDefinition = new com.tech4box.cb2xml.def.BasicNumericDefinition(
     				binName, binarySizes, SynchronizeAt, usePositive, floatSynchronize, doubleSynchronize
     		);
     	} catch (NoClassDefFoundError e) {
@@ -223,7 +223,7 @@ import net.sf.cb2xml.def.Cb2xmlConstants;
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Numeric.Convert#getFileStructure(boolean, boolean)
+	 * @see com.tech4box.JRecord.Numeric.Convert#getFileStructure(boolean, boolean)
 	 */
 	@Override
 	public int getFileStructure(boolean multipleRecordLengths, boolean binary) {

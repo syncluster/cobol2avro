@@ -150,6 +150,7 @@ public interface AbstractLine extends AbstractIndexedLine {
      * controlled. <b>Only</b> use it in JRecord if you know what you are doing.
      * Basically it works if the Layouts are <b>very</b> similar.
      */
+    @Deprecated
     public abstract void setLayout(final LayoutDetail pLayout);
 
     /**
@@ -171,6 +172,7 @@ public interface AbstractLine extends AbstractIndexedLine {
      * 
      * @deprecated for use in JRecord
      */
+    @Deprecated
     public abstract void setLineProvider(LineProvider pLineProvider);
 
     /**
@@ -183,6 +185,7 @@ public interface AbstractLine extends AbstractIndexedLine {
      *
      * @deprecated for use in JRecord, otherwise use {@link AbstractLine#getFieldValue(int, int)}
      */
+    @Deprecated
     public abstract Object getField(final int recordIdx, final int fieldIdx);
 
 
@@ -195,6 +198,7 @@ public interface AbstractLine extends AbstractIndexedLine {
      *
      * @deprecated use {@link AbstractLine#getFieldValue(String)}
      */
+    @Deprecated
     public abstract Object getField(String fieldName);
 
     /**
@@ -243,6 +247,7 @@ public interface AbstractLine extends AbstractIndexedLine {
      *
      * @deprecated use {@link AbstractLine#getFieldValue(IFieldDetail)}.set(..)
      */
+    @Deprecated
     public abstract void setField(String fieldName, Object value);
 
     /**
@@ -254,6 +259,7 @@ public interface AbstractLine extends AbstractIndexedLine {
      *
      * @deprecated for use in JRecord, use {@link AbstractLine#getFieldValue(int, int)}.set(..)
      */
+    @Deprecated
     public abstract void setField(final int recordIdx, final int fieldIdx,
             Object val);
 
@@ -265,6 +271,7 @@ public interface AbstractLine extends AbstractIndexedLine {
      *
      * @deprecated for use in JRecord, use {@link AbstractLine#getFieldValue(IFieldDetail)}.set(..)
      */
+    @Deprecated
     public abstract void setField(IFieldDetail field, Object value);
 
     /**

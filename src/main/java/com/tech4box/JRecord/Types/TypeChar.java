@@ -46,9 +46,9 @@ package com.tech4box.JRecord.Types;
 
 import java.util.Arrays;
 
-import net.sf.JRecord.Common.Conversion;
-import net.sf.JRecord.Common.IFieldDetail;
-import net.sf.JRecord.Common.RecordException;
+import com.tech4box.JRecord.Common.Conversion;
+import com.tech4box.JRecord.Common.IFieldDetail;
+import com.tech4box.JRecord.Common.RecordException;
 
 /**
  * Type Char
@@ -387,7 +387,7 @@ public class TypeChar implements Type {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Types.Type#getDecimalCh()
+	 * @see com.tech4box.JRecord.Types.Type#getDecimalCh()
 	 */
 	@Override
 	public char getDecimalChar() {

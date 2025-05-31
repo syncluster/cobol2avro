@@ -26,10 +26,10 @@
 package com.tech4box.JRecord.Numeric;
 
 import com.tech4box.JRecord.Common.Constants;
-import net.sf.JRecord.Types.Type;
-import net.sf.cb2xml.def.BasicNumericDefinition;
-import net.sf.cb2xml.def.Cb2xmlConstants;
-import net.sf.cb2xml.def.NumericDefinition;
+import com.tech4box.JRecord.Types.Type;
+import com.tech4box.cb2xml.def.BasicNumericDefinition;
+import com.tech4box.cb2xml.def.Cb2xmlConstants;
+import com.tech4box.cb2xml.def.NumericDefinition;
 
 /**
  * Basic Definition of Binary Types Sizes for Cobol:
@@ -361,7 +361,7 @@ public class GenericNumericDefinition implements NumericDefinition, Convert {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Numeric.Convert#getFileStructure(boolean, boolean)
+	 * @see com.tech4box.JRecord.Numeric.Convert#getFileStructure(boolean, boolean)
 	 */
 	@Override
 	public int getFileStructure(boolean multipleRecordLengths, boolean binary) {

@@ -35,10 +35,10 @@ import java.io.ByteArrayInputStream;
 import java.io.IOException;
 
 import junit.framework.TestCase;
-import net.sf.JRecord.Common.Conversion;
-import net.sf.JRecord.charIO.CsvCharReader;
-import net.sf.JRecord.charIO.ICharReader;
-import net.sf.JRecord.charIO.StandardCharReader;
+import com.tech4box.JRecord.Common.Conversion;
+import com.tech4box.JRecord.charIO.CsvCharReader;
+import com.tech4box.JRecord.charIO.ICharReader;
+import com.tech4box.JRecord.charIO.StandardCharReader;
 
 /**
  * Purpose:<ol>

@@ -37,10 +37,10 @@ package com.tech4box.JRecord.IO;
 import java.io.IOException;
 import java.io.OutputStream;
 
-import net.sf.JRecord.Details.AbstractLine;
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.charIO.CharIOProvider;
-import net.sf.JRecord.charIO.ICharWriter;
+import com.tech4box.JRecord.Details.AbstractLine;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.charIO.CharIOProvider;
+import com.tech4box.JRecord.charIO.ICharWriter;
 
 /**
  * This class creates a <b>LineWriter</b> from a Low Level <b>Byte-Writer</b>.

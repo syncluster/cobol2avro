@@ -34,15 +34,15 @@ import javax.xml.parsers.ParserConfigurationException;
 
 import com.tech4box.JRecord.Common.CommonBits;
 import com.tech4box.JRecord.Common.Conversion;
-import net.sf.JRecord.IO.XmlLineReader;
-import net.sf.JRecord.Log.AbsSSLogger;
+import com.tech4box.JRecord.IO.XmlLineReader;
+import com.tech4box.JRecord.Log.AbsSSLogger;
 
 import org.xml.sax.SAXException;
 
 public class XmlFileLoader implements CopybookLoader {
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.External.CopybookLoader#loadCopyBook(java.lang.String, int, int, java.lang.String, int, int, net.sf.JRecord.Log.AbsSSLogger)
+	 * @see com.tech4box.JRecord.External.CopybookLoader#loadCopyBook(java.lang.String, int, int, java.lang.String, int, int, com.tech4box.JRecord.Log.AbsSSLogger)
 	 */
 	@Override
 	public final ExternalRecord loadCopyBook(String copyBookFile,

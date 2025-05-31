@@ -2,7 +2,7 @@
 
 package com.tech4box.cb2xml.sablecc.analysis;
 
-import net.sf.cb2xml.sablecc.node.*;
+import com.tech4box.cb2xml.sablecc.node.*;
 
 public interface Analysis extends Switch
 {

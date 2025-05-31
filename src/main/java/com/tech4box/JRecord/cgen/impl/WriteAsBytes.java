@@ -31,11 +31,11 @@ package com.tech4box.JRecord.cgen.impl;
 import java.io.IOException;
 import java.io.OutputStream;
 
-import net.sf.JRecord.ByteIO.AbstractByteWriter;
-import net.sf.JRecord.ByteIO.ByteIOProvider;
-import net.sf.JRecord.Common.IBasicFileSchema;
-import net.sf.JRecord.cgen.def.ISerializer;
-import net.sf.JRecord.cgen.def.IWriter;
+import com.tech4box.JRecord.ByteIO.AbstractByteWriter;
+import com.tech4box.JRecord.ByteIO.ByteIOProvider;
+import com.tech4box.JRecord.Common.IBasicFileSchema;
+import com.tech4box.JRecord.cgen.def.ISerializer;
+import com.tech4box.JRecord.cgen.def.IWriter;
 
 
 /**

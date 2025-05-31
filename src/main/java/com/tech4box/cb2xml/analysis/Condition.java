@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import net.sf.cb2xml.def.ICondition;
+import com.tech4box.cb2xml.def.ICondition;
 
 public class Condition implements ICondition {
 

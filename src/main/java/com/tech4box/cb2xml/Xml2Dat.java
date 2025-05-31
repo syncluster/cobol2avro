@@ -1,7 +1,7 @@
 package com.tech4box.cb2xml;
 
-import net.sf.cb2xml.convert.XmlToMainframe;
-import net.sf.cb2xml.util.XmlUtils;
+import com.tech4box.cb2xml.convert.XmlToMainframe;
+import com.tech4box.cb2xml.util.XmlUtils;
 
 import org.w3c.dom.Document;
 

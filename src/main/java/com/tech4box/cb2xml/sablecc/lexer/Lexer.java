@@ -3,7 +3,7 @@
 package com.tech4box.cb2xml.sablecc.lexer;
 
 import java.io.*;
-import net.sf.cb2xml.sablecc.node.*;
+import com.tech4box.cb2xml.sablecc.node.*;
 
 @SuppressWarnings("nls")
 public class Lexer

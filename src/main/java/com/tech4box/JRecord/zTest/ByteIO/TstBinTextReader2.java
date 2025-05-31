@@ -31,7 +31,7 @@ package com.tech4box.JRecord.zTest.ByteIO;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 
-import net.sf.JRecord.ByteIO.ByteTextReader;
+import com.tech4box.JRecord.ByteIO.ByteTextReader;
 
 import junit.framework.TestCase;
 

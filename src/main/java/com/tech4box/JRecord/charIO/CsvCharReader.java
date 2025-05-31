@@ -126,7 +126,7 @@ public class CsvCharReader implements ICharReader {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.charIO.ICharReader#open(java.lang.String)
+	 * @see com.tech4box.JRecord.charIO.ICharReader#open(java.lang.String)
 	 */
 	@Override
 	public void open(String fileName, String font) throws IOException {
@@ -134,7 +134,7 @@ public class CsvCharReader implements ICharReader {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.charIO.ICharReader#open(java.io.InputStream)
+	 * @see com.tech4box.JRecord.charIO.ICharReader#open(java.io.InputStream)
 	 */
 	@Override
 	public void open(InputStream inputStream, String font) throws IOException {
@@ -261,7 +261,7 @@ public class CsvCharReader implements ICharReader {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.charIO.ICharReader#close()
+	 * @see com.tech4box.JRecord.charIO.ICharReader#close()
 	 */
 	@Override
 	public void close() throws IOException {
@@ -274,7 +274,7 @@ public class CsvCharReader implements ICharReader {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.ByteIO.BaseByteTextReader#open(java.io.InputStream)
+	 * @see com.tech4box.JRecord.ByteIO.BaseByteTextReader#open(java.io.InputStream)
 	 */
 	protected void  setLineSearch() {
 
@@ -447,7 +447,7 @@ public class CsvCharReader implements ICharReader {
 	private class StdFindLines implements FindLines {
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.ByteIO.BaseByteTextReader.FindLines#findLinesInBuffer(int)
+		 * @see com.tech4box.JRecord.ByteIO.BaseByteTextReader.FindLines#findLinesInBuffer(int)
 		 */
 		@Override
 		public void findLinesInBuffer(int start) {
@@ -655,7 +655,7 @@ public class CsvCharReader implements ICharReader {
 	private class StdLineNoDtls implements ILineNoDtls {
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.ByteIO.CsvByteReader.ILineNoDtls#getNoLines()
+		 * @see com.tech4box.JRecord.ByteIO.CsvByteReader.ILineNoDtls#getNoLines()
 		 */
 		@Override
 		public int getNoLines() {
@@ -663,7 +663,7 @@ public class CsvCharReader implements ICharReader {
 		}
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.ByteIO.CsvByteReader.ILineNoDtls#incNoLines()
+		 * @see com.tech4box.JRecord.ByteIO.CsvByteReader.ILineNoDtls#incNoLines()
 		 */
 		@Override
 		public void incNoLines() {
@@ -671,7 +671,7 @@ public class CsvCharReader implements ICharReader {
 		}
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.ByteIO.CsvByteReader.ILineNoDtls#isQuoteEscEol()
+		 * @see com.tech4box.JRecord.ByteIO.CsvByteReader.ILineNoDtls#isQuoteEscEol()
 		 */
 		@Override
 		public boolean isQuoteEscEol(int quoteEscPos, int start) {
@@ -695,7 +695,7 @@ public class CsvCharReader implements ICharReader {
 		int noLines = 0;
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.ByteIO.CsvByteReader.ILineNoDtls#getNoLines()
+		 * @see com.tech4box.JRecord.ByteIO.CsvByteReader.ILineNoDtls#getNoLines()
 		 */
 		@Override
 		public int getNoLines() {
@@ -703,7 +703,7 @@ public class CsvCharReader implements ICharReader {
 		}
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.ByteIO.CsvByteReader.ILineNoDtls#incNoLines()
+		 * @see com.tech4box.JRecord.ByteIO.CsvByteReader.ILineNoDtls#incNoLines()
 		 */
 		@Override
 		public void incNoLines() {
@@ -711,7 +711,7 @@ public class CsvCharReader implements ICharReader {
 		}
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.ByteIO.CsvByteReader.ILineNoDtls#isQuoteEscEol()
+		 * @see com.tech4box.JRecord.ByteIO.CsvByteReader.ILineNoDtls#isQuoteEscEol()
 		 */
 		@Override
 		public boolean isQuoteEscEol(int quoteEscPos, int start) {

@@ -1,6 +1,6 @@
 package com.tech4box.cb2xml;
 
-import net.sf.cb2xml.sablecc.parser.ParserException;
+import com.tech4box.cb2xml.sablecc.parser.ParserException;
 
 @SuppressWarnings("serial")
 public class DebugParserException extends ParserException {

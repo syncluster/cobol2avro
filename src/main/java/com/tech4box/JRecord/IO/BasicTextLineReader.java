@@ -31,10 +31,11 @@ package com.tech4box.JRecord.IO;
 import java.io.IOException;
 import java.io.InputStream;
 
-import net.sf.JRecord.Details.AbstractLine;
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.Details.LineProvider;
-import net.sf.JRecord.charIO.ICharReader;
+import com.tech4box.JRecord.Details.AbstractLine;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.Details.LineProvider;
+import com.tech4box.JRecord.JRecordInterface1;
+import com.tech4box.JRecord.charIO.ICharReader;
 
 public abstract class BasicTextLineReader extends AbstractLineReader {
 
@@ -80,7 +81,7 @@ public abstract class BasicTextLineReader extends AbstractLineReader {
 	}
 
 	/**
-	 * @see net.sf.JRecord.JRecordInterface1#close()
+	 * @see JRecordInterface1#close()
 	 */
 	public void close() throws IOException {
 	

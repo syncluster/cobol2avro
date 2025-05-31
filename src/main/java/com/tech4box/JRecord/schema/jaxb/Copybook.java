@@ -84,7 +84,7 @@ public class Copybook implements ICopybook {
     protected String filename;
 
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.jaxb.ICopybook#getCobolItems()
+	 * @see com.tech4box.JRecord.schema.jaxb.ICopybook#getCobolItems()
 	 */
     @Override
 	public List<Item> getCobolItems() {
@@ -95,7 +95,7 @@ public class Copybook implements ICopybook {
     }
 
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.jaxb.ICopybook#getFilename()
+	 * @see com.tech4box.JRecord.schema.jaxb.ICopybook#getFilename()
 	 */
     @Override
 	public String getFilename() {

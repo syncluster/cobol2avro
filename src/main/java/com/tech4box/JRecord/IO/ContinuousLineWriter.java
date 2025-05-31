@@ -38,9 +38,9 @@ import java.io.BufferedOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 
-import net.sf.JRecord.Common.FieldDetail;
-import net.sf.JRecord.Details.AbstractLine;
-import net.sf.JRecord.Details.RecordDetail;
+import com.tech4box.JRecord.Common.FieldDetail;
+import com.tech4box.JRecord.Details.AbstractLine;
+import com.tech4box.JRecord.Details.RecordDetail;
 
 
 /**

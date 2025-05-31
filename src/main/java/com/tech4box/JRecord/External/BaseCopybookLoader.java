@@ -32,7 +32,7 @@
 package com.tech4box.JRecord.External;
 
 import com.tech4box.JRecord.Common.CommonBits;
-import net.sf.JRecord.Log.AbsSSLogger;
+import com.tech4box.JRecord.Log.AbsSSLogger;
 
 /**
  * @author Bruce Martin
@@ -41,7 +41,7 @@ import net.sf.JRecord.Log.AbsSSLogger;
 public abstract class BaseCopybookLoader implements CopybookLoader {
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.External.CopybookLoader#loadCopyBook(java.lang.String, int, int, java.lang.String, int, int, net.sf.JRecord.Log.AbsSSLogger)
+	 * @see com.tech4box.JRecord.External.CopybookLoader#loadCopyBook(java.lang.String, int, int, java.lang.String, int, int, com.tech4box.JRecord.Log.AbsSSLogger)
 	 */
 	@Override
 	public final ExternalRecord loadCopyBook(String copyBookFile,

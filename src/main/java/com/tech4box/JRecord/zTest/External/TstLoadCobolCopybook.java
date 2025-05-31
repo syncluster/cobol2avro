@@ -34,7 +34,7 @@ import com.tech4box.JRecord.External.CobolCopybookLoader;
 import com.tech4box.JRecord.External.CopybookLoader;
 import com.tech4box.JRecord.External.ExternalRecord;
 import com.tech4box.JRecord.External.Def.ExternalField;
-import net.sf.JRecord.Log.TextLog;
+import com.tech4box.JRecord.Log.TextLog;
 import com.tech4box.JRecord.Numeric.ICopybookDialects;
 
 public class TstLoadCobolCopybook  extends TestCase {

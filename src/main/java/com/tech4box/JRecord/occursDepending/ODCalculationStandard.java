@@ -31,7 +31,7 @@ public class ODCalculationStandard implements IOccursDependingPositionCalculatio
 	}
 
 //	/* (non-Javadoc)
-//	 * @see net.sf.JRecord.Common.AbstractRecord#calculateActualPosition(net.sf.JRecord.Common.AbstractIndexedLine, net.sf.JRecord.External.Def.DependingOnDtls, int)
+//	 * @see com.tech4box.JRecord.Common.AbstractRecord#calculateActualPosition(com.tech4box.JRecord.Common.AbstractIndexedLine, com.tech4box.JRecord.External.Def.DependingOnDtls, int)
 //	 */
 //	@Override
 //	public int calculateActualPosition(AbstractIndexedLine line, DependingOnDtls dependingOnDtls, int pos) {
@@ -43,7 +43,7 @@ public class ODCalculationStandard implements IOccursDependingPositionCalculatio
 //	}
 	
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Details.IOccursDependingPositionCalculation#calculateActualPosition(net.sf.JRecord.Common.AbstractIndexedLine, net.sf.JRecord.External.Def.DependingOnDtls, int)
+	 * @see com.tech4box.JRecord.Details.IOccursDependingPositionCalculation#calculateActualPosition(com.tech4box.JRecord.Common.AbstractIndexedLine, com.tech4box.JRecord.External.Def.DependingOnDtls, int)
 	 */
 	@Override
 	public int calculateActualPosition(AbstractIndexedLine line, DependingOnDtls dependingOnDtls, int pos) {

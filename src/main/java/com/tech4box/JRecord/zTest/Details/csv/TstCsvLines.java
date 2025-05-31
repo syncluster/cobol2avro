@@ -37,7 +37,7 @@ import com.tech4box.JRecord.Details.CsvLine;
 import com.tech4box.JRecord.Details.LayoutDetail;
 import com.tech4box.JRecord.Details.Line;
 import com.tech4box.JRecord.External.ExternalRecord;
-import net.sf.JRecord.Types.Type;
+import com.tech4box.JRecord.Types.Type;
 import junit.framework.TestCase;
 
 public class TstCsvLines extends TestCase {

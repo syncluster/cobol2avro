@@ -3,7 +3,7 @@
 package com.tech4box.cb2xml.sablecc.node;
 
 import java.util.*;
-import net.sf.cb2xml.sablecc.analysis.*;
+import com.tech4box.cb2xml.sablecc.analysis.*;
 
 @SuppressWarnings("nls")
 public final class AAscendingOrDescendingKeyPhrase extends PAscendingOrDescendingKeyPhrase

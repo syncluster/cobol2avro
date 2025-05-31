@@ -137,7 +137,7 @@ public class ExternalFieldSelection implements ExternalSelection {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.RecordSelection.ExternalSelection#getType()
+	 * @see com.tech4box.JRecord.RecordSelection.ExternalSelection#getType()
 	 */
 	@Override
 	public int getType() {
@@ -152,7 +152,7 @@ public class ExternalFieldSelection implements ExternalSelection {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.ExternalRecordSelection.ExternalSelection#getElementCount()
+	 * @see com.tech4box.JRecord.ExternalRecordSelection.ExternalSelection#getElementCount()
 	 */
 	@Override
 	public int getElementCount() {

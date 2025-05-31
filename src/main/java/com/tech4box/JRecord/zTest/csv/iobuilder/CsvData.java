@@ -28,8 +28,8 @@
 
 package com.tech4box.JRecord.zTest.csv.iobuilder;
 
-import net.sf.JRecord.Common.CommonBits;
-import net.sf.JRecord.Common.Conversion;
+import com.tech4box.JRecord.Common.CommonBits;
+import com.tech4box.JRecord.Common.Conversion;
 
 public class CsvData {
 

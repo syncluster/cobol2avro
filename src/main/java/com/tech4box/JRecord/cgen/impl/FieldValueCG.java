@@ -28,11 +28,11 @@
 
 package com.tech4box.JRecord.cgen.impl;
 
-import net.sf.JRecord.Common.IFieldDetail;
-import net.sf.JRecord.Details.BaseFieldValue;
-import net.sf.JRecord.Details.IGetByteData;
-import net.sf.JRecord.Types.Type;
-import net.sf.JRecord.Types.TypeManager;
+import com.tech4box.JRecord.Common.IFieldDetail;
+import com.tech4box.JRecord.Details.BaseFieldValue;
+import com.tech4box.JRecord.Details.IGetByteData;
+import com.tech4box.JRecord.Types.Type;
+import com.tech4box.JRecord.Types.TypeManager;
 
 /**
  * This class Retrieves a Field Value from an array of bytes
@@ -63,7 +63,7 @@ public class FieldValueCG extends BaseFieldValue {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Details.FieldValue#getValue()
+	 * @see com.tech4box.JRecord.Details.FieldValue#getValue()
 	 */
 	@Override
 	protected Object getValue() {
@@ -71,7 +71,7 @@ public class FieldValueCG extends BaseFieldValue {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Details.BaseFieldValue#set(java.lang.Object)
+	 * @see com.tech4box.JRecord.Details.BaseFieldValue#set(java.lang.Object)
 	 */
 	@Override
 	public void set(Object value) {

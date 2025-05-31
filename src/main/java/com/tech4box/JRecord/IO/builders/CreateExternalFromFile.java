@@ -28,7 +28,7 @@
 
 package com.tech4box.JRecord.IO.builders;
 
-import net.sf.JRecord.External.ExternalRecord;
+import com.tech4box.JRecord.External.ExternalRecord;
 
 public class CreateExternalFromFile extends CreateExternalBase implements ICreateExternal  {
 

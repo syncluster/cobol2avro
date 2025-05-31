@@ -33,9 +33,9 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 
-import net.sf.JRecord.charIO.FixedLengthCharReader;
-import net.sf.JRecord.charIO.FixedLengthCharWriter;
-import net.sf.JRecord.charIO.ICharWriter;
+import com.tech4box.JRecord.charIO.FixedLengthCharReader;
+import com.tech4box.JRecord.charIO.FixedLengthCharWriter;
+import com.tech4box.JRecord.charIO.ICharWriter;
 import junit.framework.TestCase;
 
 /**

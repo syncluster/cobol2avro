@@ -45,7 +45,7 @@ public class FieldValueLine extends FieldValue {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Details.FieldValue#isLowValues()
+	 * @see com.tech4box.JRecord.Details.FieldValue#isLowValues()
 	 */
 	@Override
 	public boolean isLowValues() {
@@ -53,7 +53,7 @@ public class FieldValueLine extends FieldValue {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Details.FieldValue#isHighValues()
+	 * @see com.tech4box.JRecord.Details.FieldValue#isHighValues()
 	 */
 	@Override
 	public boolean isHighValues() {
@@ -91,7 +91,7 @@ public class FieldValueLine extends FieldValue {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Details.FieldValue#setToLowValues()
+	 * @see com.tech4box.JRecord.Details.FieldValue#setToLowValues()
 	 */
 	@Override
 	public void setToLowValues() {
@@ -99,7 +99,7 @@ public class FieldValueLine extends FieldValue {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Details.FieldValue#setToHighValues()
+	 * @see com.tech4box.JRecord.Details.FieldValue#setToHighValues()
 	 */
 	@Override
 	public void setToHighValues() {

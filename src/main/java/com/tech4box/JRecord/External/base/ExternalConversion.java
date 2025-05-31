@@ -32,8 +32,8 @@ import com.tech4box.JRecord.Common.Constants;
 import com.tech4box.JRecord.Common.Conversion;
 import com.tech4box.JRecord.External.Def.AbstractConversion;
 import com.tech4box.JRecord.External.Def.BasicConversion;
-import net.sf.JRecord.Types.Type;
-import net.sf.JRecord.Types.TypeManager;
+import com.tech4box.JRecord.Types.Type;
+import com.tech4box.JRecord.Types.TypeManager;
 
 /**
  * This class holds conversions from external representations of types / formats etc to the internal

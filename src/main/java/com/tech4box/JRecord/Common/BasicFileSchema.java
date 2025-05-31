@@ -107,7 +107,7 @@ public class BasicFileSchema implements IBasicFileSchema {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.IBasicFileSchema#getFileStructure()
+	 * @see com.tech4box.JRecord.Common.IBasicFileSchema#getFileStructure()
 	 */
 	@Override
 	public int getFileStructure() {
@@ -115,7 +115,7 @@ public class BasicFileSchema implements IBasicFileSchema {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.IBasicFileSchema#isBinary()
+	 * @see com.tech4box.JRecord.Common.IBasicFileSchema#isBinary()
 	 */
 	@Override
 	public boolean isBinary() {
@@ -123,7 +123,7 @@ public class BasicFileSchema implements IBasicFileSchema {
 	}
 
 //	/* (non-Javadoc)
-//	 * @see net.sf.JRecord.Common.IBasicFileSchema#isBinCSV()
+//	 * @see com.tech4box.JRecord.Common.IBasicFileSchema#isBinCSV()
 //	 */
 //	@Override
 //	public boolean isBinCSV() {
@@ -131,7 +131,7 @@ public class BasicFileSchema implements IBasicFileSchema {
 //	}
 //
 //	/* (non-Javadoc)
-//	 * @see net.sf.JRecord.Common.IBasicFileSchema#getRecordSep()
+//	 * @see com.tech4box.JRecord.Common.IBasicFileSchema#getRecordSep()
 //	 */
 //	@Override
 //	public byte[] getRecordSep() {
@@ -139,7 +139,7 @@ public class BasicFileSchema implements IBasicFileSchema {
 //	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.IBasicFileSchema#useByteRecord()
+	 * @see com.tech4box.JRecord.Common.IBasicFileSchema#useByteRecord()
 	 */
 	@Override
 	public boolean useByteRecord() {
@@ -147,7 +147,7 @@ public class BasicFileSchema implements IBasicFileSchema {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.IBasicFileSchema#getFontName()
+	 * @see com.tech4box.JRecord.Common.IBasicFileSchema#getFontName()
 	 */
 	@Override
 	public String getFontName() {
@@ -168,7 +168,7 @@ public class BasicFileSchema implements IBasicFileSchema {
 	}
 
 	//	/* (non-Javadoc)
-//	 * @see net.sf.JRecord.Common.IBasicFileSchema#getDelimiterBytes()
+//	 * @see com.tech4box.JRecord.Common.IBasicFileSchema#getDelimiterBytes()
 //	 */
 //	@Override
 //	public byte[] getDelimiterBytes() {
@@ -176,7 +176,7 @@ public class BasicFileSchema implements IBasicFileSchema {
 //	}
 //
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.IBasicFileSchema#getQuote()
+	 * @see com.tech4box.JRecord.Common.IBasicFileSchema#getQuote()
 	 */
 //	@Override
 //	public String getQuote() {
@@ -184,7 +184,7 @@ public class BasicFileSchema implements IBasicFileSchema {
 //	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Common.IBasicFileSchema#getMaximumRecordLength()
+	 * @see com.tech4box.JRecord.Common.IBasicFileSchema#getMaximumRecordLength()
 	 */
 	@Override
 	public int getMaximumRecordLength() {

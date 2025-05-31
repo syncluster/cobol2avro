@@ -3,12 +3,12 @@ package com.tech4box.JRecord.zTest.Cobol.iobuilder;
 import java.io.IOException;
 import java.io.StringReader;
 
-import net.sf.JRecord.JRecordInterface1;
-import net.sf.JRecord.Common.Constants;
-import net.sf.JRecord.Details.AbstractLine;
-import net.sf.JRecord.External.CopybookLoader;
-import net.sf.JRecord.Numeric.ICopybookDialects;
-import net.sf.JRecord.def.IO.builders.ICobolIOBuilder;
+import com.tech4box.JRecord.JRecordInterface1;
+import com.tech4box.JRecord.Common.Constants;
+import com.tech4box.JRecord.Details.AbstractLine;
+import com.tech4box.JRecord.External.CopybookLoader;
+import com.tech4box.JRecord.Numeric.ICopybookDialects;
+import com.tech4box.JRecord.def.IO.builders.ICobolIOBuilder;
 import junit.framework.TestCase;
 
 /**

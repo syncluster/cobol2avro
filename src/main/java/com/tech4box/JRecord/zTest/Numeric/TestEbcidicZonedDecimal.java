@@ -31,8 +31,8 @@ package com.tech4box.JRecord.zTest.Numeric;
 import com.tech4box.JRecord.Common.Conversion;
 import com.tech4box.JRecord.Common.FieldDetail;
 import com.tech4box.JRecord.Common.RecordException;
-import net.sf.JRecord.Types.Type;
-import net.sf.JRecord.Types.TypeZoned;
+import com.tech4box.JRecord.Types.Type;
+import com.tech4box.JRecord.Types.TypeZoned;
 import com.tech4box.JRecord.zTest.Common.TstConstants;
 import junit.framework.TestCase;
 

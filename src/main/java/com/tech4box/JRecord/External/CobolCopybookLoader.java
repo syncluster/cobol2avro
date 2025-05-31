@@ -42,8 +42,8 @@ import com.tech4box.JRecord.External.Def.Cb2Xml;
 import com.tech4box.JRecord.Common.CommonBits;
 import com.tech4box.JRecord.Common.Conversion;
 import com.tech4box.JRecord.Common.RecordException;
-import net.sf.JRecord.Log.AbsSSLogger;
-import net.sf.JRecord.Log.TextLog;
+import com.tech4box.JRecord.Log.AbsSSLogger;
+import com.tech4box.JRecord.Log.TextLog;
 
 import org.w3c.dom.Document;
 
@@ -83,7 +83,7 @@ public class CobolCopybookLoader implements ICopybookLoaderCobol {
     
     
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.External.ICopybookLoaderStream#setSaveCb2xmlDocument(boolean)
+	 * @see com.tech4box.JRecord.External.ICopybookLoaderStream#setSaveCb2xmlDocument(boolean)
 	 */
 	@Override
 	public void setSaveCb2xmlDocument(boolean saveCb2xml) {
@@ -91,7 +91,7 @@ public class CobolCopybookLoader implements ICopybookLoaderCobol {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.External.CopybookLoader#loadCopyBook(java.lang.String, int, int, java.lang.String, int, int, net.sf.JRecord.Log.AbsSSLogger)
+	 * @see com.tech4box.JRecord.External.CopybookLoader#loadCopyBook(java.lang.String, int, int, java.lang.String, int, int, com.tech4box.JRecord.Log.AbsSSLogger)
 	 */
 	@Override
 	public final ExternalRecord loadCopyBook(String copyBookFile,
@@ -187,7 +187,7 @@ public class CobolCopybookLoader implements ICopybookLoaderCobol {
     }
     
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.External.ICopybookLoaderStream#loadCopyBook(java.io.InputStream, java.lang.String, int, int, java.lang.String, int, int, int, net.sf.JRecord.Log.AbsSSLogger)
+	 * @see com.tech4box.JRecord.External.ICopybookLoaderStream#loadCopyBook(java.io.InputStream, java.lang.String, int, int, java.lang.String, int, int, int, com.tech4box.JRecord.Log.AbsSSLogger)
 	 */
     @Override
     public final ExternalRecord loadCopyBook(InputStream inputStream, //Document copyBookXml,
@@ -207,7 +207,7 @@ public class CobolCopybookLoader implements ICopybookLoaderCobol {
         	synchronized (PROBLEM_LOADING_COPYBOOK) {		
 	            Document xml = Cb2Xml.convertToXMLDOM(inputStream, copyBookName,  binaryFormat, false, copybookFormat);
 
-	            //Document xml = net.sf.cb2xml.Cb2Xml2.convertToXMLDOM(inputStream, copyBookName, false, copybookFormat);
+	            //Document xml = com.tech4box.cb2xml.Cb2Xml2.convertToXMLDOM(inputStream, copyBookName, false, copybookFormat);
 	
 	            if (xml != null) {
 		            ret = xmlLoader.loadDOMCopyBook(xml, copyBookName,
@@ -253,7 +253,7 @@ public class CobolCopybookLoader implements ICopybookLoaderCobol {
 	        	//CopyBookAnalyzer.setNumericDetails((NumericDefinition) conv.getNumericDefinition());
 	            Document xml = Cb2Xml.convertToXMLDOM(reader, copyBookName,  binaryFormat, false, copybookFormat);
 
-	            //Document xml = net.sf.cb2xml.Cb2Xml2.convertToXMLDOM(inputStream, copyBookName, false, copybookFormat);
+	            //Document xml = com.tech4box.cb2xml.Cb2Xml2.convertToXMLDOM(inputStream, copyBookName, false, copybookFormat);
 	
 	            if (xml != null) {
 		            ret = xmlLoader.loadDOMCopyBook(xml, copyBookName,
@@ -295,7 +295,7 @@ public class CobolCopybookLoader implements ICopybookLoaderCobol {
                  * I use the CobolPreprocessor because it only uses IO classes.
                  * This aviods loading unnessary classes before need be
                  */
-                available = ((new CobolCopybookLoader()).getClass().getClassLoader().getResource("net/sf/cb2xml/Cb2Xml.class") != null);
+                available = ((new CobolCopybookLoader()).getClass().getClassLoader().getResource("com.tech4box/cb2xml/Cb2Xml.class") != null);
             } catch (Exception e) {
                 available = false;
             }

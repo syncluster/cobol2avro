@@ -1,9 +1,9 @@
 package com.tech4box.schema;
 
-import net.sf.JRecord.Common.FieldDetail;
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.Details.RecordDetail;
-import net.sf.JRecord.Types.TypeManager;
+import com.tech4box.JRecord.Common.FieldDetail;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.Details.RecordDetail;
+import com.tech4box.JRecord.Types.TypeManager;
 import org.apache.avro.Schema;
 
 import java.util.ArrayList;

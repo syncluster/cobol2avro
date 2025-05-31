@@ -38,11 +38,11 @@ import java.io.IOException;
 import java.util.Arrays;
 
 import junit.framework.TestCase;
-import net.sf.JRecord.ByteIO.AbstractByteReader;
-import net.sf.JRecord.ByteIO.VbByteReader;
-import net.sf.JRecord.zTest.Common.IO;
-import net.sf.JRecord.zTest.Common.TstConstants;
-import net.sf.JRecord.zTest.Common.TstData;
+import com.tech4box.JRecord.ByteIO.AbstractByteReader;
+import com.tech4box.JRecord.ByteIO.VbByteReader;
+import com.tech4box.JRecord.zTest.Common.IO;
+import com.tech4box.JRecord.zTest.Common.TstConstants;
+import com.tech4box.JRecord.zTest.Common.TstData;
 
 /**
  *

@@ -37,7 +37,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 
 import junit.framework.TestCase;
-import net.sf.cb2xml.util.XmlUtils;
+import com.tech4box.cb2xml.util.XmlUtils;
 
 import org.w3c.dom.Attr;
 import org.w3c.dom.Document;

@@ -28,7 +28,7 @@
 
 package com.tech4box.JRecord.cgen.def;
 
-import net.sf.JRecord.Common.IGetData;
+import com.tech4box.JRecord.Common.IGetData;
 
 /**
  * Class to convert a line to an array of bytes

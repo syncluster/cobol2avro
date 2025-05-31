@@ -33,16 +33,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 import junit.framework.TestCase;
-import net.sf.JRecord.Common.Constants;
-import net.sf.JRecord.Common.Conversion;
-import net.sf.JRecord.Common.FieldDetail;
-import net.sf.JRecord.Details.AbstractLine;
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.Details.Line;
-import net.sf.JRecord.Details.RecordDetail;
-import net.sf.JRecord.IO.AbstractLineReader;
-import net.sf.JRecord.Types.Type;
-import net.sf.JRecord.def.IO.builders.ICobolIOBuilder;
+import com.tech4box.JRecord.Common.Constants;
+import com.tech4box.JRecord.Common.Conversion;
+import com.tech4box.JRecord.Common.FieldDetail;
+import com.tech4box.JRecord.Details.AbstractLine;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.Details.Line;
+import com.tech4box.JRecord.Details.RecordDetail;
+import com.tech4box.JRecord.IO.AbstractLineReader;
+import com.tech4box.JRecord.Types.Type;
+import com.tech4box.JRecord.def.IO.builders.ICobolIOBuilder;
 
 
 public class TstMultiCopybookCommon {

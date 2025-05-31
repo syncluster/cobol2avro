@@ -51,7 +51,7 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 import com.tech4box.JRecord.Common.IFieldDetail;
 import com.tech4box.JRecord.External.Def.DependingOnDefinition;
-import net.sf.JRecord.cgen.def.IArrayAnyDimension;
+import com.tech4box.JRecord.cgen.def.IArrayAnyDimension;
 import com.tech4box.JRecord.schema.IArrayItemCheck;
 
 
@@ -246,7 +246,7 @@ public class Item implements IItem {
     }
 
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.jaxb.IItem#getItem()
+	 * @see com.tech4box.JRecord.schema.jaxb.IItem#getItem()
 	 */
     @Override
 	public List<Item> getChildItems() {
@@ -257,7 +257,7 @@ public class Item implements IItem {
     }
 
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.jaxb.IItem#getAssumedDigits()
+	 * @see com.tech4box.JRecord.schema.jaxb.IItem#getAssumedDigits()
 	 */
     @Override
 	public Integer getAssumedDigits() {
@@ -277,7 +277,7 @@ public class Item implements IItem {
     }
 
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.jaxb.IItem#getDependingOn()
+	 * @see com.tech4box.JRecord.schema.jaxb.IItem#getDependingOn()
 	 */
     @Override
 	public String getDependingOn() {
@@ -307,7 +307,7 @@ public class Item implements IItem {
     }
 
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.jaxb.IItem#getDisplayLength()
+	 * @see com.tech4box.JRecord.schema.jaxb.IItem#getDisplayLength()
 	 */
     @Override
 	public int getDisplayLength() {
@@ -371,7 +371,7 @@ public class Item implements IItem {
     }
 
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.jaxb.IItem#getLevel()
+	 * @see com.tech4box.JRecord.schema.jaxb.IItem#getLevel()
 	 */
     @Override
 	public String getLevel() {
@@ -391,7 +391,7 @@ public class Item implements IItem {
     }
 
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.jaxb.IItem#getName()
+	 * @see com.tech4box.JRecord.schema.jaxb.IItem#getName()
 	 */
     @Override
 	public String getName() {
@@ -411,7 +411,7 @@ public class Item implements IItem {
     }
 
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.jaxb.IItem#isNumeric()
+	 * @see com.tech4box.JRecord.schema.jaxb.IItem#isNumeric()
 	 */
     @Override
 	public Boolean isNumeric() {
@@ -431,7 +431,7 @@ public class Item implements IItem {
     }
 
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.jaxb.IItem#getOccurs()
+	 * @see com.tech4box.JRecord.schema.jaxb.IItem#getOccurs()
 	 */
     @Override
 	public Integer getOccurs() {
@@ -451,7 +451,7 @@ public class Item implements IItem {
     }
 
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.jaxb.IItem#getOccursMin()
+	 * @see com.tech4box.JRecord.schema.jaxb.IItem#getOccursMin()
 	 */
     @Override
 	public Integer getOccursMin() {
@@ -471,7 +471,7 @@ public class Item implements IItem {
     }
 
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.jaxb.IItem#getPicture()
+	 * @see com.tech4box.JRecord.schema.jaxb.IItem#getPicture()
 	 */
     @Override
 	public String getPicture() {
@@ -491,7 +491,7 @@ public class Item implements IItem {
     }
 
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.jaxb.IItem#getPosition()
+	 * @see com.tech4box.JRecord.schema.jaxb.IItem#getPosition()
 	 */
     @Override
 	public int getPosition() {
@@ -499,7 +499,7 @@ public class Item implements IItem {
     }
 
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.jaxb.IItem#getPosition(int[], int)
+	 * @see com.tech4box.JRecord.schema.jaxb.IItem#getPosition(int[], int)
 	 */
 	@Override
 	public int getPosition(int[] indexs) {
@@ -522,7 +522,7 @@ public class Item implements IItem {
     }
 
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.jaxb.IItem#getRedefined()
+	 * @see com.tech4box.JRecord.schema.jaxb.IItem#getRedefined()
 	 */
     @Override
 	public String getRedefined() {
@@ -542,7 +542,7 @@ public class Item implements IItem {
     }
 
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.jaxb.IItem#getRedefines()
+	 * @see com.tech4box.JRecord.schema.jaxb.IItem#getRedefines()
 	 */
     @Override
 	public String getRedefines() {
@@ -562,7 +562,7 @@ public class Item implements IItem {
     }
 
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.jaxb.IItem#getScale()
+	 * @see com.tech4box.JRecord.schema.jaxb.IItem#getScale()
 	 */
     @Override
 	public Integer getScale() {
@@ -582,7 +582,7 @@ public class Item implements IItem {
     }
 
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.jaxb.IItem#getSignPosition()
+	 * @see com.tech4box.JRecord.schema.jaxb.IItem#getSignPosition()
 	 */
     @Override
 	public String getSignPosition() {
@@ -602,7 +602,7 @@ public class Item implements IItem {
     }
 
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.jaxb.IItem#isSignSeparate()
+	 * @see com.tech4box.JRecord.schema.jaxb.IItem#isSignSeparate()
 	 */
     @Override
 	public Boolean isSignSeparate() {
@@ -622,7 +622,7 @@ public class Item implements IItem {
     }
 
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.jaxb.IItem#isSigned()
+	 * @see com.tech4box.JRecord.schema.jaxb.IItem#isSigned()
 	 */
     @Override
 	public Boolean isSigned() {
@@ -642,7 +642,7 @@ public class Item implements IItem {
     }
 
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.jaxb.IItem#getStorageLength()
+	 * @see com.tech4box.JRecord.schema.jaxb.IItem#getStorageLength()
 	 */
     @Override
 	public int getStorageLength() {
@@ -658,7 +658,7 @@ public class Item implements IItem {
     }
 
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.jaxb.IItem#isSync()
+	 * @see com.tech4box.JRecord.schema.jaxb.IItem#isSync()
 	 */
     @Override
 	public Boolean isSync() {
@@ -678,7 +678,7 @@ public class Item implements IItem {
     }
 
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.jaxb.IItem#getUsage()
+	 * @see com.tech4box.JRecord.schema.jaxb.IItem#getUsage()
 	 */
     @Override
 	public String getUsage() {
@@ -698,7 +698,7 @@ public class Item implements IItem {
     }
 
     /* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.jaxb.IItem#getValue()
+	 * @see com.tech4box.JRecord.schema.jaxb.IItem#getValue()
 	 */
     @Override
 	public String getValue() {
@@ -718,7 +718,7 @@ public class Item implements IItem {
     }
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.jaxb.IItem#getItemType()
+	 * @see com.tech4box.JRecord.schema.jaxb.IItem#getItemType()
 	 */
 	@Override
 	public final int getItemType() {
@@ -726,7 +726,7 @@ public class Item implements IItem {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.jaxb.IItem#getFieldDefinition()
+	 * @see com.tech4box.JRecord.schema.jaxb.IItem#getFieldDefinition()
 	 */
 	@Override
 	public final IFieldDetail getFieldDefinition() {
@@ -734,7 +734,7 @@ public class Item implements IItem {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.jaxb.IItem#getArrayDefinition()
+	 * @see com.tech4box.JRecord.schema.jaxb.IItem#getArrayDefinition()
 	 */
 	@Override
 	public final IArrayAnyDimension getArrayDefinition() {
@@ -750,7 +750,7 @@ public class Item implements IItem {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.jaxb.IItem#getNameToUse()
+	 * @see com.tech4box.JRecord.schema.jaxb.IItem#getNameToUse()
 	 */
 	@Override
 	public final String getNameToUse() {
@@ -758,7 +758,7 @@ public class Item implements IItem {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.jaxb.IItem#getFieldName()
+	 * @see com.tech4box.JRecord.schema.jaxb.IItem#getFieldName()
 	 */
 	@Override
 	public final String getFieldName() {
@@ -766,7 +766,7 @@ public class Item implements IItem {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.schema.jaxb.IItem#isFieldRedefined()
+	 * @see com.tech4box.JRecord.schema.jaxb.IItem#isFieldRedefined()
 	 */
 	@Override
 	public final boolean isFieldRedefined() {

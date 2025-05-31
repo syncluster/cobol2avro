@@ -90,7 +90,7 @@ public class CsvDefinition implements ICsvDefinition {
 	}
 
 //	/* (non-Javadoc)
-//	 * @see net.sf.JRecord.CsvParser.ILineDetails#getDelimiter()
+//	 * @see com.tech4box.JRecord.CsvParser.ILineDetails#getDelimiter()
 //	 */
 //	@Override
 //	public String getDelimiter() {
@@ -99,7 +99,7 @@ public class CsvDefinition implements ICsvDefinition {
 //
 //
 //	/* (non-Javadoc)
-//	 * @see net.sf.JRecord.CsvParser.ICsvDefinition#getQuote()
+//	 * @see com.tech4box.JRecord.CsvParser.ICsvDefinition#getQuote()
 //	 */
 //	@Override
 //	public String getQuote() {
@@ -118,7 +118,7 @@ public class CsvDefinition implements ICsvDefinition {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.CsvParser.ILineDetails#getDelimiterOrganisation()
+	 * @see com.tech4box.JRecord.CsvParser.ILineDetails#getDelimiterOrganisation()
 	 */
 	@Override
 	public int getDelimiterOrganisation() {
@@ -127,7 +127,7 @@ public class CsvDefinition implements ICsvDefinition {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.CsvParser.ICsvDefinition#getFieldCount()
+	 * @see com.tech4box.JRecord.CsvParser.ICsvDefinition#getFieldCount()
 	 */
 	@Override
 	public int getFieldCount() {
@@ -136,7 +136,7 @@ public class CsvDefinition implements ICsvDefinition {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.CsvParser.ICsvDefinition#getFontName()
+	 * @see com.tech4box.JRecord.CsvParser.ICsvDefinition#getFontName()
 	 */
 	@Override
 	public String getFontName() {
@@ -145,7 +145,7 @@ public class CsvDefinition implements ICsvDefinition {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.CsvParser.ICsvDefinition#isSingleByteFont()
+	 * @see com.tech4box.JRecord.CsvParser.ICsvDefinition#isSingleByteFont()
 	 *
 	 * Is not used currently (for CsvDefinition; should check font see RecordDetail
 	 */

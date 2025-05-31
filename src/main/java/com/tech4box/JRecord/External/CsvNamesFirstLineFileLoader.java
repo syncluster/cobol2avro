@@ -33,8 +33,8 @@ import java.io.IOException;
 import com.tech4box.JRecord.Common.CommonBits;
 import com.tech4box.JRecord.Common.Conversion;
 import com.tech4box.JRecord.Details.DefaultLineProvider;
-import net.sf.JRecord.IO.TextLineReader;
-import net.sf.JRecord.Log.AbsSSLogger;
+import com.tech4box.JRecord.IO.TextLineReader;
+import com.tech4box.JRecord.Log.AbsSSLogger;
 
 /**
  * Class to build a copybook (ExternalRecord) from a CSV file with
@@ -65,7 +65,7 @@ public class CsvNamesFirstLineFileLoader implements CopybookLoader {
 	
 	
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.External.CopybookLoader#loadCopyBook(java.lang.String, int, int, java.lang.String, int, int, net.sf.JRecord.Log.AbsSSLogger)
+	 * @see com.tech4box.JRecord.External.CopybookLoader#loadCopyBook(java.lang.String, int, int, java.lang.String, int, int, com.tech4box.JRecord.Log.AbsSSLogger)
 	 */
 	@Override
 	public final ExternalRecord loadCopyBook(String copyBookFile,

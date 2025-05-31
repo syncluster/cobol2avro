@@ -25,7 +25,7 @@
       
 package com.tech4box.JRecord.cgen.defc;
 
-import net.sf.JRecord.definitiuons.CsvCharDetails;
+import com.tech4box.JRecord.definitiuons.CsvCharDetails;
 
 public interface ILayoutDetails4gen {
 

@@ -30,16 +30,16 @@ package com.tech4box.JRecord;
 
 import com.tech4box.JRecord.Details.LayoutDetail;
 import com.tech4box.JRecord.External.CopybookLoaderFactory;
-import net.sf.JRecord.IO.builders.CsvIOBuilder;
-import net.sf.JRecord.IO.builders.FileSchemaBuilder;
-import net.sf.JRecord.IO.builders.FixedWidthIOBuilder;
-import net.sf.JRecord.IO.builders.SchemaIOBuilder;
-import net.sf.JRecord.def.IO.builders.ICobolCopybookIOProvider;
-import net.sf.JRecord.def.IO.builders.ICsvIOBuilder;
-import net.sf.JRecord.def.IO.builders.IFixedWidthIOBuilder;
-import net.sf.JRecord.def.IO.builders.IIOCopybookProvider;
-import net.sf.JRecord.def.IO.builders.ISchemaIOBuilder;
-import net.sf.JRecord.def.IO.builders.Icb2xmlIOProvider;
+import com.tech4box.JRecord.IO.builders.CsvIOBuilder;
+import com.tech4box.JRecord.IO.builders.FileSchemaBuilder;
+import com.tech4box.JRecord.IO.builders.FixedWidthIOBuilder;
+import com.tech4box.JRecord.IO.builders.SchemaIOBuilder;
+import com.tech4box.JRecord.def.IO.builders.ICobolCopybookIOProvider;
+import com.tech4box.JRecord.def.IO.builders.ICsvIOBuilder;
+import com.tech4box.JRecord.def.IO.builders.IFixedWidthIOBuilder;
+import com.tech4box.JRecord.def.IO.builders.IIOCopybookProvider;
+import com.tech4box.JRecord.def.IO.builders.ISchemaIOBuilder;
+import com.tech4box.JRecord.def.IO.builders.Icb2xmlIOProvider;
 
 
 /**

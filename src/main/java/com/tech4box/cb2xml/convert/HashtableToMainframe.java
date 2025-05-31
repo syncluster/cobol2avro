@@ -10,7 +10,7 @@ package com.tech4box.cb2xml.convert;
 
 import java.util.Hashtable;
 
-import net.sf.cb2xml.def.Cb2xmlConstants;
+import com.tech4box.cb2xml.def.Cb2xmlConstants;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -34,7 +34,7 @@ import org.w3c.dom.NodeList;
 *
 * TODO : the special mainframe formats of COMP, packed-decimal etc are not supported yet
 * 
-*  * note that files within the "net.sf.cb2xml.convert" package are not stable
+*  * note that files within the "com.tech4box.cb2xml.convert" package are not stable
 *
 * @author Peter Thomas
 */

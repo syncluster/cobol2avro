@@ -28,10 +28,10 @@
 
 package com.tech4box.JRecord.cgen.impl;
 
-import net.sf.JRecord.cgen.def.IFieldName1Dimension;
-import net.sf.JRecord.cgen.def.IFieldName2Dimension;
-import net.sf.JRecord.cgen.def.IFieldName3Dimension;
-import net.sf.JRecord.cgen.def.IFieldName4Dimension;
+import com.tech4box.JRecord.cgen.def.IFieldName1Dimension;
+import com.tech4box.JRecord.cgen.def.IFieldName2Dimension;
+import com.tech4box.JRecord.cgen.def.IFieldName3Dimension;
+import com.tech4box.JRecord.cgen.def.IFieldName4Dimension;
 
 public class ArrayFieldName implements IFieldName1Dimension, IFieldName2Dimension, IFieldName3Dimension , IFieldName4Dimension {
 
@@ -44,7 +44,7 @@ public class ArrayFieldName implements IFieldName1Dimension, IFieldName2Dimensio
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.cgen.def.IFieldName1Dimension#get(int)
+	 * @see com.tech4box.JRecord.cgen.def.IFieldName1Dimension#get(int)
 	 */
 	@Override
 	public String get(int index1) {
@@ -52,7 +52,7 @@ public class ArrayFieldName implements IFieldName1Dimension, IFieldName2Dimensio
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.cgen.def.IFieldName2Dimension#get(int, int)
+	 * @see com.tech4box.JRecord.cgen.def.IFieldName2Dimension#get(int, int)
 	 */
 	@Override
 	public String get(int index1, int index2) {
@@ -60,7 +60,7 @@ public class ArrayFieldName implements IFieldName1Dimension, IFieldName2Dimensio
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.cgen.def.IFieldName3Dimension#get(int, int, int)
+	 * @see com.tech4box.JRecord.cgen.def.IFieldName3Dimension#get(int, int, int)
 	 */
 	@Override
 	public String get(int index1, int index2, int index3) {

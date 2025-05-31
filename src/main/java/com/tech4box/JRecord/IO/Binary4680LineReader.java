@@ -42,10 +42,10 @@ package com.tech4box.JRecord.IO;
 import java.io.InputStream;
 import java.util.Arrays;
 
-import net.sf.JRecord.Common.Constants;
-import net.sf.JRecord.Details.AbstractLine;
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.Details.LineProvider;
+import com.tech4box.JRecord.Common.Constants;
+import com.tech4box.JRecord.Details.AbstractLine;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.Details.LineProvider;
 
 
 /**

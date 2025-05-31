@@ -2,9 +2,9 @@ package com.tech4box.cb2xml.util;
 
 import java.io.PrintStream;
 
-import net.sf.cb2xml.def.Cb2xmlConstants;
-import net.sf.cb2xml.def.DialectManager;
-import net.sf.cb2xml.def.IBasicDialect;
+import com.tech4box.cb2xml.def.Cb2xmlConstants;
+import com.tech4box.cb2xml.def.DialectManager;
+import com.tech4box.cb2xml.def.IBasicDialect;
 
 public class Parms {
 

@@ -51,9 +51,9 @@
       
 package com.tech4box.JRecord.Types;
 
-import net.sf.JRecord.Common.Conversion;
-import net.sf.JRecord.Common.IFieldDetail;
-import net.sf.JRecord.Common.RecordException;
+import com.tech4box.JRecord.Common.Conversion;
+import com.tech4box.JRecord.Common.IFieldDetail;
+import com.tech4box.JRecord.Common.RecordException;
 
 /**
  * Define mainframe Zoned Decimal Type

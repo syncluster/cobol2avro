@@ -33,9 +33,9 @@ import com.tech4box.JRecord.Common.IFieldDetail;
 import com.tech4box.JRecord.Common.RecordException;
 import com.tech4box.JRecord.Details.AbstractLine;
 import com.tech4box.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.IO.AbstractLineReader;
-import net.sf.JRecord.IO.CobolIoProvider;
-import net.sf.JRecord.def.IO.builders.ICobolIOBuilder;
+import com.tech4box.JRecord.IO.AbstractLineReader;
+import com.tech4box.JRecord.IO.CobolIoProvider;
+import com.tech4box.JRecord.def.IO.builders.ICobolIOBuilder;
 
 
 /**

@@ -33,17 +33,17 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-import net.sf.JRecord.JRecordInterface1;
-import net.sf.JRecord.Common.Constants;
-import net.sf.JRecord.Common.Conversion;
-import net.sf.JRecord.Common.FieldDetail;
-import net.sf.JRecord.Details.AbstractLine;
-import net.sf.JRecord.Details.RecordDecider;
-import net.sf.JRecord.Numeric.ICopybookDialects;
-import net.sf.JRecord.Types.Type;
-import net.sf.JRecord.def.IO.builders.ICobolIOBuilder;
-import net.sf.JRecord.zTest.Common.CommonCodeFields;
-import net.sf.JRecord.zTest.Common.TstConstants;
+import com.tech4box.JRecord.JRecordInterface1;
+import com.tech4box.JRecord.Common.Constants;
+import com.tech4box.JRecord.Common.Conversion;
+import com.tech4box.JRecord.Common.FieldDetail;
+import com.tech4box.JRecord.Details.AbstractLine;
+import com.tech4box.JRecord.Details.RecordDecider;
+import com.tech4box.JRecord.Numeric.ICopybookDialects;
+import com.tech4box.JRecord.Types.Type;
+import com.tech4box.JRecord.def.IO.builders.ICobolIOBuilder;
+import com.tech4box.JRecord.zTest.Common.CommonCodeFields;
+import com.tech4box.JRecord.zTest.Common.TstConstants;
 import junit.framework.TestCase;
 
 public class TstCobolIOBuilder02 extends TestCase {

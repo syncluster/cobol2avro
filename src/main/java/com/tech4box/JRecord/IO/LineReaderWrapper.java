@@ -37,11 +37,11 @@ package com.tech4box.JRecord.IO;
 import java.io.IOException;
 import java.io.InputStream;
 
-//import net.sf.JRecord.ByteIO.AbstractByteReader;
-import net.sf.JRecord.ByteIO.IByteReader;
-import net.sf.JRecord.Details.AbstractLine;
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.Details.LineProvider;
+//import com.tech4box.JRecord.ByteIO.AbstractByteReader;
+import com.tech4box.JRecord.ByteIO.IByteReader;
+import com.tech4box.JRecord.Details.AbstractLine;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.Details.LineProvider;
 
 /**
  * Creates a LineReader from a Byte-Reader (ByteIO package).

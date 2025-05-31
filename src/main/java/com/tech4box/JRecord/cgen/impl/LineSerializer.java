@@ -1,8 +1,8 @@
 package com.tech4box.JRecord.cgen.impl;
 
-import net.sf.JRecord.Common.IGetData;
-import net.sf.JRecord.cgen.def.ILineToBytes;
-import net.sf.JRecord.cgen.def.ISerializer;
+import com.tech4box.JRecord.Common.IGetData;
+import com.tech4box.JRecord.cgen.def.ILineToBytes;
+import com.tech4box.JRecord.cgen.def.ISerializer;
 
 public class LineSerializer<Line> implements ISerializer<Line> {
 	

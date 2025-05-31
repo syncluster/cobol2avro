@@ -112,7 +112,7 @@ public final class DependingOnDtls implements IDependingOnIndexDtls {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.External.Def.DependingOnIndexDtls#getDependingOn()
+	 * @see com.tech4box.JRecord.External.Def.DependingOnIndexDtls#getDependingOn()
 	 */
 	@Override
 	public DependingOn getDependingOn() {
@@ -121,7 +121,7 @@ public final class DependingOnDtls implements IDependingOnIndexDtls {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.External.Def.DependingOnIndexDtls#getIndex()
+	 * @see com.tech4box.JRecord.External.Def.DependingOnIndexDtls#getIndex()
 	 */
 	@Override
 	public int getIndex() {
@@ -140,7 +140,7 @@ public final class DependingOnDtls implements IDependingOnIndexDtls {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.External.Def.DependingOnIndexDtls#updateFieldInChildren(net.sf.JRecord.Common.AbstractRecordX)
+	 * @see com.tech4box.JRecord.External.Def.DependingOnIndexDtls#updateFieldInChildren(com.tech4box.JRecord.Common.AbstractRecordX)
 	 */
 	@Override
 	public void updateFieldInChildren(AbstractRecordX<? extends IFieldDetail> rec) {

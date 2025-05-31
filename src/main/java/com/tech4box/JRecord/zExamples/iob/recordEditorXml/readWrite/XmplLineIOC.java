@@ -32,8 +32,8 @@ import com.tech4box.JRecord.Common.FieldDetail;
 import com.tech4box.JRecord.Details.AbstractLine;
 import com.tech4box.JRecord.Details.LayoutDetail;
 import com.tech4box.JRecord.Details.RecordDetail;
-import net.sf.JRecord.IO.AbstractLineReader;
-import net.sf.JRecord.def.IO.builders.IIOBuilder;
+import com.tech4box.JRecord.IO.AbstractLineReader;
+import com.tech4box.JRecord.def.IO.builders.IIOBuilder;
 import com.tech4box.JRecord.zTest.Common.TstConstants;
 
 /**

@@ -31,11 +31,11 @@ package com.tech4box.JRecord.cgen.impl;
 import java.io.IOException;
 import java.io.InputStream;
 
-import net.sf.JRecord.ByteIO.AbstractByteReader;
-import net.sf.JRecord.ByteIO.ByteIOProvider;
-import net.sf.JRecord.Details.LayoutDetail;
-import net.sf.JRecord.cgen.def.IAsPojoSetData;
-import net.sf.JRecord.cgen.def.IReader;
+import com.tech4box.JRecord.ByteIO.AbstractByteReader;
+import com.tech4box.JRecord.ByteIO.ByteIOProvider;
+import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.cgen.def.IAsPojoSetData;
+import com.tech4box.JRecord.cgen.def.IReader;
 
 public class ZzPojoReaderWrapper1<Line> implements IReader<Line> {
 
@@ -56,7 +56,7 @@ public class ZzPojoReaderWrapper1<Line> implements IReader<Line> {
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.cgen.def.IReader#read()
+	 * @see com.tech4box.JRecord.cgen.def.IReader#read()
 	 */
 	@Override
 	public Line read() throws IOException {
@@ -69,7 +69,7 @@ public class ZzPojoReaderWrapper1<Line> implements IReader<Line> {
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.cgen.def.IReader#close()
+	 * @see com.tech4box.JRecord.cgen.def.IReader#close()
 	 */
 	@Override
 	public void close() throws IOException {

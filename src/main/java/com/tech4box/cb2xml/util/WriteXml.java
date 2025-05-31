@@ -9,11 +9,11 @@ import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamWriter;
 import javax.xml.transform.Result;
 
-import net.sf.cb2xml.analysis.Copybook;
-import net.sf.cb2xml.analysis.Item;
-import net.sf.cb2xml.def.Cb2xmlConstants;
-import net.sf.cb2xml.def.ICondition;
-import net.sf.cb2xml.def.IItem;
+import com.tech4box.cb2xml.analysis.Copybook;
+import com.tech4box.cb2xml.analysis.Item;
+import com.tech4box.cb2xml.def.Cb2xmlConstants;
+import com.tech4box.cb2xml.def.ICondition;
+import com.tech4box.cb2xml.def.IItem;
 
 /**
  * This class will write Copybook / Item / Condition clauses

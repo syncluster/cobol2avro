@@ -60,7 +60,7 @@ public abstract class FieldSelect extends ExternalFieldSelection implements Reco
 				}
 
 				/* (non-Javadoc)
-				 * @see net.sf.JRecord.detailsSelection.IGetValue#isIncluded(net.sf.JRecord.Common.AbstractIndexedLine)
+				 * @see com.tech4box.JRecord.detailsSelection.IGetValue#isIncluded(com.tech4box.JRecord.Common.AbstractIndexedLine)
 				 */
 				@Override
 				public boolean isIncluded(AbstractIndexedLine line) {
@@ -75,7 +75,7 @@ public abstract class FieldSelect extends ExternalFieldSelection implements Reco
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Details.Selection.RecordSel#getAllFields(java.util.List)
+	 * @see com.tech4box.JRecord.Details.Selection.RecordSel#getAllFields(java.util.List)
 	 */
 	@Override
 	public void getAllFields(List<FieldSelect> fields) {
@@ -86,7 +86,7 @@ public abstract class FieldSelect extends ExternalFieldSelection implements Reco
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Details.Selection.RecordSel#getFirstField()
+	 * @see com.tech4box.JRecord.Details.Selection.RecordSel#getFirstField()
 	 */
 	@Override
 	public FieldSelect getFirstField() {
@@ -98,7 +98,7 @@ public abstract class FieldSelect extends ExternalFieldSelection implements Reco
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.ExternalRecordSelection.ExternalSelection#getElementCount()
+	 * @see com.tech4box.JRecord.ExternalRecordSelection.ExternalSelection#getElementCount()
 	 */
 	@Override
 	public int getElementCount() {
@@ -113,7 +113,7 @@ public abstract class FieldSelect extends ExternalFieldSelection implements Reco
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.detailsSelection.RecordSel#isIncluded(net.sf.JRecord.Common.AbstractIndexedLine)
+	 * @see com.tech4box.JRecord.detailsSelection.RecordSel#isIncluded(com.tech4box.JRecord.Common.AbstractIndexedLine)
 	 */
 	@Override
 	public boolean isIncluded(AbstractIndexedLine line) {
@@ -128,7 +128,7 @@ public abstract class FieldSelect extends ExternalFieldSelection implements Reco
 
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.Details.Selection.RecordSel#isSelected(net.sf.JRecord.Details.AbstractLine)
+	 * @see com.tech4box.JRecord.Details.Selection.RecordSel#isSelected(com.tech4box.JRecord.Details.AbstractLine)
 	 */
 	@Override
 	public final boolean isSelected(AbstractIndexedLine line) {
@@ -145,7 +145,7 @@ public abstract class FieldSelect extends ExternalFieldSelection implements Reco
 
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.Details.Selection.RecordSelection#isSelected(net.sf.JRecord.Details.AbstractLine)
+		 * @see com.tech4box.JRecord.Details.Selection.RecordSelection#isSelected(com.tech4box.JRecord.Details.AbstractLine)
 		 */
 		@Override
 		public boolean isSelected(Object o) {
@@ -167,7 +167,7 @@ public abstract class FieldSelect extends ExternalFieldSelection implements Reco
 
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.Details.Selection.RecordSelection#isSelected(net.sf.JRecord.Details.AbstractLine)
+		 * @see com.tech4box.JRecord.Details.Selection.RecordSelection#isSelected(com.tech4box.JRecord.Details.AbstractLine)
 		 */
 		@Override
 		public boolean isSelected(Object o ) {
@@ -189,7 +189,7 @@ public abstract class FieldSelect extends ExternalFieldSelection implements Reco
 
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.Details.Selection.RecordSelection#isSelected(net.sf.JRecord.Details.AbstractLine)
+		 * @see com.tech4box.JRecord.Details.Selection.RecordSelection#isSelected(com.tech4box.JRecord.Details.AbstractLine)
 		 */
 		@Override
 		public boolean isSelected(Object o) {
@@ -211,7 +211,7 @@ public abstract class FieldSelect extends ExternalFieldSelection implements Reco
 
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.Details.Selection.RecordSelection#isSelected(net.sf.JRecord.Details.AbstractLine)
+		 * @see com.tech4box.JRecord.Details.Selection.RecordSelection#isSelected(com.tech4box.JRecord.Details.AbstractLine)
 		 */
 		@Override
 		public boolean isSelected(Object o) {
@@ -230,7 +230,7 @@ public abstract class FieldSelect extends ExternalFieldSelection implements Reco
 		}
 
 		/* (non-Javadoc)
-		 * @see net.sf.JRecord.Details.Selection.RecordSelection#isSelected(net.sf.JRecord.Details.AbstractLine)
+		 * @see com.tech4box.JRecord.Details.Selection.RecordSelection#isSelected(com.tech4box.JRecord.Details.AbstractLine)
 		 */
 		@Override
 		public boolean isSelected(Object o) {

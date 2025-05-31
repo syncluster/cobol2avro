@@ -64,7 +64,7 @@ public class TypeCharPadded extends TypeChar {
     }
 
 //    /**
-//     * @see net.sf.RecordEditor.record.types.TypeChar#getFieldEnd(net.sf.RecordEditor.record.types.FieldDetail, byte[])
+//     * @see com.tech4box.RecordEditor.record.types.TypeChar#getFieldEnd(com.tech4box.RecordEditor.record.types.FieldDetail, byte[])
 //     */
 //    protected int getFieldEnd(FieldDetail currField, byte[] record) {
 //        int ret = java.lang.Math.min(currField.getEnd(), record.length);

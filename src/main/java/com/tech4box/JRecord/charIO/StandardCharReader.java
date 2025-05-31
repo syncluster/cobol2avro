@@ -40,7 +40,7 @@ import java.io.IOException;
 public class StandardCharReader extends BaseCharReader {
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.charIO.ICharReader#read()
+	 * @see com.tech4box.JRecord.charIO.ICharReader#read()
 	 */
 	@Override
 	public String read() throws IOException {

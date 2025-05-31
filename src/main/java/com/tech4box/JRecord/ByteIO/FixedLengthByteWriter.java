@@ -117,7 +117,7 @@ public class FixedLengthByteWriter extends AbstractByteWriter {
 
 
     /**
-     * @see net.sf.JRecord.IO.AbstractLineWriter#close()
+     * @see com.tech4box.JRecord.IO.AbstractLineWriter#close()
      */
     public void close() throws IOException {
 

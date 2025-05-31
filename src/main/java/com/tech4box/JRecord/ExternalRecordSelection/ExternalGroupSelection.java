@@ -94,7 +94,7 @@ public class ExternalGroupSelection<fs extends ExternalSelection> implements Ext
 	}
 
 	/* (non-Javadoc)
-	 * @see net.sf.JRecord.RecordSelection.ExternalSelection#getType()
+	 * @see com.tech4box.JRecord.RecordSelection.ExternalSelection#getType()
 	 */
 	@Override
 	public int getType() {

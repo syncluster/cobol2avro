@@ -28,7 +28,7 @@ package com.tech4box.JRecord.CsvParser;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.sf.JRecord.Types.Type;
+import com.tech4box.JRecord.Types.Type;
 
 /**
  * CSV line parser which will look for matching Quotes
