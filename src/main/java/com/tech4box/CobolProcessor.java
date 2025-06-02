@@ -1,9 +1,12 @@
 package com.tech4box;
 
+import com.tech4box.JRecord.Details.AbstractLine;
+import com.tech4box.JRecord.Details.Line;
 import com.tech4box.sink.DataSink;
 import com.tech4box.util.AvroRecordGenerator;
 import com.tech4box.util.AvroUtils;
 import com.tech4box.JRecord.Details.LayoutDetail;
+import com.tech4box.JRecord.Details.RecordDetail;
 import com.tech4box.JRecord.IO.AbstractLineReader;
 import org.apache.avro.Schema;
 import org.apache.avro.generic.GenericRecord;
@@ -49,7 +52,7 @@ public class CobolProcessor {
         log.info("Started processing...");
 
         while (line != null) {
-            String key = (splitBy != null) ? Objects.toString(line.getField(splitBy), "default") : "default";
+            String key = resolveSplitKey(layout, line, splitBy);
 
             GenericRecord record = AvroRecordGenerator.fromLine(line, schema, layout);
 
@@ -61,7 +64,6 @@ public class CobolProcessor {
             long estimatedSize = AvroUtils.estimateRecordSize(record);
             sizeMap.put(key, sizeMap.get(key) + estimatedSize);
 
-// Flush if buffer exceeds partition size
             if (partitionSizeKb > 0 && sizeMap.get(key) >= partitionSizeKb * 1024) {
                 flushBufferAsync(sink, key, partCounter.get(key), bufferMap.get(key), schema);
                 partCounter.put(key, partCounter.get(key) + 1);
@@ -78,7 +80,6 @@ public class CobolProcessor {
         }
         reader.close();
 
-// Flush remaining buffers
         for (var entry : bufferMap.entrySet()) {
             if (!entry.getValue().isEmpty()) {
                 String key = entry.getKey();
@@ -113,6 +114,35 @@ public class CobolProcessor {
             executorService.submit(task);
         } else {
             task.run();
+        }
+    }
+
+    /**
+     * This method resolves the correct split key even if the splitBy field
+     * is inside a REDEFINES group.
+     */
+    private String resolveSplitKey(LayoutDetail layout, AbstractLine line, String splitBy) {
+        if (splitBy == null) {
+            return "default";
+        }
+
+        try {
+// Get the active record based on the line content
+            int recordIndex = layout.getRecordIndex(line.getFullLine());
+            RecordDetail recordDetail = layout.getRecord(recordIndex);
+
+            int fieldIndex = recordDetail.getFieldIndex(splitBy);
+
+            if (fieldIndex >= 0) {
+                Object fieldValue = line.getFieldValue(splitBy);
+                return (fieldValue != null) ? fieldValue.toString() : "default";
+            } else {
+                log.warn("Field {} not found in current record layout. Using 'default' key.", splitBy);
+                return "default";
+            }
+        } catch (Exception e) {
+            log.warn("Error resolving split key for field {}. Defaulting to 'default'. Error: {}", splitBy, e.getMessage());
+            return "default";
         }
     }
 }
