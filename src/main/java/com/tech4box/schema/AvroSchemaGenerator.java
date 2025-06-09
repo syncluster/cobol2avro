@@ -140,7 +140,7 @@ public class AvroSchemaGenerator {
 
         for (int i = 0; i < redefineBlocks.size(); i++) {
             String disc = discrs.get(i);
-            File out = new File(outputDir, "variant_" + disc + ".cbl");
+            File out = new File(outputDir, disc + ".cbl");
             try (BufferedWriter w = new BufferedWriter(new FileWriter(out))) {
                 for (String h : header) w.write(h + "\n");
                 for (String blk : redefineBlocks.get(i)) w.write(blk + "\n");
